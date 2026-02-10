@@ -111,4 +111,10 @@ profile: $(EXAMPLE)
 	rocprof-compute profile -n $< -- ./$<
 	rocprof-compute analyze -p workloads/$</MI300X_A1/ -b 3
 
+ana: $(EXAMPLE)
+	rocprof-compute analyze -p workloads/$</MI300X_A1/ -b 3
+
+ana_bp: $(EXAMPLE)_bp_$(BP_LV)
+	rocprof-compute analyze -p workloads/$</MI300X_A1/ -b 3
+
 .PHONY: clean

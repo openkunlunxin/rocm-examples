@@ -34,7 +34,7 @@ HIPCXX ?= $(ROCM_INSTALL_DIR)/bin/hipcc
 # Common variables and flags
 CXX_STD   := c++17
 ICXXFLAGS := -std=$(CXX_STD)
-ICPPFLAGS := -I $(COMMON_INCLUDE_DIR) -I $(EXTERNAL_DIR)
+ICPPFLAGS := -I $(COMMON_INCLUDE_DIR) -I $(EXTERNAL_DIR) $(shell pkg-config --cflags glfw3)
 ILDFLAGS  :=
 ILDLIBS   :=
 BP_LV     ?= l1
@@ -53,6 +53,8 @@ ICPPFLAGS += $(CPPFLAGS)
 #ICPPFLAGS += -save-temps
 ILDFLAGS  += $(LDFLAGS)
 ILDLIBS   += $(LDLIBS)
+
+SRCS := main.hip $(EXTERNAL_DIR)/glad/glad.cpp
 
 DEV_ASM: $(EXAMPLE)-dev.s
 
@@ -75,11 +77,11 @@ BIN: $(EXAMPLE)
 $(EXAMPLE)-dev_bp_$(BP_LV).s: bp.py $(EXAMPLE)-dev.s
 	python3 $^ $(BP_LV) $@
 
-$(EXAMPLE)-dev.s: main.hip $(COMMON_INCLUDE_DIR)/example_utils.hpp $(EXTERNAL_DIR)/CmdParser/cmdparser.hpp
-	$(HIPCXX) -S --cuda-device-only --offload-arch=gfx942 $(ICXXFLAGS) $(ICPPFLAGS) $(ILDFLAGS) -o $@ $< $(ILDLIBS)
+$(EXAMPLE)-dev.s: $(SRCS) $(COMMON_INCLUDE_DIR)/example_utils.hpp $(EXTERNAL_DIR)/CmdParser/cmdparser.hpp
+	$(HIPCXX) -S --cuda-device-only --offload-arch=gfx942 $(ICXXFLAGS) $(ICPPFLAGS) $(ILDFLAGS) -o $@ $(abspath $(SRCS)) $(ILDLIBS)
 
-$(EXAMPLE)-host.o: main.hip $(COMMON_INCLUDE_DIR)/example_utils.hpp $(EXTERNAL_DIR)/CmdParser/cmdparser.hpp
-	$(HIPCXX) -c --cuda-host-only $(ICXXFLAGS) $(ICPPFLAGS) $(ILDFLAGS) -o $@ $< $(ILDLIBS)
+$(EXAMPLE)-host.o: $(SRCS) $(COMMON_INCLUDE_DIR)/example_utils.hpp $(EXTERNAL_DIR)/CmdParser/cmdparser.hpp
+	$(HIPCXX) -c --cuda-host-only $(ICXXFLAGS) $(ICPPFLAGS) $(ILDFLAGS) -o $@ $(abspath $(SRCS)) $(ILDLIBS)
 
 $(EXAMPLE)-host.mcin: $(EXAMPLE)-host.o $(EXAMPLE)-dev_bp_$(BP_LV).hipfb
 	./gen_mcin $^ > $@
@@ -97,8 +99,10 @@ $(EXAMPLE)_bp_$(BP_LV): $(EXAMPLE)-host.o $(EXAMPLE)-dev_em_bp_$(BP_LV).o
 	hipcc $(ICXXFLAGS) $(ICPPFLAGS) $(ILDFLAGS) -o $@ $^ $(ILDLIBS)
 
 
-$(EXAMPLE): main.hip $(COMMON_INCLUDE_DIR)/example_utils.hpp $(EXTERNAL_DIR)/CmdParser/cmdparser.hpp
-	$(HIPCXX) $(ICXXFLAGS) $(ICPPFLAGS) $(ILDFLAGS) -o $@ $< $(ILDLIBS)
+$(EXAMPLE): $(SRCS) $(COMMON_INCLUDE_DIR)/example_utils.hpp $(EXTERNAL_DIR)/CmdParser/cmdparser.hpp
+	$(HIPCXX) $(ICXXFLAGS) $(ICPPFLAGS) $(ILDFLAGS) -o $@ $(abspath $(SRCS)) $(ILDLIBS)
+
+$(EXTERNAL_DIR)/glad/glad.cpp: $(EXTERNAL_DIR)/glad/glad.h
 
 clean:
 	$(RM) $(EXAMPLE) $(EXAMPLE)-host* $(EXAMPLE)-dev* $(EXAMPLE)_bp*
