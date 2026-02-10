@@ -1,0 +1,6 @@
+  .type __hip_fatbin_9d5541287ea22455,@object
+  .section .__hip_fatbin_9d5541287ea22455,"a",@progbits
+  .globl __hip_fatbin_9d5541287ea22455
+  .p2align 12
+__hip_fatbin_9d5541287ea22455:
+  .incbin "main-dev_bp_l1.hipfb"

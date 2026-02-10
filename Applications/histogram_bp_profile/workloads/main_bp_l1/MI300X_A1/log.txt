@@ -1,0 +1,201 @@
+Rocprofiler-Compute version: 3.4.0
+Profiler choice: rocprofiler-sdk
+Path: /root/rocm-examples/Applications/histogram_bp_profile/workloads/main_bp_l1/MI300X_A1
+Target: MI300X_A1
+Command: ./main_bp_l1
+Kernel Selection: None
+Dispatch Selection: None
+Filtered sections: All
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Collecting Performance Counters
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+[Run 1/13][Approximate profiling time left: pending first measurement...]
+[profiling] Current input file: /root/rocm-examples/Applications/histogram_bp_profile/workloads/main_bp_l1/MI300X_A1/perfmon/SQC_DCACHE_INFLIGHT_LEVEL.txt
+   |-> [rocprofiler-sdk] W20260209 15:43:02.474179 139382477493760 simple_timer.cpp:55] [rocprofv3] tool initialization ::     0.110156 sec
+   |-> [rocprofiler-sdk] W20260209 15:43:02.474454 139382477493760 simple_timer.cpp:55] [rocprofv3] './main_bp_l1' ::     0.000000 sec
+   |-> [rocprofiler-sdk] W20260209 15:43:02.616994 139382477493760 tool.cpp:2422] HSA version 8.20.0 initialized (instance=0)
+   |-> [rocprofiler-sdk] Launching 'histogram256_block' with 8 blocks of size 128
+   |-> [rocprofiler-sdk] Kernel took 3.22901 milliseconds.
+   |-> [rocprofiler-sdk] Validation passed.
+   |-> [rocprofiler-sdk] W20260209 15:43:02.691035 139382477493760 simple_timer.cpp:55] [rocprofv3] './main_bp_l1' ::     0.216581 sec
+   |-> [rocprofiler-sdk] E20260209 15:43:02.699689 139382477493760 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/histogram_bp_profile/workloads/main_bp_l1/MI300X_A1/out/pmc_1/f5fa73aad503/24317_kernel_trace.csv
+   |-> [rocprofiler-sdk] E20260209 15:43:02.712070 139382477493760 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/histogram_bp_profile/workloads/main_bp_l1/MI300X_A1/out/pmc_1/f5fa73aad503/24317_counter_collection.csv
+   |-> [rocprofiler-sdk] E20260209 15:43:02.718487 139382477493760 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/histogram_bp_profile/workloads/main_bp_l1/MI300X_A1/out/pmc_1/f5fa73aad503/24317_agent_info.csv
+   |-> [rocprofiler-sdk] W20260209 15:43:02.721682 139382477493760 simple_timer.cpp:55] [rocprofv3] output generation ::     0.029141 sec
+   |-> [rocprofiler-sdk] W20260209 15:43:02.721780 139382477493760 simple_timer.cpp:55] [rocprofv3] tool finalization ::     0.029274 sec
+[Run 2/13][Approximate profiling time left: 28 seconds]...
+[profiling] Current input file: /root/rocm-examples/Applications/histogram_bp_profile/workloads/main_bp_l1/MI300X_A1/perfmon/SQC_ICACHE_INFLIGHT_LEVEL.txt
+   |-> [rocprofiler-sdk] W20260209 15:43:05.067416 137570981824000 simple_timer.cpp:55] [rocprofv3] tool initialization ::     0.110085 sec
+   |-> [rocprofiler-sdk] W20260209 15:43:05.067695 137570981824000 simple_timer.cpp:55] [rocprofv3] './main_bp_l1' ::     0.000000 sec
+   |-> [rocprofiler-sdk] W20260209 15:43:05.205995 137570981824000 tool.cpp:2422] HSA version 8.20.0 initialized (instance=0)
+   |-> [rocprofiler-sdk] Launching 'histogram256_block' with 8 blocks of size 128
+   |-> [rocprofiler-sdk] Kernel took 3.24783 milliseconds.
+   |-> [rocprofiler-sdk] Validation passed.
+   |-> [rocprofiler-sdk] W20260209 15:43:05.279642 137570981824000 simple_timer.cpp:55] [rocprofv3] './main_bp_l1' ::     0.211947 sec
+   |-> [rocprofiler-sdk] E20260209 15:43:05.288381 137570981824000 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/histogram_bp_profile/workloads/main_bp_l1/MI300X_A1/out/pmc_1/f5fa73aad503/24325_kernel_trace.csv
+   |-> [rocprofiler-sdk] E20260209 15:43:05.301056 137570981824000 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/histogram_bp_profile/workloads/main_bp_l1/MI300X_A1/out/pmc_1/f5fa73aad503/24325_counter_collection.csv
+   |-> [rocprofiler-sdk] E20260209 15:43:05.307439 137570981824000 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/histogram_bp_profile/workloads/main_bp_l1/MI300X_A1/out/pmc_1/f5fa73aad503/24325_agent_info.csv
+   |-> [rocprofiler-sdk] W20260209 15:43:05.310628 137570981824000 simple_timer.cpp:55] [rocprofv3] output generation ::     0.029285 sec
+   |-> [rocprofiler-sdk] W20260209 15:43:05.310707 137570981824000 simple_timer.cpp:55] [rocprofv3] tool finalization ::     0.029398 sec
+[Run 3/13][Approximate profiling time left: 25 seconds]...
+[profiling] Current input file: /root/rocm-examples/Applications/histogram_bp_profile/workloads/main_bp_l1/MI300X_A1/perfmon/SQ_IFETCH_LEVEL.txt
+   |-> [rocprofiler-sdk] W20260209 15:43:07.741678 127666490603008 simple_timer.cpp:55] [rocprofv3] tool initialization ::     0.120162 sec
+   |-> [rocprofiler-sdk] W20260209 15:43:07.741950 127666490603008 simple_timer.cpp:55] [rocprofv3] './main_bp_l1' ::     0.000000 sec
+   |-> [rocprofiler-sdk] W20260209 15:43:07.879970 127666490603008 tool.cpp:2422] HSA version 8.20.0 initialized (instance=0)
+   |-> [rocprofiler-sdk] Launching 'histogram256_block' with 8 blocks of size 128
+   |-> [rocprofiler-sdk] Kernel took 4.32367 milliseconds.
+   |-> [rocprofiler-sdk] Validation passed.
+   |-> [rocprofiler-sdk] W20260209 15:43:07.954338 127666490603008 simple_timer.cpp:55] [rocprofv3] './main_bp_l1' ::     0.212388 sec
+   |-> [rocprofiler-sdk] E20260209 15:43:07.963529 127666490603008 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/histogram_bp_profile/workloads/main_bp_l1/MI300X_A1/out/pmc_1/f5fa73aad503/24333_kernel_trace.csv
+   |-> [rocprofiler-sdk] E20260209 15:43:07.975818 127666490603008 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/histogram_bp_profile/workloads/main_bp_l1/MI300X_A1/out/pmc_1/f5fa73aad503/24333_counter_collection.csv
+   |-> [rocprofiler-sdk] E20260209 15:43:07.982366 127666490603008 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/histogram_bp_profile/workloads/main_bp_l1/MI300X_A1/out/pmc_1/f5fa73aad503/24333_agent_info.csv
+   |-> [rocprofiler-sdk] W20260209 15:43:07.985520 127666490603008 simple_timer.cpp:55] [rocprofv3] output generation ::     0.029100 sec
+   |-> [rocprofiler-sdk] W20260209 15:43:07.985641 127666490603008 simple_timer.cpp:55] [rocprofv3] tool finalization ::     0.029259 sec
+[Run 4/13][Approximate profiling time left: 23 seconds]...
+[profiling] Current input file: /root/rocm-examples/Applications/histogram_bp_profile/workloads/main_bp_l1/MI300X_A1/perfmon/SQ_INST_LEVEL_LDS.txt
+   |-> [rocprofiler-sdk] W20260209 15:43:10.462754 139405077153280 simple_timer.cpp:55] [rocprofv3] tool initialization ::     0.119576 sec
+   |-> [rocprofiler-sdk] W20260209 15:43:10.463042 139405077153280 simple_timer.cpp:55] [rocprofv3] './main_bp_l1' ::     0.000000 sec
+   |-> [rocprofiler-sdk] W20260209 15:43:10.601321 139405077153280 tool.cpp:2422] HSA version 8.20.0 initialized (instance=0)
+   |-> [rocprofiler-sdk] Launching 'histogram256_block' with 8 blocks of size 128
+   |-> [rocprofiler-sdk] Kernel took 4.25564 milliseconds.
+   |-> [rocprofiler-sdk] Validation passed.
+   |-> [rocprofiler-sdk] W20260209 15:43:10.675418 139405077153280 simple_timer.cpp:55] [rocprofv3] './main_bp_l1' ::     0.212377 sec
+   |-> [rocprofiler-sdk] E20260209 15:43:10.684586 139405077153280 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/histogram_bp_profile/workloads/main_bp_l1/MI300X_A1/out/pmc_1/f5fa73aad503/24341_kernel_trace.csv
+   |-> [rocprofiler-sdk] E20260209 15:43:10.697027 139405077153280 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/histogram_bp_profile/workloads/main_bp_l1/MI300X_A1/out/pmc_1/f5fa73aad503/24341_counter_collection.csv
+   |-> [rocprofiler-sdk] E20260209 15:43:10.703584 139405077153280 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/histogram_bp_profile/workloads/main_bp_l1/MI300X_A1/out/pmc_1/f5fa73aad503/24341_agent_info.csv
+   |-> [rocprofiler-sdk] W20260209 15:43:10.706791 139405077153280 simple_timer.cpp:55] [rocprofv3] output generation ::     0.029234 sec
+   |-> [rocprofiler-sdk] W20260209 15:43:10.706902 139405077153280 simple_timer.cpp:55] [rocprofv3] tool finalization ::     0.029382 sec
+[Run 5/13][Approximate profiling time left: 21 seconds]...
+[profiling] Current input file: /root/rocm-examples/Applications/histogram_bp_profile/workloads/main_bp_l1/MI300X_A1/perfmon/SQ_INST_LEVEL_SMEM.txt
+   |-> [rocprofiler-sdk] W20260209 15:43:13.060556 133192853480960 simple_timer.cpp:55] [rocprofv3] tool initialization ::     0.109851 sec
+   |-> [rocprofiler-sdk] W20260209 15:43:13.060848 133192853480960 simple_timer.cpp:55] [rocprofv3] './main_bp_l1' ::     0.000000 sec
+   |-> [rocprofiler-sdk] W20260209 15:43:13.198585 133192853480960 tool.cpp:2422] HSA version 8.20.0 initialized (instance=0)
+   |-> [rocprofiler-sdk] Launching 'histogram256_block' with 8 blocks of size 128
+   |-> [rocprofiler-sdk] Kernel took 2.95857 milliseconds.
+   |-> [rocprofiler-sdk] Validation passed.
+   |-> [rocprofiler-sdk] W20260209 15:43:13.270783 133192853480960 simple_timer.cpp:55] [rocprofv3] './main_bp_l1' ::     0.209935 sec
+   |-> [rocprofiler-sdk] E20260209 15:43:13.279377 133192853480960 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/histogram_bp_profile/workloads/main_bp_l1/MI300X_A1/out/pmc_1/f5fa73aad503/24349_kernel_trace.csv
+   |-> [rocprofiler-sdk] E20260209 15:43:13.291652 133192853480960 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/histogram_bp_profile/workloads/main_bp_l1/MI300X_A1/out/pmc_1/f5fa73aad503/24349_counter_collection.csv
+   |-> [rocprofiler-sdk] E20260209 15:43:13.297928 133192853480960 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/histogram_bp_profile/workloads/main_bp_l1/MI300X_A1/out/pmc_1/f5fa73aad503/24349_agent_info.csv
+   |-> [rocprofiler-sdk] W20260209 15:43:13.301083 133192853480960 simple_timer.cpp:55] [rocprofv3] output generation ::     0.028727 sec
+   |-> [rocprofiler-sdk] W20260209 15:43:13.301173 133192853480960 simple_timer.cpp:55] [rocprofv3] tool finalization ::     0.028853 sec
+[Run 6/13][Approximate profiling time left: 18 seconds]...
+[profiling] Current input file: /root/rocm-examples/Applications/histogram_bp_profile/workloads/main_bp_l1/MI300X_A1/perfmon/SQ_INST_LEVEL_VMEM.txt
+   |-> [rocprofiler-sdk] W20260209 15:43:15.656912 126308419708416 simple_timer.cpp:55] [rocprofv3] tool initialization ::     0.113419 sec
+   |-> [rocprofiler-sdk] W20260209 15:43:15.657188 126308419708416 simple_timer.cpp:55] [rocprofv3] './main_bp_l1' ::     0.000000 sec
+   |-> [rocprofiler-sdk] W20260209 15:43:15.795269 126308419708416 tool.cpp:2422] HSA version 8.20.0 initialized (instance=0)
+   |-> [rocprofiler-sdk] Launching 'histogram256_block' with 8 blocks of size 128
+   |-> [rocprofiler-sdk] Kernel took 3.0016 milliseconds.
+   |-> [rocprofiler-sdk] Validation passed.
+   |-> [rocprofiler-sdk] W20260209 15:43:15.868978 126308419708416 simple_timer.cpp:55] [rocprofv3] './main_bp_l1' ::     0.211790 sec
+   |-> [rocprofiler-sdk] E20260209 15:43:15.877792 126308419708416 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/histogram_bp_profile/workloads/main_bp_l1/MI300X_A1/out/pmc_1/f5fa73aad503/24357_kernel_trace.csv
+   |-> [rocprofiler-sdk] E20260209 15:43:15.890203 126308419708416 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/histogram_bp_profile/workloads/main_bp_l1/MI300X_A1/out/pmc_1/f5fa73aad503/24357_counter_collection.csv
+   |-> [rocprofiler-sdk] E20260209 15:43:15.896449 126308419708416 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/histogram_bp_profile/workloads/main_bp_l1/MI300X_A1/out/pmc_1/f5fa73aad503/24357_agent_info.csv
+   |-> [rocprofiler-sdk] W20260209 15:43:15.899626 126308419708416 simple_timer.cpp:55] [rocprofv3] output generation ::     0.028882 sec
+   |-> [rocprofiler-sdk] W20260209 15:43:15.899706 126308419708416 simple_timer.cpp:55] [rocprofv3] tool finalization ::     0.028998 sec
+[Run 7/13][Approximate profiling time left: 15 seconds]...
+[profiling] Current input file: /root/rocm-examples/Applications/histogram_bp_profile/workloads/main_bp_l1/MI300X_A1/perfmon/SQ_LEVEL_WAVES.txt
+   |-> [rocprofiler-sdk] W20260209 15:43:18.231511 136338791482880 simple_timer.cpp:55] [rocprofv3] tool initialization ::     0.109221 sec
+   |-> [rocprofiler-sdk] W20260209 15:43:18.231766 136338791482880 simple_timer.cpp:55] [rocprofv3] './main_bp_l1' ::     0.000000 sec
+   |-> [rocprofiler-sdk] W20260209 15:43:18.372419 136338791482880 tool.cpp:2422] HSA version 8.20.0 initialized (instance=0)
+   |-> [rocprofiler-sdk] Launching 'histogram256_block' with 8 blocks of size 128
+   |-> [rocprofiler-sdk] Kernel took 2.80862 milliseconds.
+   |-> [rocprofiler-sdk] Validation passed.
+   |-> [rocprofiler-sdk] W20260209 15:43:18.445440 136338791482880 simple_timer.cpp:55] [rocprofv3] './main_bp_l1' ::     0.213674 sec
+   |-> [rocprofiler-sdk] E20260209 15:43:18.454240 136338791482880 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/histogram_bp_profile/workloads/main_bp_l1/MI300X_A1/out/pmc_1/f5fa73aad503/24365_kernel_trace.csv
+   |-> [rocprofiler-sdk] E20260209 15:43:18.466549 136338791482880 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/histogram_bp_profile/workloads/main_bp_l1/MI300X_A1/out/pmc_1/f5fa73aad503/24365_counter_collection.csv
+   |-> [rocprofiler-sdk] E20260209 15:43:18.472841 136338791482880 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/histogram_bp_profile/workloads/main_bp_l1/MI300X_A1/out/pmc_1/f5fa73aad503/24365_agent_info.csv
+   |-> [rocprofiler-sdk] W20260209 15:43:18.475989 136338791482880 simple_timer.cpp:55] [rocprofv3] output generation ::     0.029004 sec
+   |-> [rocprofiler-sdk] W20260209 15:43:18.476068 136338791482880 simple_timer.cpp:55] [rocprofv3] tool finalization ::     0.029120 sec
+[Run 8/13][Approximate profiling time left: 13 seconds]...
+[profiling] Current input file: /root/rocm-examples/Applications/histogram_bp_profile/workloads/main_bp_l1/MI300X_A1/perfmon/pmc_perf_0.txt
+   |-> [rocprofiler-sdk] W20260209 15:43:20.812037 127855352866304 simple_timer.cpp:55] [rocprofv3] tool initialization ::     0.109847 sec
+   |-> [rocprofiler-sdk] W20260209 15:43:20.812316 127855352866304 simple_timer.cpp:55] [rocprofv3] './main_bp_l1' ::     0.000000 sec
+   |-> [rocprofiler-sdk] W20260209 15:43:20.950646 127855352866304 tool.cpp:2422] HSA version 8.20.0 initialized (instance=0)
+   |-> [rocprofiler-sdk] Launching 'histogram256_block' with 8 blocks of size 128
+   |-> [rocprofiler-sdk] Kernel took 2.87326 milliseconds.
+   |-> [rocprofiler-sdk] Validation passed.
+   |-> [rocprofiler-sdk] W20260209 15:43:21.023912 127855352866304 simple_timer.cpp:55] [rocprofv3] './main_bp_l1' ::     0.211596 sec
+   |-> [rocprofiler-sdk] E20260209 15:43:21.034514 127855352866304 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/histogram_bp_profile/workloads/main_bp_l1/MI300X_A1/out/pmc_1/f5fa73aad503/24373_kernel_trace.csv
+   |-> [rocprofiler-sdk] E20260209 15:43:21.047006 127855352866304 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/histogram_bp_profile/workloads/main_bp_l1/MI300X_A1/out/pmc_1/f5fa73aad503/24373_counter_collection.csv
+   |-> [rocprofiler-sdk] E20260209 15:43:21.053335 127855352866304 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/histogram_bp_profile/workloads/main_bp_l1/MI300X_A1/out/pmc_1/f5fa73aad503/24373_agent_info.csv
+   |-> [rocprofiler-sdk] W20260209 15:43:21.056513 127855352866304 simple_timer.cpp:55] [rocprofv3] output generation ::     0.029038 sec
+   |-> [rocprofiler-sdk] W20260209 15:43:21.056622 127855352866304 simple_timer.cpp:55] [rocprofv3] tool finalization ::     0.029185 sec
+[Run 9/13][Approximate profiling time left: 10 seconds]...
+[profiling] Current input file: /root/rocm-examples/Applications/histogram_bp_profile/workloads/main_bp_l1/MI300X_A1/perfmon/pmc_perf_1.txt
+   |-> [rocprofiler-sdk] W20260209 15:43:23.393650 128521388586496 simple_timer.cpp:55] [rocprofv3] tool initialization ::     0.113439 sec
+   |-> [rocprofiler-sdk] W20260209 15:43:23.393885 128521388586496 simple_timer.cpp:55] [rocprofv3] './main_bp_l1' ::     0.000000 sec
+   |-> [rocprofiler-sdk] W20260209 15:43:23.540532 128521388586496 tool.cpp:2422] HSA version 8.20.0 initialized (instance=0)
+   |-> [rocprofiler-sdk] Launching 'histogram256_block' with 8 blocks of size 128
+   |-> [rocprofiler-sdk] Kernel took 2.44979 milliseconds.
+   |-> [rocprofiler-sdk] Validation passed.
+   |-> [rocprofiler-sdk] W20260209 15:43:23.616528 128521388586496 simple_timer.cpp:55] [rocprofv3] './main_bp_l1' ::     0.222643 sec
+   |-> [rocprofiler-sdk] E20260209 15:43:23.626788 128521388586496 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/histogram_bp_profile/workloads/main_bp_l1/MI300X_A1/out/pmc_1/f5fa73aad503/24381_kernel_trace.csv
+   |-> [rocprofiler-sdk] E20260209 15:43:23.642171 128521388586496 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/histogram_bp_profile/workloads/main_bp_l1/MI300X_A1/out/pmc_1/f5fa73aad503/24381_counter_collection.csv
+   |-> [rocprofiler-sdk] E20260209 15:43:23.649988 128521388586496 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/histogram_bp_profile/workloads/main_bp_l1/MI300X_A1/out/pmc_1/f5fa73aad503/24381_agent_info.csv
+   |-> [rocprofiler-sdk] W20260209 15:43:23.653620 128521388586496 simple_timer.cpp:55] [rocprofv3] output generation ::     0.035139 sec
+   |-> [rocprofiler-sdk] W20260209 15:43:23.653726 128521388586496 simple_timer.cpp:55] [rocprofv3] tool finalization ::     0.035302 sec
+[Run 10/13][Approximate profiling time left: 7 seconds]...
+[profiling] Current input file: /root/rocm-examples/Applications/histogram_bp_profile/workloads/main_bp_l1/MI300X_A1/perfmon/pmc_perf_2.txt
+   |-> [rocprofiler-sdk] W20260209 15:43:25.986027 132150376093184 simple_timer.cpp:55] [rocprofv3] tool initialization ::     0.115453 sec
+   |-> [rocprofiler-sdk] W20260209 15:43:25.986296 132150376093184 simple_timer.cpp:55] [rocprofv3] './main_bp_l1' ::     0.000000 sec
+   |-> [rocprofiler-sdk] W20260209 15:43:26.125493 132150376093184 tool.cpp:2422] HSA version 8.20.0 initialized (instance=0)
+   |-> [rocprofiler-sdk] Launching 'histogram256_block' with 8 blocks of size 128
+   |-> [rocprofiler-sdk] Kernel took 2.21863 milliseconds.
+   |-> [rocprofiler-sdk] Validation passed.
+   |-> [rocprofiler-sdk] W20260209 15:43:26.200673 132150376093184 simple_timer.cpp:55] [rocprofv3] './main_bp_l1' ::     0.214377 sec
+   |-> [rocprofiler-sdk] E20260209 15:43:26.209485 132150376093184 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/histogram_bp_profile/workloads/main_bp_l1/MI300X_A1/out/pmc_1/f5fa73aad503/24389_kernel_trace.csv
+   |-> [rocprofiler-sdk] E20260209 15:43:26.223163 132150376093184 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/histogram_bp_profile/workloads/main_bp_l1/MI300X_A1/out/pmc_1/f5fa73aad503/24389_counter_collection.csv
+   |-> [rocprofiler-sdk] E20260209 15:43:26.230326 132150376093184 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/histogram_bp_profile/workloads/main_bp_l1/MI300X_A1/out/pmc_1/f5fa73aad503/24389_agent_info.csv
+   |-> [rocprofiler-sdk] W20260209 15:43:26.233908 132150376093184 simple_timer.cpp:55] [rocprofv3] output generation ::     0.031771 sec
+   |-> [rocprofiler-sdk] W20260209 15:43:26.233995 132150376093184 simple_timer.cpp:55] [rocprofv3] tool finalization ::     0.031894 sec
+[Run 11/13][Approximate profiling time left: 5 seconds]...
+[profiling] Current input file: /root/rocm-examples/Applications/histogram_bp_profile/workloads/main_bp_l1/MI300X_A1/perfmon/pmc_perf_3.txt
+   |-> [rocprofiler-sdk] W20260209 15:43:28.603514 131561653024256 simple_timer.cpp:55] [rocprofv3] tool initialization ::     0.113331 sec
+   |-> [rocprofiler-sdk] W20260209 15:43:28.603784 131561653024256 simple_timer.cpp:55] [rocprofv3] './main_bp_l1' ::     0.000000 sec
+   |-> [rocprofiler-sdk] W20260209 15:43:28.741280 131561653024256 tool.cpp:2422] HSA version 8.20.0 initialized (instance=0)
+   |-> [rocprofiler-sdk] Launching 'histogram256_block' with 8 blocks of size 128
+   |-> [rocprofiler-sdk] Kernel took 2.30907 milliseconds.
+   |-> [rocprofiler-sdk] Validation passed.
+   |-> [rocprofiler-sdk] W20260209 15:43:28.814218 131561653024256 simple_timer.cpp:55] [rocprofv3] './main_bp_l1' ::     0.210435 sec
+   |-> [rocprofiler-sdk] E20260209 15:43:28.823159 131561653024256 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/histogram_bp_profile/workloads/main_bp_l1/MI300X_A1/out/pmc_1/f5fa73aad503/24397_kernel_trace.csv
+   |-> [rocprofiler-sdk] E20260209 15:43:28.836103 131561653024256 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/histogram_bp_profile/workloads/main_bp_l1/MI300X_A1/out/pmc_1/f5fa73aad503/24397_counter_collection.csv
+   |-> [rocprofiler-sdk] E20260209 15:43:28.842714 131561653024256 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/histogram_bp_profile/workloads/main_bp_l1/MI300X_A1/out/pmc_1/f5fa73aad503/24397_agent_info.csv
+   |-> [rocprofiler-sdk] W20260209 15:43:28.846055 131561653024256 simple_timer.cpp:55] [rocprofv3] output generation ::     0.030221 sec
+   |-> [rocprofiler-sdk] W20260209 15:43:28.846149 131561653024256 simple_timer.cpp:55] [rocprofv3] tool finalization ::     0.030352 sec
+[Run 12/13][Approximate profiling time left: 2 seconds]...
+[profiling] Current input file: /root/rocm-examples/Applications/histogram_bp_profile/workloads/main_bp_l1/MI300X_A1/perfmon/pmc_perf_4.txt
+   |-> [rocprofiler-sdk] W20260209 15:43:31.257974 123618090849792 simple_timer.cpp:55] [rocprofv3] tool initialization ::     0.110368 sec
+   |-> [rocprofiler-sdk] W20260209 15:43:31.258261 123618090849792 simple_timer.cpp:55] [rocprofv3] './main_bp_l1' ::     0.000000 sec
+   |-> [rocprofiler-sdk] W20260209 15:43:31.397406 123618090849792 tool.cpp:2422] HSA version 8.20.0 initialized (instance=0)
+   |-> [rocprofiler-sdk] Launching 'histogram256_block' with 8 blocks of size 128
+   |-> [rocprofiler-sdk] Kernel took 2.1267 milliseconds.
+   |-> [rocprofiler-sdk] Validation passed.
+   |-> [rocprofiler-sdk] W20260209 15:43:31.469358 123618090849792 simple_timer.cpp:55] [rocprofv3] './main_bp_l1' ::     0.211097 sec
+   |-> [rocprofiler-sdk] E20260209 15:43:31.478119 123618090849792 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/histogram_bp_profile/workloads/main_bp_l1/MI300X_A1/out/pmc_1/f5fa73aad503/24405_kernel_trace.csv
+   |-> [rocprofiler-sdk] E20260209 15:43:31.490808 123618090849792 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/histogram_bp_profile/workloads/main_bp_l1/MI300X_A1/out/pmc_1/f5fa73aad503/24405_counter_collection.csv
+   |-> [rocprofiler-sdk] E20260209 15:43:31.497239 123618090849792 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/histogram_bp_profile/workloads/main_bp_l1/MI300X_A1/out/pmc_1/f5fa73aad503/24405_agent_info.csv
+   |-> [rocprofiler-sdk] W20260209 15:43:31.500466 123618090849792 simple_timer.cpp:55] [rocprofv3] output generation ::     0.029601 sec
+   |-> [rocprofiler-sdk] W20260209 15:43:31.500556 123618090849792 simple_timer.cpp:55] [rocprofv3] tool finalization ::     0.029729 sec
+[Run 13/13][Approximate profiling time left: 0 seconds]...
+[profiling] Current input file: /root/rocm-examples/Applications/histogram_bp_profile/workloads/main_bp_l1/MI300X_A1/perfmon/pmc_perf_5.txt
+   |-> [rocprofiler-sdk] W20260209 15:43:33.743780 128505821730304 simple_timer.cpp:55] [rocprofv3] tool initialization ::     0.102553 sec
+   |-> [rocprofiler-sdk] W20260209 15:43:33.744060 128505821730304 simple_timer.cpp:55] [rocprofv3] './main_bp_l1' ::     0.000000 sec
+   |-> [rocprofiler-sdk] W20260209 15:43:33.881220 128505821730304 tool.cpp:2422] HSA version 8.20.0 initialized (instance=0)
+   |-> [rocprofiler-sdk] Launching 'histogram256_block' with 8 blocks of size 128
+   |-> [rocprofiler-sdk] Kernel took 0.923893 milliseconds.
+   |-> [rocprofiler-sdk] Validation passed.
+   |-> [rocprofiler-sdk] W20260209 15:43:33.952447 128505821730304 simple_timer.cpp:55] [rocprofv3] './main_bp_l1' ::     0.208388 sec
+   |-> [rocprofiler-sdk] E20260209 15:43:33.961124 128505821730304 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/histogram_bp_profile/workloads/main_bp_l1/MI300X_A1/out/pmc_1/f5fa73aad503/24413_kernel_trace.csv
+   |-> [rocprofiler-sdk] E20260209 15:43:33.973992 128505821730304 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/histogram_bp_profile/workloads/main_bp_l1/MI300X_A1/out/pmc_1/f5fa73aad503/24413_counter_collection.csv
+   |-> [rocprofiler-sdk] E20260209 15:43:33.980094 128505821730304 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/histogram_bp_profile/workloads/main_bp_l1/MI300X_A1/out/pmc_1/f5fa73aad503/24413_agent_info.csv
+   |-> [rocprofiler-sdk] W20260209 15:43:33.983341 128505821730304 simple_timer.cpp:55] [rocprofv3] output generation ::     0.029295 sec
+   |-> [rocprofiler-sdk] W20260209 15:43:33.983407 128505821730304 simple_timer.cpp:55] [rocprofv3] tool finalization ::     0.029397 sec
+PC sampling data collection skipped as block 21 is not specified.
+[roofline] Checking for roofline.csv in /root/rocm-examples/Applications/histogram_bp_profile/workloads/main_bp_l1/MI300X_A1
+[roofline] No roofline data found. Generating...
+[roofline] Empirical Roofline PDFs saved!
+[roofline] Checking for roofline.csv in /root/rocm-examples/Applications/histogram_bp_profile/workloads/main_bp_l1/MI300X_A1
+[roofline] Empirical Roofline PDFs saved!

@@ -1,0 +1,21 @@
+Dispatch_ID,Kernel_Name,GPU_ID
+0,__amd_rocclr_copyBuffer,0
+1,__amd_rocclr_copyBuffer,0
+2,"floyd_warshall_kernel(unsigned int*, unsigned int*, unsigned int, unsigned int)",0
+3,"floyd_warshall_kernel(unsigned int*, unsigned int*, unsigned int, unsigned int)",0
+4,"floyd_warshall_kernel(unsigned int*, unsigned int*, unsigned int, unsigned int)",0
+5,"floyd_warshall_kernel(unsigned int*, unsigned int*, unsigned int, unsigned int)",0
+6,"floyd_warshall_kernel(unsigned int*, unsigned int*, unsigned int, unsigned int)",0
+7,"floyd_warshall_kernel(unsigned int*, unsigned int*, unsigned int, unsigned int)",0
+8,"floyd_warshall_kernel(unsigned int*, unsigned int*, unsigned int, unsigned int)",0
+9,"floyd_warshall_kernel(unsigned int*, unsigned int*, unsigned int, unsigned int)",0
+10,"floyd_warshall_kernel(unsigned int*, unsigned int*, unsigned int, unsigned int)",0
+11,"floyd_warshall_kernel(unsigned int*, unsigned int*, unsigned int, unsigned int)",0
+12,"floyd_warshall_kernel(unsigned int*, unsigned int*, unsigned int, unsigned int)",0
+13,"floyd_warshall_kernel(unsigned int*, unsigned int*, unsigned int, unsigned int)",0
+14,"floyd_warshall_kernel(unsigned int*, unsigned int*, unsigned int, unsigned int)",0
+15,"floyd_warshall_kernel(unsigned int*, unsigned int*, unsigned int, unsigned int)",0
+16,"floyd_warshall_kernel(unsigned int*, unsigned int*, unsigned int, unsigned int)",0
+17,"floyd_warshall_kernel(unsigned int*, unsigned int*, unsigned int, unsigned int)",0
+18,__amd_rocclr_copyBuffer,0
+19,__amd_rocclr_copyBuffer,0

@@ -1,0 +1,292 @@
+Rocprofiler-Compute version: 3.4.0
+Profiler choice: rocprofiler-sdk
+Path: /root/rocm-examples/Applications/fdtd_profile/workloads/main_bp_l2/MI300X_A1
+Target: MI300X_A1
+Command: ./main_bp_l2
+Kernel Selection: None
+Dispatch Selection: None
+Filtered sections: All
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Collecting Performance Counters
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+[Run 1/13][Approximate profiling time left: pending first measurement...]
+[profiling] Current input file: /root/rocm-examples/Applications/fdtd_profile/workloads/main_bp_l2/MI300X_A1/perfmon/SQC_DCACHE_INFLIGHT_LEVEL.txt
+   |-> [rocprofiler-sdk] W20260209 14:59:47.125643 124412809065984 simple_timer.cpp:55] [rocprofv3] tool initialization ::     0.112026 sec
+   |-> [rocprofiler-sdk] W20260209 14:59:47.125857 124412809065984 simple_timer.cpp:55] [rocprofv3] './main_bp_l2' ::     0.000000 sec
+   |-> [rocprofiler-sdk] W20260209 14:59:47.316547 124412809065984 tool.cpp:2422] HSA version 8.20.0 initialized (instance=0)
+   |-> [rocprofiler-sdk] iteration: 3	 time serial: 0.0687968	 time HIP: 0.028194	 consistency: 100%
+   |-> [rocprofiler-sdk] iteration: 6	 time serial: 0.136129	 time HIP: 0.0563288	 consistency: 100%
+   |-> [rocprofiler-sdk] iteration: 9	 time serial: 0.203348	 time HIP: 0.0844537	 consistency: 100%
+   |-> [rocprofiler-sdk] iteration: 12	 time serial: 0.27057	 time HIP: 0.112575	 consistency: 100%
+   |-> [rocprofiler-sdk] iteration: 15	 time serial: 0.337673	 time HIP: 0.140713	 consistency: 100%
+   |-> [rocprofiler-sdk] iteration: 18	 time serial: 0.404881	 time HIP: 0.168858	 consistency: 100%
+   |-> [rocprofiler-sdk] iteration: 21	 time serial: 0.486025	 time HIP: 0.197097	 consistency: 100%
+   |-> [rocprofiler-sdk] iteration: 24	 time serial: 0.560057	 time HIP: 0.225285	 consistency: 99.9999%
+   |-> [rocprofiler-sdk] iteration: 27	 time serial: 0.627093	 time HIP: 0.253423	 consistency: 99.3826%
+   |-> [rocprofiler-sdk] iteration: 30	 time serial: 0.694591	 time HIP: 0.281564	 consistency: 99.382%
+   |-> [rocprofiler-sdk] W20260209 14:59:48.778886 124412809065984 simple_timer.cpp:55] [rocprofv3] './main_bp_l2' ::     1.653028 sec
+   |-> [rocprofiler-sdk] E20260209 14:59:48.787482 124412809065984 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/fdtd_profile/workloads/main_bp_l2/MI300X_A1/out/pmc_1/f5fa73aad503/12793_kernel_trace.csv
+   |-> [rocprofiler-sdk] E20260209 14:59:48.800730 124412809065984 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/fdtd_profile/workloads/main_bp_l2/MI300X_A1/out/pmc_1/f5fa73aad503/12793_counter_collection.csv
+   |-> [rocprofiler-sdk] E20260209 14:59:48.840781 124412809065984 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/fdtd_profile/workloads/main_bp_l2/MI300X_A1/out/pmc_1/f5fa73aad503/12793_agent_info.csv
+   |-> [rocprofiler-sdk] W20260209 14:59:48.843977 124412809065984 simple_timer.cpp:55] [rocprofv3] output generation ::     0.063621 sec
+   |-> [rocprofiler-sdk] W20260209 14:59:48.844080 124412809065984 simple_timer.cpp:55] [rocprofv3] tool finalization ::     0.063761 sec
+[Run 2/13][Approximate profiling time left: 46 seconds]...
+[profiling] Current input file: /root/rocm-examples/Applications/fdtd_profile/workloads/main_bp_l2/MI300X_A1/perfmon/SQC_ICACHE_INFLIGHT_LEVEL.txt
+   |-> [rocprofiler-sdk] W20260209 14:59:51.310994 128965896590848 simple_timer.cpp:55] [rocprofv3] tool initialization ::     0.110803 sec
+   |-> [rocprofiler-sdk] W20260209 14:59:51.311205 128965896590848 simple_timer.cpp:55] [rocprofv3] './main_bp_l2' ::     0.000000 sec
+   |-> [rocprofiler-sdk] W20260209 14:59:51.504788 128965896590848 tool.cpp:2422] HSA version 8.20.0 initialized (instance=0)
+   |-> [rocprofiler-sdk] iteration: 3	 time serial: 0.0682743	 time HIP: 0.0281342	 consistency: 100%
+   |-> [rocprofiler-sdk] iteration: 6	 time serial: 0.136315	 time HIP: 0.0562352	 consistency: 100%
+   |-> [rocprofiler-sdk] iteration: 9	 time serial: 0.204457	 time HIP: 0.0843074	 consistency: 100%
+   |-> [rocprofiler-sdk] iteration: 12	 time serial: 0.272487	 time HIP: 0.112388	 consistency: 100%
+   |-> [rocprofiler-sdk] iteration: 15	 time serial: 0.340494	 time HIP: 0.140469	 consistency: 100%
+   |-> [rocprofiler-sdk] iteration: 18	 time serial: 0.408523	 time HIP: 0.16854	 consistency: 100%
+   |-> [rocprofiler-sdk] iteration: 21	 time serial: 0.489472	 time HIP: 0.196695	 consistency: 100%
+   |-> [rocprofiler-sdk] iteration: 24	 time serial: 0.560582	 time HIP: 0.224803	 consistency: 99.9999%
+   |-> [rocprofiler-sdk] iteration: 27	 time serial: 0.628636	 time HIP: 0.252905	 consistency: 99.3826%
+   |-> [rocprofiler-sdk] iteration: 30	 time serial: 0.696704	 time HIP: 0.281024	 consistency: 99.382%
+   |-> [rocprofiler-sdk] W20260209 14:59:52.970297 128965896590848 simple_timer.cpp:55] [rocprofv3] './main_bp_l2' ::     1.659092 sec
+   |-> [rocprofiler-sdk] E20260209 14:59:52.978966 128965896590848 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/fdtd_profile/workloads/main_bp_l2/MI300X_A1/out/pmc_1/f5fa73aad503/12801_kernel_trace.csv
+   |-> [rocprofiler-sdk] E20260209 14:59:52.992549 128965896590848 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/fdtd_profile/workloads/main_bp_l2/MI300X_A1/out/pmc_1/f5fa73aad503/12801_counter_collection.csv
+   |-> [rocprofiler-sdk] E20260209 14:59:53.035681 128965896590848 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/fdtd_profile/workloads/main_bp_l2/MI300X_A1/out/pmc_1/f5fa73aad503/12801_agent_info.csv
+   |-> [rocprofiler-sdk] W20260209 14:59:53.039061 128965896590848 simple_timer.cpp:55] [rocprofv3] output generation ::     0.067287 sec
+   |-> [rocprofiler-sdk] W20260209 14:59:53.039178 128965896590848 simple_timer.cpp:55] [rocprofv3] tool finalization ::     0.067440 sec
+[Run 3/13][Approximate profiling time left: 42 seconds]...
+[profiling] Current input file: /root/rocm-examples/Applications/fdtd_profile/workloads/main_bp_l2/MI300X_A1/perfmon/SQ_IFETCH_LEVEL.txt
+   |-> [rocprofiler-sdk] W20260209 14:59:55.615852 129348250211840 simple_timer.cpp:55] [rocprofv3] tool initialization ::     0.120824 sec
+   |-> [rocprofiler-sdk] W20260209 14:59:55.616075 129348250211840 simple_timer.cpp:55] [rocprofv3] './main_bp_l2' ::     0.000000 sec
+   |-> [rocprofiler-sdk] W20260209 14:59:55.809977 129348250211840 tool.cpp:2422] HSA version 8.20.0 initialized (instance=0)
+   |-> [rocprofiler-sdk] iteration: 3	 time serial: 0.0672148	 time HIP: 0.027983	 consistency: 100%
+   |-> [rocprofiler-sdk] iteration: 6	 time serial: 0.134076	 time HIP: 0.0559161	 consistency: 100%
+   |-> [rocprofiler-sdk] iteration: 9	 time serial: 0.200933	 time HIP: 0.0838376	 consistency: 100%
+   |-> [rocprofiler-sdk] iteration: 12	 time serial: 0.267754	 time HIP: 0.111786	 consistency: 100%
+   |-> [rocprofiler-sdk] iteration: 15	 time serial: 0.334576	 time HIP: 0.139718	 consistency: 100%
+   |-> [rocprofiler-sdk] iteration: 18	 time serial: 0.401372	 time HIP: 0.167651	 consistency: 100%
+   |-> [rocprofiler-sdk] iteration: 21	 time serial: 0.470235	 time HIP: 0.195725	 consistency: 100%
+   |-> [rocprofiler-sdk] iteration: 24	 time serial: 0.547717	 time HIP: 0.223744	 consistency: 99.9999%
+   |-> [rocprofiler-sdk] iteration: 27	 time serial: 0.614528	 time HIP: 0.251749	 consistency: 99.3826%
+   |-> [rocprofiler-sdk] iteration: 30	 time serial: 0.681374	 time HIP: 0.279752	 consistency: 99.382%
+   |-> [rocprofiler-sdk] W20260209 14:59:57.276960 129348250211840 simple_timer.cpp:55] [rocprofv3] './main_bp_l2' ::     1.660885 sec
+   |-> [rocprofiler-sdk] E20260209 14:59:57.286197 129348250211840 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/fdtd_profile/workloads/main_bp_l2/MI300X_A1/out/pmc_1/f5fa73aad503/12809_kernel_trace.csv
+   |-> [rocprofiler-sdk] E20260209 14:59:57.299705 129348250211840 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/fdtd_profile/workloads/main_bp_l2/MI300X_A1/out/pmc_1/f5fa73aad503/12809_counter_collection.csv
+   |-> [rocprofiler-sdk] E20260209 14:59:57.364286 129348250211840 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/fdtd_profile/workloads/main_bp_l2/MI300X_A1/out/pmc_1/f5fa73aad503/12809_agent_info.csv
+   |-> [rocprofiler-sdk] W20260209 14:59:57.367691 129348250211840 simple_timer.cpp:55] [rocprofv3] output generation ::     0.088731 sec
+   |-> [rocprofiler-sdk] W20260209 14:59:57.367827 129348250211840 simple_timer.cpp:55] [rocprofv3] tool finalization ::     0.088913 sec
+[Run 4/13][Approximate profiling time left: 38 seconds]...
+[profiling] Current input file: /root/rocm-examples/Applications/fdtd_profile/workloads/main_bp_l2/MI300X_A1/perfmon/SQ_INST_LEVEL_LDS.txt
+   |-> [rocprofiler-sdk] W20260209 15:00:00.005869 139063406110208 simple_timer.cpp:55] [rocprofv3] tool initialization ::     0.118740 sec
+   |-> [rocprofiler-sdk] W20260209 15:00:00.006083 139063406110208 simple_timer.cpp:55] [rocprofv3] './main_bp_l2' ::     0.000000 sec
+   |-> [rocprofiler-sdk] W20260209 15:00:00.198909 139063406110208 tool.cpp:2422] HSA version 8.20.0 initialized (instance=0)
+   |-> [rocprofiler-sdk] iteration: 3	 time serial: 0.0675933	 time HIP: 0.027797	 consistency: 100%
+   |-> [rocprofiler-sdk] iteration: 6	 time serial: 0.135032	 time HIP: 0.0555498	 consistency: 100%
+   |-> [rocprofiler-sdk] iteration: 9	 time serial: 0.202267	 time HIP: 0.0832959	 consistency: 100%
+   |-> [rocprofiler-sdk] iteration: 12	 time serial: 0.269402	 time HIP: 0.111036	 consistency: 100%
+   |-> [rocprofiler-sdk] iteration: 15	 time serial: 0.336727	 time HIP: 0.138784	 consistency: 100%
+   |-> [rocprofiler-sdk] iteration: 18	 time serial: 0.403938	 time HIP: 0.166524	 consistency: 100%
+   |-> [rocprofiler-sdk] iteration: 21	 time serial: 0.490771	 time HIP: 0.194457	 consistency: 100%
+   |-> [rocprofiler-sdk] iteration: 24	 time serial: 0.565502	 time HIP: 0.222292	 consistency: 99.9999%
+   |-> [rocprofiler-sdk] iteration: 27	 time serial: 0.632145	 time HIP: 0.250111	 consistency: 99.3826%
+   |-> [rocprofiler-sdk] iteration: 30	 time serial: 0.699223	 time HIP: 0.277913	 consistency: 99.382%
+   |-> [rocprofiler-sdk] W20260209 15:00:01.660877 139063406110208 simple_timer.cpp:55] [rocprofv3] './main_bp_l2' ::     1.654793 sec
+   |-> [rocprofiler-sdk] E20260209 15:00:01.669760 139063406110208 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/fdtd_profile/workloads/main_bp_l2/MI300X_A1/out/pmc_1/f5fa73aad503/12848_kernel_trace.csv
+   |-> [rocprofiler-sdk] E20260209 15:00:01.683255 139063406110208 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/fdtd_profile/workloads/main_bp_l2/MI300X_A1/out/pmc_1/f5fa73aad503/12848_counter_collection.csv
+   |-> [rocprofiler-sdk] E20260209 15:00:01.751598 139063406110208 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/fdtd_profile/workloads/main_bp_l2/MI300X_A1/out/pmc_1/f5fa73aad503/12848_agent_info.csv
+   |-> [rocprofiler-sdk] W20260209 15:00:01.755007 139063406110208 simple_timer.cpp:55] [rocprofv3] output generation ::     0.092431 sec
+   |-> [rocprofiler-sdk] W20260209 15:00:01.755148 139063406110208 simple_timer.cpp:55] [rocprofv3] tool finalization ::     0.092620 sec
+[Run 5/13][Approximate profiling time left: 34 seconds]...
+[profiling] Current input file: /root/rocm-examples/Applications/fdtd_profile/workloads/main_bp_l2/MI300X_A1/perfmon/SQ_INST_LEVEL_SMEM.txt
+   |-> [rocprofiler-sdk] W20260209 15:00:04.350951 124051380344320 simple_timer.cpp:55] [rocprofv3] tool initialization ::     0.112601 sec
+   |-> [rocprofiler-sdk] W20260209 15:00:04.351177 124051380344320 simple_timer.cpp:55] [rocprofv3] './main_bp_l2' ::     0.000000 sec
+   |-> [rocprofiler-sdk] W20260209 15:00:04.542062 124051380344320 tool.cpp:2422] HSA version 8.20.0 initialized (instance=0)
+   |-> [rocprofiler-sdk] iteration: 3	 time serial: 0.0674843	 time HIP: 0.0274916	 consistency: 100%
+   |-> [rocprofiler-sdk] iteration: 6	 time serial: 0.134566	 time HIP: 0.0549297	 consistency: 100%
+   |-> [rocprofiler-sdk] iteration: 9	 time serial: 0.201625	 time HIP: 0.0823807	 consistency: 100%
+   |-> [rocprofiler-sdk] iteration: 12	 time serial: 0.268567	 time HIP: 0.10981	 consistency: 100%
+   |-> [rocprofiler-sdk] iteration: 15	 time serial: 0.335546	 time HIP: 0.137233	 consistency: 100%
+   |-> [rocprofiler-sdk] iteration: 18	 time serial: 0.402666	 time HIP: 0.164676	 consistency: 100%
+   |-> [rocprofiler-sdk] iteration: 21	 time serial: 0.46966	 time HIP: 0.214878	 consistency: 100%
+   |-> [rocprofiler-sdk] iteration: 24	 time serial: 0.547786	 time HIP: 0.242354	 consistency: 99.9999%
+   |-> [rocprofiler-sdk] iteration: 27	 time serial: 0.61495	 time HIP: 0.269797	 consistency: 99.3826%
+   |-> [rocprofiler-sdk] iteration: 30	 time serial: 0.681998	 time HIP: 0.297229	 consistency: 99.382%
+   |-> [rocprofiler-sdk] W20260209 15:00:05.998385 124051380344320 simple_timer.cpp:55] [rocprofv3] './main_bp_l2' ::     1.647208 sec
+   |-> [rocprofiler-sdk] E20260209 15:00:06.006810 124051380344320 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/fdtd_profile/workloads/main_bp_l2/MI300X_A1/out/pmc_1/f5fa73aad503/12856_kernel_trace.csv
+   |-> [rocprofiler-sdk] E20260209 15:00:06.019986 124051380344320 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/fdtd_profile/workloads/main_bp_l2/MI300X_A1/out/pmc_1/f5fa73aad503/12856_counter_collection.csv
+   |-> [rocprofiler-sdk] E20260209 15:00:06.058393 124051380344320 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/fdtd_profile/workloads/main_bp_l2/MI300X_A1/out/pmc_1/f5fa73aad503/12856_agent_info.csv
+   |-> [rocprofiler-sdk] W20260209 15:00:06.061534 124051380344320 simple_timer.cpp:55] [rocprofv3] output generation ::     0.061810 sec
+   |-> [rocprofiler-sdk] W20260209 15:00:06.061633 124051380344320 simple_timer.cpp:55] [rocprofv3] tool finalization ::     0.061945 sec
+[Run 6/13][Approximate profiling time left: 29 seconds]...
+[profiling] Current input file: /root/rocm-examples/Applications/fdtd_profile/workloads/main_bp_l2/MI300X_A1/perfmon/SQ_INST_LEVEL_VMEM.txt
+   |-> [rocprofiler-sdk] W20260209 15:00:08.636570 127055691789824 simple_timer.cpp:55] [rocprofv3] tool initialization ::     0.112142 sec
+   |-> [rocprofiler-sdk] W20260209 15:00:08.636854 127055691789824 simple_timer.cpp:55] [rocprofv3] './main_bp_l2' ::     0.000000 sec
+   |-> [rocprofiler-sdk] W20260209 15:00:08.824894 127055691789824 tool.cpp:2422] HSA version 8.20.0 initialized (instance=0)
+   |-> [rocprofiler-sdk] iteration: 3	 time serial: 0.0678525	 time HIP: 0.0290553	 consistency: 100%
+   |-> [rocprofiler-sdk] iteration: 6	 time serial: 0.135403	 time HIP: 0.0587431	 consistency: 100%
+   |-> [rocprofiler-sdk] iteration: 9	 time serial: 0.202731	 time HIP: 0.0886062	 consistency: 100%
+   |-> [rocprofiler-sdk] iteration: 12	 time serial: 0.27008	 time HIP: 0.118489	 consistency: 100%
+   |-> [rocprofiler-sdk] iteration: 15	 time serial: 0.337278	 time HIP: 0.148331	 consistency: 100%
+   |-> [rocprofiler-sdk] iteration: 18	 time serial: 0.404718	 time HIP: 0.178209	 consistency: 100%
+   |-> [rocprofiler-sdk] iteration: 21	 time serial: 0.498408	 time HIP: 0.207754	 consistency: 100%
+   |-> [rocprofiler-sdk] iteration: 24	 time serial: 0.565756	 time HIP: 0.237188	 consistency: 99.9999%
+   |-> [rocprofiler-sdk] iteration: 27	 time serial: 0.632984	 time HIP: 0.266544	 consistency: 99.3826%
+   |-> [rocprofiler-sdk] iteration: 30	 time serial: 0.700606	 time HIP: 0.296322	 consistency: 99.382%
+   |-> [rocprofiler-sdk] W20260209 15:00:10.349994 127055691789824 simple_timer.cpp:55] [rocprofv3] './main_bp_l2' ::     1.713141 sec
+   |-> [rocprofiler-sdk] E20260209 15:00:10.359601 127055691789824 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/fdtd_profile/workloads/main_bp_l2/MI300X_A1/out/pmc_1/f5fa73aad503/12864_kernel_trace.csv
+   |-> [rocprofiler-sdk] E20260209 15:00:10.374455 127055691789824 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/fdtd_profile/workloads/main_bp_l2/MI300X_A1/out/pmc_1/f5fa73aad503/12864_counter_collection.csv
+   |-> [rocprofiler-sdk] E20260209 15:00:10.415029 127055691789824 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/fdtd_profile/workloads/main_bp_l2/MI300X_A1/out/pmc_1/f5fa73aad503/12864_agent_info.csv
+   |-> [rocprofiler-sdk] W20260209 15:00:10.418626 127055691789824 simple_timer.cpp:55] [rocprofv3] output generation ::     0.066814 sec
+   |-> [rocprofiler-sdk] W20260209 15:00:10.418733 127055691789824 simple_timer.cpp:55] [rocprofv3] tool finalization ::     0.066963 sec
+[Run 7/13][Approximate profiling time left: 25 seconds]...
+[profiling] Current input file: /root/rocm-examples/Applications/fdtd_profile/workloads/main_bp_l2/MI300X_A1/perfmon/SQ_LEVEL_WAVES.txt
+   |-> [rocprofiler-sdk] W20260209 15:00:13.043885 125715600197120 simple_timer.cpp:55] [rocprofv3] tool initialization ::     0.112450 sec
+   |-> [rocprofiler-sdk] W20260209 15:00:13.044168 125715600197120 simple_timer.cpp:55] [rocprofv3] './main_bp_l2' ::     0.000000 sec
+   |-> [rocprofiler-sdk] W20260209 15:00:13.236697 125715600197120 tool.cpp:2422] HSA version 8.20.0 initialized (instance=0)
+   |-> [rocprofiler-sdk] iteration: 3	 time serial: 0.0680241	 time HIP: 0.0290413	 consistency: 100%
+   |-> [rocprofiler-sdk] iteration: 6	 time serial: 0.135617	 time HIP: 0.058794	 consistency: 100%
+   |-> [rocprofiler-sdk] iteration: 9	 time serial: 0.203191	 time HIP: 0.0885084	 consistency: 100%
+   |-> [rocprofiler-sdk] iteration: 12	 time serial: 0.270788	 time HIP: 0.118373	 consistency: 100%
+   |-> [rocprofiler-sdk] iteration: 15	 time serial: 0.338286	 time HIP: 0.148064	 consistency: 100%
+   |-> [rocprofiler-sdk] iteration: 18	 time serial: 0.405796	 time HIP: 0.177889	 consistency: 100%
+   |-> [rocprofiler-sdk] iteration: 21	 time serial: 0.485912	 time HIP: 0.207562	 consistency: 100%
+   |-> [rocprofiler-sdk] iteration: 24	 time serial: 0.553451	 time HIP: 0.237423	 consistency: 99.9999%
+   |-> [rocprofiler-sdk] iteration: 27	 time serial: 0.621024	 time HIP: 0.267391	 consistency: 99.3826%
+   |-> [rocprofiler-sdk] iteration: 30	 time serial: 0.688629	 time HIP: 0.297193	 consistency: 99.382%
+   |-> [rocprofiler-sdk] W20260209 15:00:14.760464 125715600197120 simple_timer.cpp:55] [rocprofv3] './main_bp_l2' ::     1.716295 sec
+   |-> [rocprofiler-sdk] E20260209 15:00:14.770170 125715600197120 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/fdtd_profile/workloads/main_bp_l2/MI300X_A1/out/pmc_1/f5fa73aad503/12872_kernel_trace.csv
+   |-> [rocprofiler-sdk] E20260209 15:00:14.784208 125715600197120 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/fdtd_profile/workloads/main_bp_l2/MI300X_A1/out/pmc_1/f5fa73aad503/12872_counter_collection.csv
+   |-> [rocprofiler-sdk] E20260209 15:00:14.823308 125715600197120 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/fdtd_profile/workloads/main_bp_l2/MI300X_A1/out/pmc_1/f5fa73aad503/12872_agent_info.csv
+   |-> [rocprofiler-sdk] W20260209 15:00:14.826768 125715600197120 simple_timer.cpp:55] [rocprofv3] output generation ::     0.064045 sec
+   |-> [rocprofiler-sdk] W20260209 15:00:14.826865 125715600197120 simple_timer.cpp:55] [rocprofv3] tool finalization ::     0.064188 sec
+[Run 8/13][Approximate profiling time left: 21 seconds]...
+[profiling] Current input file: /root/rocm-examples/Applications/fdtd_profile/workloads/main_bp_l2/MI300X_A1/perfmon/pmc_perf_0.txt
+   |-> [rocprofiler-sdk] W20260209 15:00:17.428699 139768208406016 simple_timer.cpp:55] [rocprofv3] tool initialization ::     0.112891 sec
+   |-> [rocprofiler-sdk] W20260209 15:00:17.429003 139768208406016 simple_timer.cpp:55] [rocprofv3] './main_bp_l2' ::     0.000000 sec
+   |-> [rocprofiler-sdk] W20260209 15:00:17.621945 139768208406016 tool.cpp:2422] HSA version 8.20.0 initialized (instance=0)
+   |-> [rocprofiler-sdk] iteration: 3	 time serial: 0.0682186	 time HIP: 0.0290387	 consistency: 100%
+   |-> [rocprofiler-sdk] iteration: 6	 time serial: 0.136061	 time HIP: 0.0587086	 consistency: 100%
+   |-> [rocprofiler-sdk] iteration: 9	 time serial: 0.20386	 time HIP: 0.0886233	 consistency: 100%
+   |-> [rocprofiler-sdk] iteration: 12	 time serial: 0.271743	 time HIP: 0.118369	 consistency: 100%
+   |-> [rocprofiler-sdk] iteration: 15	 time serial: 0.339474	 time HIP: 0.1483	 consistency: 100%
+   |-> [rocprofiler-sdk] iteration: 18	 time serial: 0.407331	 time HIP: 0.178132	 consistency: 100%
+   |-> [rocprofiler-sdk] iteration: 21	 time serial: 0.499098	 time HIP: 0.207859	 consistency: 100%
+   |-> [rocprofiler-sdk] iteration: 24	 time serial: 0.566287	 time HIP: 0.23786	 consistency: 99.9999%
+   |-> [rocprofiler-sdk] iteration: 27	 time serial: 0.633442	 time HIP: 0.267595	 consistency: 99.3826%
+   |-> [rocprofiler-sdk] iteration: 30	 time serial: 0.700815	 time HIP: 0.297553	 consistency: 99.382%
+   |-> [rocprofiler-sdk] W20260209 15:00:19.141967 139768208406016 simple_timer.cpp:55] [rocprofv3] './main_bp_l2' ::     1.712964 sec
+   |-> [rocprofiler-sdk] E20260209 15:00:19.151613 139768208406016 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/fdtd_profile/workloads/main_bp_l2/MI300X_A1/out/pmc_1/f5fa73aad503/12880_kernel_trace.csv
+   |-> [rocprofiler-sdk] E20260209 15:00:19.165660 139768208406016 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/fdtd_profile/workloads/main_bp_l2/MI300X_A1/out/pmc_1/f5fa73aad503/12880_counter_collection.csv
+   |-> [rocprofiler-sdk] E20260209 15:00:19.204712 139768208406016 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/fdtd_profile/workloads/main_bp_l2/MI300X_A1/out/pmc_1/f5fa73aad503/12880_agent_info.csv
+   |-> [rocprofiler-sdk] W20260209 15:00:19.208158 139768208406016 simple_timer.cpp:55] [rocprofv3] output generation ::     0.063956 sec
+   |-> [rocprofiler-sdk] W20260209 15:00:19.208268 139768208406016 simple_timer.cpp:55] [rocprofv3] tool finalization ::     0.064106 sec
+[Run 9/13][Approximate profiling time left: 17 seconds]...
+[profiling] Current input file: /root/rocm-examples/Applications/fdtd_profile/workloads/main_bp_l2/MI300X_A1/perfmon/pmc_perf_1.txt
+   |-> [rocprofiler-sdk] W20260209 15:00:21.696346 125017928586752 simple_timer.cpp:55] [rocprofv3] tool initialization ::     0.113637 sec
+   |-> [rocprofiler-sdk] W20260209 15:00:21.696559 125017928586752 simple_timer.cpp:55] [rocprofv3] './main_bp_l2' ::     0.000000 sec
+   |-> [rocprofiler-sdk] W20260209 15:00:21.884885 125017928586752 tool.cpp:2422] HSA version 8.20.0 initialized (instance=0)
+   |-> [rocprofiler-sdk] iteration: 3	 time serial: 0.0679363	 time HIP: 0.026366	 consistency: 100%
+   |-> [rocprofiler-sdk] iteration: 6	 time serial: 0.135705	 time HIP: 0.0526906	 consistency: 100%
+   |-> [rocprofiler-sdk] iteration: 9	 time serial: 0.203268	 time HIP: 0.0790081	 consistency: 100%
+   |-> [rocprofiler-sdk] iteration: 12	 time serial: 0.270835	 time HIP: 0.105319	 consistency: 100%
+   |-> [rocprofiler-sdk] iteration: 15	 time serial: 0.338409	 time HIP: 0.131649	 consistency: 100%
+   |-> [rocprofiler-sdk] iteration: 18	 time serial: 0.406001	 time HIP: 0.157976	 consistency: 100%
+   |-> [rocprofiler-sdk] iteration: 21	 time serial: 0.473737	 time HIP: 0.184315	 consistency: 100%
+   |-> [rocprofiler-sdk] iteration: 24	 time serial: 0.556077	 time HIP: 0.210723	 consistency: 99.9999%
+   |-> [rocprofiler-sdk] iteration: 27	 time serial: 0.623751	 time HIP: 0.237065	 consistency: 99.3826%
+   |-> [rocprofiler-sdk] iteration: 30	 time serial: 0.691345	 time HIP: 0.263409	 consistency: 99.382%
+   |-> [rocprofiler-sdk] W20260209 15:00:23.296512 125017928586752 simple_timer.cpp:55] [rocprofv3] './main_bp_l2' ::     1.599954 sec
+   |-> [rocprofiler-sdk] E20260209 15:00:23.305336 125017928586752 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/fdtd_profile/workloads/main_bp_l2/MI300X_A1/out/pmc_1/f5fa73aad503/12888_kernel_trace.csv
+   |-> [rocprofiler-sdk] E20260209 15:00:23.319136 125017928586752 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/fdtd_profile/workloads/main_bp_l2/MI300X_A1/out/pmc_1/f5fa73aad503/12888_counter_collection.csv
+   |-> [rocprofiler-sdk] E20260209 15:00:23.356695 125017928586752 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/fdtd_profile/workloads/main_bp_l2/MI300X_A1/out/pmc_1/f5fa73aad503/12888_agent_info.csv
+   |-> [rocprofiler-sdk] W20260209 15:00:23.360088 125017928586752 simple_timer.cpp:55] [rocprofv3] output generation ::     0.062282 sec
+   |-> [rocprofiler-sdk] W20260209 15:00:23.360191 125017928586752 simple_timer.cpp:55] [rocprofv3] tool finalization ::     0.062427 sec
+[Run 10/13][Approximate profiling time left: 12 seconds]...
+[profiling] Current input file: /root/rocm-examples/Applications/fdtd_profile/workloads/main_bp_l2/MI300X_A1/perfmon/pmc_perf_2.txt
+   |-> [rocprofiler-sdk] W20260209 15:00:25.842900 124444055004672 simple_timer.cpp:55] [rocprofv3] tool initialization ::     0.110436 sec
+   |-> [rocprofiler-sdk] W20260209 15:00:25.843122 124444055004672 simple_timer.cpp:55] [rocprofv3] './main_bp_l2' ::     0.000000 sec
+   |-> [rocprofiler-sdk] W20260209 15:00:26.030848 124444055004672 tool.cpp:2422] HSA version 8.20.0 initialized (instance=0)
+   |-> [rocprofiler-sdk] iteration: 3	 time serial: 0.0683588	 time HIP: 0.0253797	 consistency: 100%
+   |-> [rocprofiler-sdk] iteration: 6	 time serial: 0.136617	 time HIP: 0.0507176	 consistency: 100%
+   |-> [rocprofiler-sdk] iteration: 9	 time serial: 0.204712	 time HIP: 0.076033	 consistency: 100%
+   |-> [rocprofiler-sdk] iteration: 12	 time serial: 0.272648	 time HIP: 0.101364	 consistency: 100%
+   |-> [rocprofiler-sdk] iteration: 15	 time serial: 0.340558	 time HIP: 0.12669	 consistency: 100%
+   |-> [rocprofiler-sdk] iteration: 18	 time serial: 0.408372	 time HIP: 0.152011	 consistency: 100%
+   |-> [rocprofiler-sdk] iteration: 21	 time serial: 0.476269	 time HIP: 0.177346	 consistency: 100%
+   |-> [rocprofiler-sdk] iteration: 24	 time serial: 0.569071	 time HIP: 0.202769	 consistency: 99.9999%
+   |-> [rocprofiler-sdk] iteration: 27	 time serial: 0.636719	 time HIP: 0.228088	 consistency: 99.3826%
+   |-> [rocprofiler-sdk] iteration: 30	 time serial: 0.7042	 time HIP: 0.253428	 consistency: 99.382%
+   |-> [rocprofiler-sdk] W20260209 15:00:27.432700 124444055004672 simple_timer.cpp:55] [rocprofv3] './main_bp_l2' ::     1.589577 sec
+   |-> [rocprofiler-sdk] E20260209 15:00:27.442101 124444055004672 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/fdtd_profile/workloads/main_bp_l2/MI300X_A1/out/pmc_1/f5fa73aad503/12896_kernel_trace.csv
+   |-> [rocprofiler-sdk] E20260209 15:00:27.457049 124444055004672 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/fdtd_profile/workloads/main_bp_l2/MI300X_A1/out/pmc_1/f5fa73aad503/12896_counter_collection.csv
+   |-> [rocprofiler-sdk] E20260209 15:00:27.495509 124444055004672 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/fdtd_profile/workloads/main_bp_l2/MI300X_A1/out/pmc_1/f5fa73aad503/12896_agent_info.csv
+   |-> [rocprofiler-sdk] W20260209 15:00:27.499070 124444055004672 simple_timer.cpp:55] [rocprofv3] output generation ::     0.064665 sec
+   |-> [rocprofiler-sdk] W20260209 15:00:27.499173 124444055004672 simple_timer.cpp:55] [rocprofv3] tool finalization ::     0.064813 sec
+[Run 11/13][Approximate profiling time left: 8 seconds]...
+[profiling] Current input file: /root/rocm-examples/Applications/fdtd_profile/workloads/main_bp_l2/MI300X_A1/perfmon/pmc_perf_3.txt
+   |-> [rocprofiler-sdk] W20260209 15:00:30.014419 129231948727808 simple_timer.cpp:55] [rocprofv3] tool initialization ::     0.114157 sec
+   |-> [rocprofiler-sdk] W20260209 15:00:30.014643 129231948727808 simple_timer.cpp:55] [rocprofv3] './main_bp_l2' ::     0.000000 sec
+   |-> [rocprofiler-sdk] W20260209 15:00:30.206991 129231948727808 tool.cpp:2422] HSA version 8.20.0 initialized (instance=0)
+   |-> [rocprofiler-sdk] iteration: 3	 time serial: 0.0676936	 time HIP: 0.0254279	 consistency: 100%
+   |-> [rocprofiler-sdk] iteration: 6	 time serial: 0.134861	 time HIP: 0.0508261	 consistency: 100%
+   |-> [rocprofiler-sdk] iteration: 9	 time serial: 0.201998	 time HIP: 0.0762152	 consistency: 100%
+   |-> [rocprofiler-sdk] iteration: 12	 time serial: 0.269089	 time HIP: 0.101597	 consistency: 100%
+   |-> [rocprofiler-sdk] iteration: 15	 time serial: 0.336084	 time HIP: 0.126999	 consistency: 100%
+   |-> [rocprofiler-sdk] iteration: 18	 time serial: 0.403221	 time HIP: 0.152384	 consistency: 100%
+   |-> [rocprofiler-sdk] iteration: 21	 time serial: 0.470242	 time HIP: 0.17779	 consistency: 100%
+   |-> [rocprofiler-sdk] iteration: 24	 time serial: 0.562827	 time HIP: 0.203277	 consistency: 99.9999%
+   |-> [rocprofiler-sdk] iteration: 27	 time serial: 0.629473	 time HIP: 0.228664	 consistency: 99.3826%
+   |-> [rocprofiler-sdk] iteration: 30	 time serial: 0.696099	 time HIP: 0.254055	 consistency: 99.382%
+   |-> [rocprofiler-sdk] W20260209 15:00:31.608001 129231948727808 simple_timer.cpp:55] [rocprofv3] './main_bp_l2' ::     1.593358 sec
+   |-> [rocprofiler-sdk] E20260209 15:00:31.616940 129231948727808 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/fdtd_profile/workloads/main_bp_l2/MI300X_A1/out/pmc_1/f5fa73aad503/12904_kernel_trace.csv
+   |-> [rocprofiler-sdk] E20260209 15:00:31.630214 129231948727808 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/fdtd_profile/workloads/main_bp_l2/MI300X_A1/out/pmc_1/f5fa73aad503/12904_counter_collection.csv
+   |-> [rocprofiler-sdk] E20260209 15:00:31.665254 129231948727808 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/fdtd_profile/workloads/main_bp_l2/MI300X_A1/out/pmc_1/f5fa73aad503/12904_agent_info.csv
+   |-> [rocprofiler-sdk] W20260209 15:00:31.668503 129231948727808 simple_timer.cpp:55] [rocprofv3] output generation ::     0.058755 sec
+   |-> [rocprofiler-sdk] W20260209 15:00:31.668609 129231948727808 simple_timer.cpp:55] [rocprofv3] tool finalization ::     0.058898 sec
+[Run 12/13][Approximate profiling time left: 4 seconds]...
+[profiling] Current input file: /root/rocm-examples/Applications/fdtd_profile/workloads/main_bp_l2/MI300X_A1/perfmon/pmc_perf_4.txt
+   |-> [rocprofiler-sdk] W20260209 15:00:34.195964 137667684095488 simple_timer.cpp:55] [rocprofv3] tool initialization ::     0.111657 sec
+   |-> [rocprofiler-sdk] W20260209 15:00:34.196178 137667684095488 simple_timer.cpp:55] [rocprofv3] './main_bp_l2' ::     0.000000 sec
+   |-> [rocprofiler-sdk] W20260209 15:00:34.389528 137667684095488 tool.cpp:2422] HSA version 8.20.0 initialized (instance=0)
+   |-> [rocprofiler-sdk] iteration: 3	 time serial: 0.067672	 time HIP: 0.0251276	 consistency: 100%
+   |-> [rocprofiler-sdk] iteration: 6	 time serial: 0.134773	 time HIP: 0.0502315	 consistency: 100%
+   |-> [rocprofiler-sdk] iteration: 9	 time serial: 0.201743	 time HIP: 0.0753207	 consistency: 100%
+   |-> [rocprofiler-sdk] iteration: 12	 time serial: 0.268811	 time HIP: 0.100414	 consistency: 100%
+   |-> [rocprofiler-sdk] iteration: 15	 time serial: 0.335829	 time HIP: 0.125512	 consistency: 100%
+   |-> [rocprofiler-sdk] iteration: 18	 time serial: 0.402817	 time HIP: 0.150602	 consistency: 100%
+   |-> [rocprofiler-sdk] iteration: 21	 time serial: 0.469749	 time HIP: 0.175707	 consistency: 100%
+   |-> [rocprofiler-sdk] iteration: 24	 time serial: 0.548028	 time HIP: 0.22796	 consistency: 99.9999%
+   |-> [rocprofiler-sdk] iteration: 27	 time serial: 0.615096	 time HIP: 0.253069	 consistency: 99.3826%
+   |-> [rocprofiler-sdk] iteration: 30	 time serial: 0.682139	 time HIP: 0.278164	 consistency: 99.382%
+   |-> [rocprofiler-sdk] W20260209 15:00:35.794183 137667684095488 simple_timer.cpp:55] [rocprofv3] './main_bp_l2' ::     1.598005 sec
+   |-> [rocprofiler-sdk] E20260209 15:00:35.803074 137667684095488 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/fdtd_profile/workloads/main_bp_l2/MI300X_A1/out/pmc_1/f5fa73aad503/12912_kernel_trace.csv
+   |-> [rocprofiler-sdk] E20260209 15:00:35.816293 137667684095488 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/fdtd_profile/workloads/main_bp_l2/MI300X_A1/out/pmc_1/f5fa73aad503/12912_counter_collection.csv
+   |-> [rocprofiler-sdk] E20260209 15:00:35.852932 137667684095488 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/fdtd_profile/workloads/main_bp_l2/MI300X_A1/out/pmc_1/f5fa73aad503/12912_agent_info.csv
+   |-> [rocprofiler-sdk] W20260209 15:00:35.856159 137667684095488 simple_timer.cpp:55] [rocprofv3] output generation ::     0.060205 sec
+   |-> [rocprofiler-sdk] W20260209 15:00:35.856258 137667684095488 simple_timer.cpp:55] [rocprofv3] tool finalization ::     0.060343 sec
+[Run 13/13][Approximate profiling time left: 0 seconds]...
+[profiling] Current input file: /root/rocm-examples/Applications/fdtd_profile/workloads/main_bp_l2/MI300X_A1/perfmon/pmc_perf_5.txt
+   |-> [rocprofiler-sdk] W20260209 15:00:38.201341 128697862133248 simple_timer.cpp:55] [rocprofv3] tool initialization ::     0.101911 sec
+   |-> [rocprofiler-sdk] W20260209 15:00:38.201567 128697862133248 simple_timer.cpp:55] [rocprofv3] './main_bp_l2' ::     0.000000 sec
+   |-> [rocprofiler-sdk] W20260209 15:00:38.390510 128697862133248 tool.cpp:2422] HSA version 8.20.0 initialized (instance=0)
+   |-> [rocprofiler-sdk] iteration: 3	 time serial: 0.0684565	 time HIP: 0.0248734	 consistency: 100%
+   |-> [rocprofiler-sdk] iteration: 6	 time serial: 0.136548	 time HIP: 0.0496926	 consistency: 100%
+   |-> [rocprofiler-sdk] iteration: 9	 time serial: 0.204641	 time HIP: 0.0745028	 consistency: 100%
+   |-> [rocprofiler-sdk] iteration: 12	 time serial: 0.27283	 time HIP: 0.0993207	 consistency: 100%
+   |-> [rocprofiler-sdk] iteration: 15	 time serial: 0.340862	 time HIP: 0.124125	 consistency: 100%
+   |-> [rocprofiler-sdk] iteration: 18	 time serial: 0.408974	 time HIP: 0.148955	 consistency: 100%
+   |-> [rocprofiler-sdk] iteration: 21	 time serial: 0.477086	 time HIP: 0.173773	 consistency: 100%
+   |-> [rocprofiler-sdk] iteration: 24	 time serial: 0.555997	 time HIP: 0.223252	 consistency: 99.9999%
+   |-> [rocprofiler-sdk] iteration: 27	 time serial: 0.624088	 time HIP: 0.248083	 consistency: 99.3826%
+   |-> [rocprofiler-sdk] iteration: 30	 time serial: 0.69213	 time HIP: 0.272911	 consistency: 99.382%
+   |-> [rocprofiler-sdk] W20260209 15:00:39.791290 128697862133248 simple_timer.cpp:55] [rocprofv3] './main_bp_l2' ::     1.589724 sec
+   |-> [rocprofiler-sdk] E20260209 15:00:39.800336 128697862133248 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/fdtd_profile/workloads/main_bp_l2/MI300X_A1/out/pmc_1/f5fa73aad503/12920_kernel_trace.csv
+   |-> [rocprofiler-sdk] E20260209 15:00:39.813787 128697862133248 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/fdtd_profile/workloads/main_bp_l2/MI300X_A1/out/pmc_1/f5fa73aad503/12920_counter_collection.csv
+   |-> [rocprofiler-sdk] E20260209 15:00:39.821369 128697862133248 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/fdtd_profile/workloads/main_bp_l2/MI300X_A1/out/pmc_1/f5fa73aad503/12920_agent_info.csv
+   |-> [rocprofiler-sdk] W20260209 15:00:39.824693 128697862133248 simple_timer.cpp:55] [rocprofv3] output generation ::     0.031618 sec
+   |-> [rocprofiler-sdk] W20260209 15:00:39.824783 128697862133248 simple_timer.cpp:55] [rocprofv3] tool finalization ::     0.031766 sec
+PC sampling data collection skipped as block 21 is not specified.
+[roofline] Checking for roofline.csv in /root/rocm-examples/Applications/fdtd_profile/workloads/main_bp_l2/MI300X_A1
+[roofline] No roofline data found. Generating...
+[roofline] Empirical Roofline PDFs saved!
+[roofline] Checking for roofline.csv in /root/rocm-examples/Applications/fdtd_profile/workloads/main_bp_l2/MI300X_A1
+[roofline] Empirical Roofline PDFs saved!

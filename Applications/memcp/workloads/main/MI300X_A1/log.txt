@@ -1,0 +1,305 @@
+Rocprofiler-Compute version: 3.4.0
+Profiler choice: rocprofiler-sdk
+Path: /root/rocm-examples/Applications/memcp/workloads/main/MI300X_A1
+Target: MI300X_A1
+Command: ./main
+Kernel Selection: None
+Dispatch Selection: None
+Filtered sections: All
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Collecting Performance Counters
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+[Run 1/13][Approximate profiling time left: pending first measurement...]
+[profiling] Current input file: /root/rocm-examples/Applications/memcp/workloads/main/MI300X_A1/perfmon/SQC_DCACHE_INFLIGHT_LEVEL.txt
+   |-> [rocprofiler-sdk] W20260206 09:51:53.321804 126746337752576 simple_timer.cpp:55] [rocprofv3] tool initialization ::     0.111238 sec
+   |-> [rocprofiler-sdk] W20260206 09:51:53.322051 126746337752576 simple_timer.cpp:55] [rocprofv3] './main' ::     0.000000 sec
+   |-> [rocprofiler-sdk] W20260206 09:51:54.854584 126746337752576 tool.cpp:2422] HSA version 8.20.0 initialized (instance=0)
+   |-> [rocprofiler-sdk] 0 	:	 1
+   |-> [rocprofiler-sdk] 1 	:	 2
+   |-> [rocprofiler-sdk] 2 	:	 3
+   |-> [rocprofiler-sdk] 3 	:	 4
+   |-> [rocprofiler-sdk] 4 	:	 5
+   |-> [rocprofiler-sdk] 5 	:	 6
+   |-> [rocprofiler-sdk] 6 	:	 7
+   |-> [rocprofiler-sdk] 7 	:	 8
+   |-> [rocprofiler-sdk] 8 	:	 9
+   |-> [rocprofiler-sdk] 9 	:	 10
+   |-> [rocprofiler-sdk] Device-to-device memcpy (global load/store) success!
+   |-> [rocprofiler-sdk] W20260206 09:51:58.598033 126746337752576 simple_timer.cpp:55] [rocprofv3] './main' ::     5.275982 sec
+   |-> [rocprofiler-sdk] E20260206 09:51:58.606717 126746337752576 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/memcp/workloads/main/MI300X_A1/out/pmc_1/b906e2f00b4f/19200_kernel_trace.csv
+   |-> [rocprofiler-sdk] E20260206 09:51:58.619224 126746337752576 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/memcp/workloads/main/MI300X_A1/out/pmc_1/b906e2f00b4f/19200_counter_collection.csv
+   |-> [rocprofiler-sdk] E20260206 09:51:58.625696 126746337752576 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/memcp/workloads/main/MI300X_A1/out/pmc_1/b906e2f00b4f/19200_agent_info.csv
+   |-> [rocprofiler-sdk] W20260206 09:51:58.629037 126746337752576 simple_timer.cpp:55] [rocprofv3] output generation ::     0.029554 sec
+   |-> [rocprofiler-sdk] W20260206 09:51:58.629130 126746337752576 simple_timer.cpp:55] [rocprofv3] tool finalization ::     0.029682 sec
+[Run 2/13][Approximate profiling time left: 1 minute and 24 seconds]...
+[profiling] Current input file: /root/rocm-examples/Applications/memcp/workloads/main/MI300X_A1/perfmon/SQC_ICACHE_INFLIGHT_LEVEL.txt
+   |-> [rocprofiler-sdk] W20260206 09:52:01.010957 123228131190272 simple_timer.cpp:55] [rocprofv3] tool initialization ::     0.110507 sec
+   |-> [rocprofiler-sdk] W20260206 09:52:01.011215 123228131190272 simple_timer.cpp:55] [rocprofv3] './main' ::     0.000000 sec
+   |-> [rocprofiler-sdk] W20260206 09:52:02.550541 123228131190272 tool.cpp:2422] HSA version 8.20.0 initialized (instance=0)
+   |-> [rocprofiler-sdk] 0 	:	 1
+   |-> [rocprofiler-sdk] 1 	:	 2
+   |-> [rocprofiler-sdk] 2 	:	 3
+   |-> [rocprofiler-sdk] 3 	:	 4
+   |-> [rocprofiler-sdk] 4 	:	 5
+   |-> [rocprofiler-sdk] 5 	:	 6
+   |-> [rocprofiler-sdk] 6 	:	 7
+   |-> [rocprofiler-sdk] 7 	:	 8
+   |-> [rocprofiler-sdk] 8 	:	 9
+   |-> [rocprofiler-sdk] 9 	:	 10
+   |-> [rocprofiler-sdk] Device-to-device memcpy (global load/store) success!
+   |-> [rocprofiler-sdk] W20260206 09:52:05.377091 123228131190272 simple_timer.cpp:55] [rocprofv3] './main' ::     4.365875 sec
+   |-> [rocprofiler-sdk] E20260206 09:52:05.386324 123228131190272 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/memcp/workloads/main/MI300X_A1/out/pmc_1/b906e2f00b4f/19223_kernel_trace.csv
+   |-> [rocprofiler-sdk] E20260206 09:52:05.399633 123228131190272 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/memcp/workloads/main/MI300X_A1/out/pmc_1/b906e2f00b4f/19223_counter_collection.csv
+   |-> [rocprofiler-sdk] E20260206 09:52:05.406541 123228131190272 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/memcp/workloads/main/MI300X_A1/out/pmc_1/b906e2f00b4f/19223_agent_info.csv
+   |-> [rocprofiler-sdk] W20260206 09:52:05.410044 123228131190272 simple_timer.cpp:55] [rocprofv3] output generation ::     0.031447 sec
+   |-> [rocprofiler-sdk] W20260206 09:52:05.410234 123228131190272 simple_timer.cpp:55] [rocprofv3] tool finalization ::     0.031680 sec
+[Run 3/13][Approximate profiling time left: 1 minute and 12 seconds]...
+[profiling] Current input file: /root/rocm-examples/Applications/memcp/workloads/main/MI300X_A1/perfmon/SQ_IFETCH_LEVEL.txt
+   |-> [rocprofiler-sdk] W20260206 09:52:07.892927 134909437945344 simple_timer.cpp:55] [rocprofv3] tool initialization ::     0.120269 sec
+   |-> [rocprofiler-sdk] W20260206 09:52:07.893188 134909437945344 simple_timer.cpp:55] [rocprofv3] './main' ::     0.000000 sec
+   |-> [rocprofiler-sdk] W20260206 09:52:09.441511 134909437945344 tool.cpp:2422] HSA version 8.20.0 initialized (instance=0)
+   |-> [rocprofiler-sdk] 0 	:	 1
+   |-> [rocprofiler-sdk] 1 	:	 2
+   |-> [rocprofiler-sdk] 2 	:	 3
+   |-> [rocprofiler-sdk] 3 	:	 4
+   |-> [rocprofiler-sdk] 4 	:	 5
+   |-> [rocprofiler-sdk] 5 	:	 6
+   |-> [rocprofiler-sdk] 6 	:	 7
+   |-> [rocprofiler-sdk] 7 	:	 8
+   |-> [rocprofiler-sdk] 8 	:	 9
+   |-> [rocprofiler-sdk] 9 	:	 10
+   |-> [rocprofiler-sdk] Device-to-device memcpy (global load/store) success!
+   |-> [rocprofiler-sdk] W20260206 09:52:12.304366 134909437945344 simple_timer.cpp:55] [rocprofv3] './main' ::     4.411178 sec
+   |-> [rocprofiler-sdk] E20260206 09:52:12.313825 134909437945344 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/memcp/workloads/main/MI300X_A1/out/pmc_1/b906e2f00b4f/19231_kernel_trace.csv
+   |-> [rocprofiler-sdk] E20260206 09:52:12.326960 134909437945344 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/memcp/workloads/main/MI300X_A1/out/pmc_1/b906e2f00b4f/19231_counter_collection.csv
+   |-> [rocprofiler-sdk] E20260206 09:52:12.333846 134909437945344 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/memcp/workloads/main/MI300X_A1/out/pmc_1/b906e2f00b4f/19231_agent_info.csv
+   |-> [rocprofiler-sdk] W20260206 09:52:12.337348 134909437945344 simple_timer.cpp:55] [rocprofv3] output generation ::     0.031388 sec
+   |-> [rocprofiler-sdk] W20260206 09:52:12.337613 134909437945344 simple_timer.cpp:55] [rocprofv3] tool finalization ::     0.031699 sec
+[Run 4/13][Approximate profiling time left: 1 minute and 4 seconds]...
+[profiling] Current input file: /root/rocm-examples/Applications/memcp/workloads/main/MI300X_A1/perfmon/SQ_INST_LEVEL_LDS.txt
+   |-> [rocprofiler-sdk] W20260206 09:52:14.864529 132531466835456 simple_timer.cpp:55] [rocprofv3] tool initialization ::     0.120451 sec
+   |-> [rocprofiler-sdk] W20260206 09:52:14.864803 132531466835456 simple_timer.cpp:55] [rocprofv3] './main' ::     0.000000 sec
+   |-> [rocprofiler-sdk] W20260206 09:52:16.411466 132531466835456 tool.cpp:2422] HSA version 8.20.0 initialized (instance=0)
+   |-> [rocprofiler-sdk] 0 	:	 1
+   |-> [rocprofiler-sdk] 1 	:	 2
+   |-> [rocprofiler-sdk] 2 	:	 3
+   |-> [rocprofiler-sdk] 3 	:	 4
+   |-> [rocprofiler-sdk] 4 	:	 5
+   |-> [rocprofiler-sdk] 5 	:	 6
+   |-> [rocprofiler-sdk] 6 	:	 7
+   |-> [rocprofiler-sdk] 7 	:	 8
+   |-> [rocprofiler-sdk] 8 	:	 9
+   |-> [rocprofiler-sdk] 9 	:	 10
+   |-> [rocprofiler-sdk] Device-to-device memcpy (global load/store) success!
+   |-> [rocprofiler-sdk] W20260206 09:52:19.323043 132531466835456 simple_timer.cpp:55] [rocprofv3] './main' ::     4.458240 sec
+   |-> [rocprofiler-sdk] E20260206 09:52:19.332244 132531466835456 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/memcp/workloads/main/MI300X_A1/out/pmc_1/b906e2f00b4f/19239_kernel_trace.csv
+   |-> [rocprofiler-sdk] E20260206 09:52:19.345408 132531466835456 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/memcp/workloads/main/MI300X_A1/out/pmc_1/b906e2f00b4f/19239_counter_collection.csv
+   |-> [rocprofiler-sdk] E20260206 09:52:19.352318 132531466835456 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/memcp/workloads/main/MI300X_A1/out/pmc_1/b906e2f00b4f/19239_agent_info.csv
+   |-> [rocprofiler-sdk] W20260206 09:52:19.355780 132531466835456 simple_timer.cpp:55] [rocprofv3] output generation ::     0.031254 sec
+   |-> [rocprofiler-sdk] W20260206 09:52:19.356011 132531466835456 simple_timer.cpp:55] [rocprofv3] tool finalization ::     0.031531 sec
+[Run 5/13][Approximate profiling time left: 56 seconds]...
+[profiling] Current input file: /root/rocm-examples/Applications/memcp/workloads/main/MI300X_A1/perfmon/SQ_INST_LEVEL_SMEM.txt
+   |-> [rocprofiler-sdk] W20260206 09:52:21.763135 132489044399616 simple_timer.cpp:55] [rocprofv3] tool initialization ::     0.110141 sec
+   |-> [rocprofiler-sdk] W20260206 09:52:21.763410 132489044399616 simple_timer.cpp:55] [rocprofv3] './main' ::     0.000000 sec
+   |-> [rocprofiler-sdk] W20260206 09:52:23.307323 132489044399616 tool.cpp:2422] HSA version 8.20.0 initialized (instance=0)
+   |-> [rocprofiler-sdk] 0 	:	 1
+   |-> [rocprofiler-sdk] 1 	:	 2
+   |-> [rocprofiler-sdk] 2 	:	 3
+   |-> [rocprofiler-sdk] 3 	:	 4
+   |-> [rocprofiler-sdk] 4 	:	 5
+   |-> [rocprofiler-sdk] 5 	:	 6
+   |-> [rocprofiler-sdk] 6 	:	 7
+   |-> [rocprofiler-sdk] 7 	:	 8
+   |-> [rocprofiler-sdk] 8 	:	 9
+   |-> [rocprofiler-sdk] 9 	:	 10
+   |-> [rocprofiler-sdk] Device-to-device memcpy (global load/store) success!
+   |-> [rocprofiler-sdk] W20260206 09:52:25.702502 132489044399616 simple_timer.cpp:55] [rocprofv3] './main' ::     3.939092 sec
+   |-> [rocprofiler-sdk] E20260206 09:52:25.711559 132489044399616 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/memcp/workloads/main/MI300X_A1/out/pmc_1/b906e2f00b4f/19247_kernel_trace.csv
+   |-> [rocprofiler-sdk] E20260206 09:52:25.724386 132489044399616 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/memcp/workloads/main/MI300X_A1/out/pmc_1/b906e2f00b4f/19247_counter_collection.csv
+   |-> [rocprofiler-sdk] E20260206 09:52:25.730995 132489044399616 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/memcp/workloads/main/MI300X_A1/out/pmc_1/b906e2f00b4f/19247_agent_info.csv
+   |-> [rocprofiler-sdk] W20260206 09:52:25.735132 132489044399616 simple_timer.cpp:55] [rocprofv3] output generation ::     0.031085 sec
+   |-> [rocprofiler-sdk] W20260206 09:52:25.735232 132489044399616 simple_timer.cpp:55] [rocprofv3] tool finalization ::     0.031253 sec
+[Run 6/13][Approximate profiling time left: 48 seconds]...
+[profiling] Current input file: /root/rocm-examples/Applications/memcp/workloads/main/MI300X_A1/perfmon/SQ_INST_LEVEL_VMEM.txt
+   |-> [rocprofiler-sdk] W20260206 09:52:28.139483 139209692915200 simple_timer.cpp:55] [rocprofv3] tool initialization ::     0.110826 sec
+   |-> [rocprofiler-sdk] W20260206 09:52:28.139749 139209692915200 simple_timer.cpp:55] [rocprofv3] './main' ::     0.000000 sec
+   |-> [rocprofiler-sdk] W20260206 09:52:29.664437 139209692915200 tool.cpp:2422] HSA version 8.20.0 initialized (instance=0)
+   |-> [rocprofiler-sdk] 0 	:	 1
+   |-> [rocprofiler-sdk] 1 	:	 2
+   |-> [rocprofiler-sdk] 2 	:	 3
+   |-> [rocprofiler-sdk] 3 	:	 4
+   |-> [rocprofiler-sdk] 4 	:	 5
+   |-> [rocprofiler-sdk] 5 	:	 6
+   |-> [rocprofiler-sdk] 6 	:	 7
+   |-> [rocprofiler-sdk] 7 	:	 8
+   |-> [rocprofiler-sdk] 8 	:	 9
+   |-> [rocprofiler-sdk] 9 	:	 10
+   |-> [rocprofiler-sdk] Device-to-device memcpy (global load/store) success!
+   |-> [rocprofiler-sdk] W20260206 09:52:32.496842 139209692915200 simple_timer.cpp:55] [rocprofv3] './main' ::     4.357093 sec
+   |-> [rocprofiler-sdk] E20260206 09:52:32.506316 139209692915200 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/memcp/workloads/main/MI300X_A1/out/pmc_1/b906e2f00b4f/19255_kernel_trace.csv
+   |-> [rocprofiler-sdk] E20260206 09:52:32.520061 139209692915200 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/memcp/workloads/main/MI300X_A1/out/pmc_1/b906e2f00b4f/19255_counter_collection.csv
+   |-> [rocprofiler-sdk] E20260206 09:52:32.527336 139209692915200 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/memcp/workloads/main/MI300X_A1/out/pmc_1/b906e2f00b4f/19255_agent_info.csv
+   |-> [rocprofiler-sdk] W20260206 09:52:32.530901 139209692915200 simple_timer.cpp:55] [rocprofv3] output generation ::     0.032461 sec
+   |-> [rocprofiler-sdk] W20260206 09:52:32.531094 139209692915200 simple_timer.cpp:55] [rocprofv3] tool finalization ::     0.032697 sec
+[Run 7/13][Approximate profiling time left: 41 seconds]...
+[profiling] Current input file: /root/rocm-examples/Applications/memcp/workloads/main/MI300X_A1/perfmon/SQ_LEVEL_WAVES.txt
+   |-> [rocprofiler-sdk] W20260206 09:52:34.941912 130384108803584 simple_timer.cpp:55] [rocprofv3] tool initialization ::     0.111342 sec
+   |-> [rocprofiler-sdk] W20260206 09:52:34.942164 130384108803584 simple_timer.cpp:55] [rocprofv3] './main' ::     0.000000 sec
+   |-> [rocprofiler-sdk] W20260206 09:52:36.488497 130384108803584 tool.cpp:2422] HSA version 8.20.0 initialized (instance=0)
+   |-> [rocprofiler-sdk] 0 	:	 1
+   |-> [rocprofiler-sdk] 1 	:	 2
+   |-> [rocprofiler-sdk] 2 	:	 3
+   |-> [rocprofiler-sdk] 3 	:	 4
+   |-> [rocprofiler-sdk] 4 	:	 5
+   |-> [rocprofiler-sdk] 5 	:	 6
+   |-> [rocprofiler-sdk] 6 	:	 7
+   |-> [rocprofiler-sdk] 7 	:	 8
+   |-> [rocprofiler-sdk] 8 	:	 9
+   |-> [rocprofiler-sdk] 9 	:	 10
+   |-> [rocprofiler-sdk] Device-to-device memcpy (global load/store) success!
+   |-> [rocprofiler-sdk] W20260206 09:52:39.371839 130384108803584 simple_timer.cpp:55] [rocprofv3] './main' ::     4.429675 sec
+   |-> [rocprofiler-sdk] E20260206 09:52:39.381141 130384108803584 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/memcp/workloads/main/MI300X_A1/out/pmc_1/b906e2f00b4f/19263_kernel_trace.csv
+   |-> [rocprofiler-sdk] E20260206 09:52:39.393965 130384108803584 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/memcp/workloads/main/MI300X_A1/out/pmc_1/b906e2f00b4f/19263_counter_collection.csv
+   |-> [rocprofiler-sdk] E20260206 09:52:39.400569 130384108803584 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/memcp/workloads/main/MI300X_A1/out/pmc_1/b906e2f00b4f/19263_agent_info.csv
+   |-> [rocprofiler-sdk] W20260206 09:52:39.403997 130384108803584 simple_timer.cpp:55] [rocprofv3] output generation ::     0.030568 sec
+   |-> [rocprofiler-sdk] W20260206 09:52:39.404193 130384108803584 simple_timer.cpp:55] [rocprofv3] tool finalization ::     0.030801 sec
+[Run 8/13][Approximate profiling time left: 34 seconds]...
+[profiling] Current input file: /root/rocm-examples/Applications/memcp/workloads/main/MI300X_A1/perfmon/pmc_perf_0.txt
+   |-> [rocprofiler-sdk] W20260206 09:52:41.850387 124154316510720 simple_timer.cpp:55] [rocprofv3] tool initialization ::     0.111334 sec
+   |-> [rocprofiler-sdk] W20260206 09:52:41.850650 124154316510720 simple_timer.cpp:55] [rocprofv3] './main' ::     0.000000 sec
+   |-> [rocprofiler-sdk] W20260206 09:52:43.392586 124154316510720 tool.cpp:2422] HSA version 8.20.0 initialized (instance=0)
+   |-> [rocprofiler-sdk] 0 	:	 1
+   |-> [rocprofiler-sdk] 1 	:	 2
+   |-> [rocprofiler-sdk] 2 	:	 3
+   |-> [rocprofiler-sdk] 3 	:	 4
+   |-> [rocprofiler-sdk] 4 	:	 5
+   |-> [rocprofiler-sdk] 5 	:	 6
+   |-> [rocprofiler-sdk] 6 	:	 7
+   |-> [rocprofiler-sdk] 7 	:	 8
+   |-> [rocprofiler-sdk] 8 	:	 9
+   |-> [rocprofiler-sdk] 9 	:	 10
+   |-> [rocprofiler-sdk] Device-to-device memcpy (global load/store) success!
+   |-> [rocprofiler-sdk] W20260206 09:52:46.201842 124154316510720 simple_timer.cpp:55] [rocprofv3] './main' ::     4.351193 sec
+   |-> [rocprofiler-sdk] E20260206 09:52:46.210985 124154316510720 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/memcp/workloads/main/MI300X_A1/out/pmc_1/b906e2f00b4f/19271_kernel_trace.csv
+   |-> [rocprofiler-sdk] E20260206 09:52:46.223825 124154316510720 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/memcp/workloads/main/MI300X_A1/out/pmc_1/b906e2f00b4f/19271_counter_collection.csv
+   |-> [rocprofiler-sdk] E20260206 09:52:46.230415 124154316510720 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/memcp/workloads/main/MI300X_A1/out/pmc_1/b906e2f00b4f/19271_agent_info.csv
+   |-> [rocprofiler-sdk] W20260206 09:52:46.233885 124154316510720 simple_timer.cpp:55] [rocprofv3] output generation ::     0.030553 sec
+   |-> [rocprofiler-sdk] W20260206 09:52:46.234091 124154316510720 simple_timer.cpp:55] [rocprofv3] tool finalization ::     0.030808 sec
+[Run 9/13][Approximate profiling time left: 27 seconds]...
+[profiling] Current input file: /root/rocm-examples/Applications/memcp/workloads/main/MI300X_A1/perfmon/pmc_perf_1.txt
+   |-> [rocprofiler-sdk] W20260206 09:52:48.637993 135979117254144 simple_timer.cpp:55] [rocprofv3] tool initialization ::     0.111453 sec
+   |-> [rocprofiler-sdk] W20260206 09:52:48.638235 135979117254144 simple_timer.cpp:55] [rocprofv3] './main' ::     0.000000 sec
+   |-> [rocprofiler-sdk] W20260206 09:52:50.180590 135979117254144 tool.cpp:2422] HSA version 8.20.0 initialized (instance=0)
+   |-> [rocprofiler-sdk] 0 	:	 1
+   |-> [rocprofiler-sdk] 1 	:	 2
+   |-> [rocprofiler-sdk] 2 	:	 3
+   |-> [rocprofiler-sdk] 3 	:	 4
+   |-> [rocprofiler-sdk] 4 	:	 5
+   |-> [rocprofiler-sdk] 5 	:	 6
+   |-> [rocprofiler-sdk] 6 	:	 7
+   |-> [rocprofiler-sdk] 7 	:	 8
+   |-> [rocprofiler-sdk] 8 	:	 9
+   |-> [rocprofiler-sdk] 9 	:	 10
+   |-> [rocprofiler-sdk] Device-to-device memcpy (global load/store) success!
+   |-> [rocprofiler-sdk] W20260206 09:52:53.155176 135979117254144 simple_timer.cpp:55] [rocprofv3] './main' ::     4.516941 sec
+   |-> [rocprofiler-sdk] E20260206 09:52:53.164415 135979117254144 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/memcp/workloads/main/MI300X_A1/out/pmc_1/b906e2f00b4f/19279_kernel_trace.csv
+   |-> [rocprofiler-sdk] E20260206 09:52:53.178835 135979117254144 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/memcp/workloads/main/MI300X_A1/out/pmc_1/b906e2f00b4f/19279_counter_collection.csv
+   |-> [rocprofiler-sdk] E20260206 09:52:53.186505 135979117254144 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/memcp/workloads/main/MI300X_A1/out/pmc_1/b906e2f00b4f/19279_agent_info.csv
+   |-> [rocprofiler-sdk] W20260206 09:52:53.190162 135979117254144 simple_timer.cpp:55] [rocprofv3] output generation ::     0.033513 sec
+   |-> [rocprofiler-sdk] W20260206 09:52:53.190370 135979117254144 simple_timer.cpp:55] [rocprofv3] tool finalization ::     0.033759 sec
+[Run 10/13][Approximate profiling time left: 20 seconds]...
+[profiling] Current input file: /root/rocm-examples/Applications/memcp/workloads/main/MI300X_A1/perfmon/pmc_perf_2.txt
+   |-> [rocprofiler-sdk] W20260206 09:52:55.614164 132076385936896 simple_timer.cpp:55] [rocprofv3] tool initialization ::     0.121175 sec
+   |-> [rocprofiler-sdk] W20260206 09:52:55.614461 132076385936896 simple_timer.cpp:55] [rocprofv3] './main' ::     0.000000 sec
+   |-> [rocprofiler-sdk] W20260206 09:52:57.152376 132076385936896 tool.cpp:2422] HSA version 8.20.0 initialized (instance=0)
+   |-> [rocprofiler-sdk] 0 	:	 1
+   |-> [rocprofiler-sdk] 1 	:	 2
+   |-> [rocprofiler-sdk] 2 	:	 3
+   |-> [rocprofiler-sdk] 3 	:	 4
+   |-> [rocprofiler-sdk] 4 	:	 5
+   |-> [rocprofiler-sdk] 5 	:	 6
+   |-> [rocprofiler-sdk] 6 	:	 7
+   |-> [rocprofiler-sdk] 7 	:	 8
+   |-> [rocprofiler-sdk] 8 	:	 9
+   |-> [rocprofiler-sdk] 9 	:	 10
+   |-> [rocprofiler-sdk] Device-to-device memcpy (global load/store) success!
+   |-> [rocprofiler-sdk] W20260206 09:52:59.558448 132076385936896 simple_timer.cpp:55] [rocprofv3] './main' ::     3.943988 sec
+   |-> [rocprofiler-sdk] E20260206 09:52:59.566862 132076385936896 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/memcp/workloads/main/MI300X_A1/out/pmc_1/b906e2f00b4f/19302_kernel_trace.csv
+   |-> [rocprofiler-sdk] E20260206 09:52:59.579810 132076385936896 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/memcp/workloads/main/MI300X_A1/out/pmc_1/b906e2f00b4f/19302_counter_collection.csv
+   |-> [rocprofiler-sdk] E20260206 09:52:59.586276 132076385936896 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/memcp/workloads/main/MI300X_A1/out/pmc_1/b906e2f00b4f/19302_agent_info.csv
+   |-> [rocprofiler-sdk] W20260206 09:52:59.589686 132076385936896 simple_timer.cpp:55] [rocprofv3] output generation ::     0.030216 sec
+   |-> [rocprofiler-sdk] W20260206 09:52:59.589767 132076385936896 simple_timer.cpp:55] [rocprofv3] tool finalization ::     0.030322 sec
+[Run 11/13][Approximate profiling time left: 13 seconds]...
+[profiling] Current input file: /root/rocm-examples/Applications/memcp/workloads/main/MI300X_A1/perfmon/pmc_perf_3.txt
+   |-> [rocprofiler-sdk] W20260206 09:53:02.009384 124728642016768 simple_timer.cpp:55] [rocprofv3] tool initialization ::     0.111302 sec
+   |-> [rocprofiler-sdk] W20260206 09:53:02.009661 124728642016768 simple_timer.cpp:55] [rocprofv3] './main' ::     0.000000 sec
+   |-> [rocprofiler-sdk] W20260206 09:53:03.549280 124728642016768 tool.cpp:2422] HSA version 8.20.0 initialized (instance=0)
+   |-> [rocprofiler-sdk] 0 	:	 1
+   |-> [rocprofiler-sdk] 1 	:	 2
+   |-> [rocprofiler-sdk] 2 	:	 3
+   |-> [rocprofiler-sdk] 3 	:	 4
+   |-> [rocprofiler-sdk] 4 	:	 5
+   |-> [rocprofiler-sdk] 5 	:	 6
+   |-> [rocprofiler-sdk] 6 	:	 7
+   |-> [rocprofiler-sdk] 7 	:	 8
+   |-> [rocprofiler-sdk] 8 	:	 9
+   |-> [rocprofiler-sdk] 9 	:	 10
+   |-> [rocprofiler-sdk] Device-to-device memcpy (global load/store) success!
+   |-> [rocprofiler-sdk] W20260206 09:53:05.895161 124728642016768 simple_timer.cpp:55] [rocprofv3] './main' ::     3.885500 sec
+   |-> [rocprofiler-sdk] E20260206 09:53:05.903828 124728642016768 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/memcp/workloads/main/MI300X_A1/out/pmc_1/b906e2f00b4f/19310_kernel_trace.csv
+   |-> [rocprofiler-sdk] E20260206 09:53:05.916483 124728642016768 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/memcp/workloads/main/MI300X_A1/out/pmc_1/b906e2f00b4f/19310_counter_collection.csv
+   |-> [rocprofiler-sdk] E20260206 09:53:05.922887 124728642016768 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/memcp/workloads/main/MI300X_A1/out/pmc_1/b906e2f00b4f/19310_agent_info.csv
+   |-> [rocprofiler-sdk] W20260206 09:53:05.926276 124728642016768 simple_timer.cpp:55] [rocprofv3] output generation ::     0.029771 sec
+   |-> [rocprofiler-sdk] W20260206 09:53:05.926360 124728642016768 simple_timer.cpp:55] [rocprofv3] tool finalization ::     0.029888 sec
+[Run 12/13][Approximate profiling time left: 6 seconds]...
+[profiling] Current input file: /root/rocm-examples/Applications/memcp/workloads/main/MI300X_A1/perfmon/pmc_perf_4.txt
+   |-> [rocprofiler-sdk] W20260206 09:53:08.375344 140628709058048 simple_timer.cpp:55] [rocprofv3] tool initialization ::     0.109599 sec
+   |-> [rocprofiler-sdk] W20260206 09:53:08.375611 140628709058048 simple_timer.cpp:55] [rocprofv3] './main' ::     0.000000 sec
+   |-> [rocprofiler-sdk] W20260206 09:53:09.905913 140628709058048 tool.cpp:2422] HSA version 8.20.0 initialized (instance=0)
+   |-> [rocprofiler-sdk] 0 	:	 1
+   |-> [rocprofiler-sdk] 1 	:	 2
+   |-> [rocprofiler-sdk] 2 	:	 3
+   |-> [rocprofiler-sdk] 3 	:	 4
+   |-> [rocprofiler-sdk] 4 	:	 5
+   |-> [rocprofiler-sdk] 5 	:	 6
+   |-> [rocprofiler-sdk] 6 	:	 7
+   |-> [rocprofiler-sdk] 7 	:	 8
+   |-> [rocprofiler-sdk] 8 	:	 9
+   |-> [rocprofiler-sdk] 9 	:	 10
+   |-> [rocprofiler-sdk] Device-to-device memcpy (global load/store) success!
+   |-> [rocprofiler-sdk] W20260206 09:53:12.279696 140628709058048 simple_timer.cpp:55] [rocprofv3] './main' ::     3.904085 sec
+   |-> [rocprofiler-sdk] E20260206 09:53:12.288426 140628709058048 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/memcp/workloads/main/MI300X_A1/out/pmc_1/b906e2f00b4f/19318_kernel_trace.csv
+   |-> [rocprofiler-sdk] E20260206 09:53:12.301233 140628709058048 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/memcp/workloads/main/MI300X_A1/out/pmc_1/b906e2f00b4f/19318_counter_collection.csv
+   |-> [rocprofiler-sdk] E20260206 09:53:12.307623 140628709058048 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/memcp/workloads/main/MI300X_A1/out/pmc_1/b906e2f00b4f/19318_agent_info.csv
+   |-> [rocprofiler-sdk] W20260206 09:53:12.311002 140628709058048 simple_timer.cpp:55] [rocprofv3] output generation ::     0.029903 sec
+   |-> [rocprofiler-sdk] W20260206 09:53:12.311081 140628709058048 simple_timer.cpp:55] [rocprofv3] tool finalization ::     0.030020 sec
+[Run 13/13][Approximate profiling time left: 0 seconds]...
+[profiling] Current input file: /root/rocm-examples/Applications/memcp/workloads/main/MI300X_A1/perfmon/pmc_perf_5.txt
+   |-> [rocprofiler-sdk] W20260206 09:53:14.600919 135326134396416 simple_timer.cpp:55] [rocprofv3] tool initialization ::     0.103517 sec
+   |-> [rocprofiler-sdk] W20260206 09:53:14.601179 135326134396416 simple_timer.cpp:55] [rocprofv3] './main' ::     0.000000 sec
+   |-> [rocprofiler-sdk] W20260206 09:53:16.139710 135326134396416 tool.cpp:2422] HSA version 8.20.0 initialized (instance=0)
+   |-> [rocprofiler-sdk] 0 	:	 1
+   |-> [rocprofiler-sdk] 1 	:	 2
+   |-> [rocprofiler-sdk] 2 	:	 3
+   |-> [rocprofiler-sdk] 3 	:	 4
+   |-> [rocprofiler-sdk] 4 	:	 5
+   |-> [rocprofiler-sdk] 5 	:	 6
+   |-> [rocprofiler-sdk] 6 	:	 7
+   |-> [rocprofiler-sdk] 7 	:	 8
+   |-> [rocprofiler-sdk] 8 	:	 9
+   |-> [rocprofiler-sdk] 9 	:	 10
+   |-> [rocprofiler-sdk] Device-to-device memcpy (global load/store) success!
+   |-> [rocprofiler-sdk] W20260206 09:53:18.598473 135326134396416 simple_timer.cpp:55] [rocprofv3] './main' ::     3.997294 sec
+   |-> [rocprofiler-sdk] E20260206 09:53:18.608603 135326134396416 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/memcp/workloads/main/MI300X_A1/out/pmc_1/b906e2f00b4f/19326_kernel_trace.csv
+   |-> [rocprofiler-sdk] E20260206 09:53:18.622825 135326134396416 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/memcp/workloads/main/MI300X_A1/out/pmc_1/b906e2f00b4f/19326_counter_collection.csv
+   |-> [rocprofiler-sdk] E20260206 09:53:18.629734 135326134396416 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/memcp/workloads/main/MI300X_A1/out/pmc_1/b906e2f00b4f/19326_agent_info.csv
+   |-> [rocprofiler-sdk] W20260206 09:53:18.633267 135326134396416 simple_timer.cpp:55] [rocprofv3] output generation ::     0.032932 sec
+   |-> [rocprofiler-sdk] W20260206 09:53:18.633341 135326134396416 simple_timer.cpp:55] [rocprofv3] tool finalization ::     0.033066 sec
+PC sampling data collection skipped as block 21 is not specified.
+[roofline] Checking for roofline.csv in /root/rocm-examples/Applications/memcp/workloads/main/MI300X_A1
+[roofline] No roofline data found. Generating...
+[roofline] Empirical Roofline PDFs saved!
+[roofline] Checking for roofline.csv in /root/rocm-examples/Applications/memcp/workloads/main/MI300X_A1
+[roofline] Empirical Roofline PDFs saved!

@@ -1,0 +1,2 @@
+Kernel_Name,Count,Sum(ns),Mean(ns),Median(ns),Pct
+"bitonic_sort_kernel(unsigned int*, unsigned int, unsigned int, bool)",120,2157125.515625,17976.045963541666,17335.125,100.0

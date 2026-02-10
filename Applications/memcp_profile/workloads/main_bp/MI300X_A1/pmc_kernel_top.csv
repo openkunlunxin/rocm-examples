@@ -1,0 +1,2 @@
+Kernel_Name,Count,Sum(ns),Mean(ns),Median(ns),Pct
+"device_memcpy_kernel(int*, int*, unsigned long)",1,2339340.0625,2339340.0625,2339340.0625,100.0

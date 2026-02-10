@@ -1,0 +1,214 @@
+Rocprofiler-Compute version: 3.4.0
+Profiler choice: rocprofiler-sdk
+Path: /root/rocm-examples/Applications/bitonic_sort_test_profile/workloads/main_bp_all/MI300X_A1
+Target: MI300X_A1
+Command: ./main_bp_all
+Kernel Selection: None
+Dispatch Selection: None
+Filtered sections: All
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Collecting Performance Counters
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+[Run 1/13][Approximate profiling time left: pending first measurement...]
+[profiling] Current input file: /root/rocm-examples/Applications/bitonic_sort_test_profile/workloads/main_bp_all/MI300X_A1/perfmon/SQC_DCACHE_INFLIGHT_LEVEL.txt
+   |-> [rocprofiler-sdk] W20260209 16:03:38.061883 128929907783168 simple_timer.cpp:55] [rocprofv3] tool initialization ::     2.879868 sec
+   |-> [rocprofiler-sdk] W20260209 16:03:38.062374 128929907783168 simple_timer.cpp:55] [rocprofv3] './main_bp_all' ::     0.000000 sec
+   |-> [rocprofiler-sdk] Sorting an array of 32768 elements using the bitonic sort.
+   |-> [rocprofiler-sdk] W20260209 16:03:38.181940 128929907783168 tool.cpp:2422] HSA version 8.20.0 initialized (instance=0)
+   |-> [rocprofiler-sdk] GPU bitonic sort took 106.201 milliseconds to complete.
+   |-> [rocprofiler-sdk] Validating results with CPU implementation.
+   |-> [rocprofiler-sdk] Validation passed.
+   |-> [rocprofiler-sdk] W20260209 16:03:38.362892 128929907783168 simple_timer.cpp:55] [rocprofv3] './main_bp_all' ::     0.300518 sec
+   |-> [rocprofiler-sdk] E20260209 16:03:38.371996 128929907783168 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/bitonic_sort_test_profile/workloads/main_bp_all/MI300X_A1/out/pmc_1/f5fa73aad503/28402_kernel_trace.csv
+   |-> [rocprofiler-sdk] E20260209 16:03:38.386747 128929907783168 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/bitonic_sort_test_profile/workloads/main_bp_all/MI300X_A1/out/pmc_1/f5fa73aad503/28402_counter_collection.csv
+   |-> [rocprofiler-sdk] E20260209 16:03:38.412521 128929907783168 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/bitonic_sort_test_profile/workloads/main_bp_all/MI300X_A1/out/pmc_1/f5fa73aad503/28402_agent_info.csv
+   |-> [rocprofiler-sdk] W20260209 16:03:38.416115 128929907783168 simple_timer.cpp:55] [rocprofv3] output generation ::     0.051878 sec
+   |-> [rocprofiler-sdk] W20260209 16:03:38.416198 128929907783168 simple_timer.cpp:55] [rocprofv3] tool finalization ::     0.051997 sec
+[Run 2/13][Approximate profiling time left: 1 minute and 1 second]...
+[profiling] Current input file: /root/rocm-examples/Applications/bitonic_sort_test_profile/workloads/main_bp_all/MI300X_A1/perfmon/SQC_ICACHE_INFLIGHT_LEVEL.txt
+   |-> [rocprofiler-sdk] W20260209 16:03:40.835910 128601378719232 simple_timer.cpp:55] [rocprofv3] tool initialization ::     0.110289 sec
+   |-> [rocprofiler-sdk] W20260209 16:03:40.836200 128601378719232 simple_timer.cpp:55] [rocprofv3] './main_bp_all' ::     0.000000 sec
+   |-> [rocprofiler-sdk] Sorting an array of 32768 elements using the bitonic sort.
+   |-> [rocprofiler-sdk] W20260209 16:03:40.954651 128601378719232 tool.cpp:2422] HSA version 8.20.0 initialized (instance=0)
+   |-> [rocprofiler-sdk] GPU bitonic sort took 106.508 milliseconds to complete.
+   |-> [rocprofiler-sdk] Validating results with CPU implementation.
+   |-> [rocprofiler-sdk] Validation passed.
+   |-> [rocprofiler-sdk] W20260209 16:03:41.136316 128601378719232 simple_timer.cpp:55] [rocprofv3] './main_bp_all' ::     0.300117 sec
+   |-> [rocprofiler-sdk] E20260209 16:03:41.144957 128601378719232 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/bitonic_sort_test_profile/workloads/main_bp_all/MI300X_A1/out/pmc_1/f5fa73aad503/28410_kernel_trace.csv
+   |-> [rocprofiler-sdk] E20260209 16:03:41.158128 128601378719232 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/bitonic_sort_test_profile/workloads/main_bp_all/MI300X_A1/out/pmc_1/f5fa73aad503/28410_counter_collection.csv
+   |-> [rocprofiler-sdk] E20260209 16:03:41.183445 128601378719232 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/bitonic_sort_test_profile/workloads/main_bp_all/MI300X_A1/out/pmc_1/f5fa73aad503/28410_agent_info.csv
+   |-> [rocprofiler-sdk] W20260209 16:03:41.186888 128601378719232 simple_timer.cpp:55] [rocprofv3] output generation ::     0.049286 sec
+   |-> [rocprofiler-sdk] W20260209 16:03:41.186967 128601378719232 simple_timer.cpp:55] [rocprofv3] tool finalization ::     0.049403 sec
+[Run 3/13][Approximate profiling time left: 41 seconds]...
+[profiling] Current input file: /root/rocm-examples/Applications/bitonic_sort_test_profile/workloads/main_bp_all/MI300X_A1/perfmon/SQ_IFETCH_LEVEL.txt
+   |-> [rocprofiler-sdk] W20260209 16:03:43.687129 140709894268416 simple_timer.cpp:55] [rocprofv3] tool initialization ::     0.120485 sec
+   |-> [rocprofiler-sdk] W20260209 16:03:43.687416 140709894268416 simple_timer.cpp:55] [rocprofv3] './main_bp_all' ::     0.000000 sec
+   |-> [rocprofiler-sdk] Sorting an array of 32768 elements using the bitonic sort.
+   |-> [rocprofiler-sdk] W20260209 16:03:43.806280 140709894268416 tool.cpp:2422] HSA version 8.20.0 initialized (instance=0)
+   |-> [rocprofiler-sdk] GPU bitonic sort took 102.123 milliseconds to complete.
+   |-> [rocprofiler-sdk] Validating results with CPU implementation.
+   |-> [rocprofiler-sdk] Validation passed.
+   |-> [rocprofiler-sdk] W20260209 16:03:43.983525 140709894268416 simple_timer.cpp:55] [rocprofv3] './main_bp_all' ::     0.296109 sec
+   |-> [rocprofiler-sdk] E20260209 16:03:43.992132 140709894268416 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/bitonic_sort_test_profile/workloads/main_bp_all/MI300X_A1/out/pmc_1/f5fa73aad503/28418_kernel_trace.csv
+   |-> [rocprofiler-sdk] E20260209 16:03:44.005283 140709894268416 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/bitonic_sort_test_profile/workloads/main_bp_all/MI300X_A1/out/pmc_1/f5fa73aad503/28418_counter_collection.csv
+   |-> [rocprofiler-sdk] E20260209 16:03:44.043200 140709894268416 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/bitonic_sort_test_profile/workloads/main_bp_all/MI300X_A1/out/pmc_1/f5fa73aad503/28418_agent_info.csv
+   |-> [rocprofiler-sdk] W20260209 16:03:44.046687 140709894268416 simple_timer.cpp:55] [rocprofv3] output generation ::     0.061971 sec
+   |-> [rocprofiler-sdk] W20260209 16:03:44.046786 140709894268416 simple_timer.cpp:55] [rocprofv3] tool finalization ::     0.062112 sec
+[Run 4/13][Approximate profiling time left: 33 seconds]...
+[profiling] Current input file: /root/rocm-examples/Applications/bitonic_sort_test_profile/workloads/main_bp_all/MI300X_A1/perfmon/SQ_INST_LEVEL_LDS.txt
+   |-> [rocprofiler-sdk] W20260209 16:03:46.628859 125582004532736 simple_timer.cpp:55] [rocprofv3] tool initialization ::     0.121655 sec
+   |-> [rocprofiler-sdk] W20260209 16:03:46.629128 125582004532736 simple_timer.cpp:55] [rocprofv3] './main_bp_all' ::     0.000000 sec
+   |-> [rocprofiler-sdk] Sorting an array of 32768 elements using the bitonic sort.
+   |-> [rocprofiler-sdk] W20260209 16:03:46.747713 125582004532736 tool.cpp:2422] HSA version 8.20.0 initialized (instance=0)
+   |-> [rocprofiler-sdk] GPU bitonic sort took 94.7271 milliseconds to complete.
+   |-> [rocprofiler-sdk] Validating results with CPU implementation.
+   |-> [rocprofiler-sdk] Validation passed.
+   |-> [rocprofiler-sdk] W20260209 16:03:46.917520 125582004532736 simple_timer.cpp:55] [rocprofv3] './main_bp_all' ::     0.288392 sec
+   |-> [rocprofiler-sdk] E20260209 16:03:46.926524 125582004532736 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/bitonic_sort_test_profile/workloads/main_bp_all/MI300X_A1/out/pmc_1/f5fa73aad503/28426_kernel_trace.csv
+   |-> [rocprofiler-sdk] E20260209 16:03:46.939747 125582004532736 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/bitonic_sort_test_profile/workloads/main_bp_all/MI300X_A1/out/pmc_1/f5fa73aad503/28426_counter_collection.csv
+   |-> [rocprofiler-sdk] E20260209 16:03:46.978526 125582004532736 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/bitonic_sort_test_profile/workloads/main_bp_all/MI300X_A1/out/pmc_1/f5fa73aad503/28426_agent_info.csv
+   |-> [rocprofiler-sdk] W20260209 16:03:46.982033 125582004532736 simple_timer.cpp:55] [rocprofv3] output generation ::     0.062876 sec
+   |-> [rocprofiler-sdk] W20260209 16:03:46.982133 125582004532736 simple_timer.cpp:55] [rocprofv3] tool finalization ::     0.063013 sec
+[Run 5/13][Approximate profiling time left: 28 seconds]...
+[profiling] Current input file: /root/rocm-examples/Applications/bitonic_sort_test_profile/workloads/main_bp_all/MI300X_A1/perfmon/SQ_INST_LEVEL_SMEM.txt
+   |-> [rocprofiler-sdk] W20260209 16:03:49.452342 137812212205056 simple_timer.cpp:55] [rocprofv3] tool initialization ::     0.109476 sec
+   |-> [rocprofiler-sdk] W20260209 16:03:49.452621 137812212205056 simple_timer.cpp:55] [rocprofv3] './main_bp_all' ::     0.000000 sec
+   |-> [rocprofiler-sdk] Sorting an array of 32768 elements using the bitonic sort.
+   |-> [rocprofiler-sdk] W20260209 16:03:49.570733 137812212205056 tool.cpp:2422] HSA version 8.20.0 initialized (instance=0)
+   |-> [rocprofiler-sdk] GPU bitonic sort took 86.9133 milliseconds to complete.
+   |-> [rocprofiler-sdk] Validating results with CPU implementation.
+   |-> [rocprofiler-sdk] Validation passed.
+   |-> [rocprofiler-sdk] W20260209 16:03:49.733450 137812212205056 simple_timer.cpp:55] [rocprofv3] './main_bp_all' ::     0.280828 sec
+   |-> [rocprofiler-sdk] E20260209 16:03:49.742633 137812212205056 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/bitonic_sort_test_profile/workloads/main_bp_all/MI300X_A1/out/pmc_1/f5fa73aad503/28434_kernel_trace.csv
+   |-> [rocprofiler-sdk] E20260209 16:03:49.755810 137812212205056 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/bitonic_sort_test_profile/workloads/main_bp_all/MI300X_A1/out/pmc_1/f5fa73aad503/28434_counter_collection.csv
+   |-> [rocprofiler-sdk] E20260209 16:03:49.779547 137812212205056 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/bitonic_sort_test_profile/workloads/main_bp_all/MI300X_A1/out/pmc_1/f5fa73aad503/28434_agent_info.csv
+   |-> [rocprofiler-sdk] W20260209 16:03:49.782931 137812212205056 simple_timer.cpp:55] [rocprofv3] output generation ::     0.047647 sec
+   |-> [rocprofiler-sdk] W20260209 16:03:49.783008 137812212205056 simple_timer.cpp:55] [rocprofv3] tool finalization ::     0.047770 sec
+[Run 6/13][Approximate profiling time left: 23 seconds]...
+[profiling] Current input file: /root/rocm-examples/Applications/bitonic_sort_test_profile/workloads/main_bp_all/MI300X_A1/perfmon/SQ_INST_LEVEL_VMEM.txt
+   |-> [rocprofiler-sdk] W20260209 16:03:52.166118 135125699884544 simple_timer.cpp:55] [rocprofv3] tool initialization ::     0.111195 sec
+   |-> [rocprofiler-sdk] W20260209 16:03:52.166327 135125699884544 simple_timer.cpp:55] [rocprofv3] './main_bp_all' ::     0.000000 sec
+   |-> [rocprofiler-sdk] Sorting an array of 32768 elements using the bitonic sort.
+   |-> [rocprofiler-sdk] W20260209 16:03:52.290245 135125699884544 tool.cpp:2422] HSA version 8.20.0 initialized (instance=0)
+   |-> [rocprofiler-sdk] GPU bitonic sort took 43.8557 milliseconds to complete.
+   |-> [rocprofiler-sdk] Validating results with CPU implementation.
+   |-> [rocprofiler-sdk] Validation passed.
+   |-> [rocprofiler-sdk] W20260209 16:03:52.405832 135125699884544 simple_timer.cpp:55] [rocprofv3] './main_bp_all' ::     0.239505 sec
+   |-> [rocprofiler-sdk] E20260209 16:03:52.414360 135125699884544 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/bitonic_sort_test_profile/workloads/main_bp_all/MI300X_A1/out/pmc_1/f5fa73aad503/28442_kernel_trace.csv
+   |-> [rocprofiler-sdk] E20260209 16:03:52.427061 135125699884544 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/bitonic_sort_test_profile/workloads/main_bp_all/MI300X_A1/out/pmc_1/f5fa73aad503/28442_counter_collection.csv
+   |-> [rocprofiler-sdk] E20260209 16:03:52.450431 135125699884544 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/bitonic_sort_test_profile/workloads/main_bp_all/MI300X_A1/out/pmc_1/f5fa73aad503/28442_agent_info.csv
+   |-> [rocprofiler-sdk] W20260209 16:03:52.453655 135125699884544 simple_timer.cpp:55] [rocprofv3] output generation ::     0.046409 sec
+   |-> [rocprofiler-sdk] W20260209 16:03:52.453740 135125699884544 simple_timer.cpp:55] [rocprofv3] tool finalization ::     0.046531 sec
+[Run 7/13][Approximate profiling time left: 19 seconds]...
+[profiling] Current input file: /root/rocm-examples/Applications/bitonic_sort_test_profile/workloads/main_bp_all/MI300X_A1/perfmon/SQ_LEVEL_WAVES.txt
+   |-> [rocprofiler-sdk] W20260209 16:03:54.862899 134145190450688 simple_timer.cpp:55] [rocprofv3] tool initialization ::     0.113056 sec
+   |-> [rocprofiler-sdk] W20260209 16:03:54.863205 134145190450688 simple_timer.cpp:55] [rocprofv3] './main_bp_all' ::     0.000000 sec
+   |-> [rocprofiler-sdk] Sorting an array of 32768 elements using the bitonic sort.
+   |-> [rocprofiler-sdk] W20260209 16:03:54.981821 134145190450688 tool.cpp:2422] HSA version 8.20.0 initialized (instance=0)
+   |-> [rocprofiler-sdk] GPU bitonic sort took 81.1538 milliseconds to complete.
+   |-> [rocprofiler-sdk] Validating results with CPU implementation.
+   |-> [rocprofiler-sdk] Validation passed.
+   |-> [rocprofiler-sdk] W20260209 16:03:55.137892 134145190450688 simple_timer.cpp:55] [rocprofv3] './main_bp_all' ::     0.274687 sec
+   |-> [rocprofiler-sdk] E20260209 16:03:55.146901 134145190450688 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/bitonic_sort_test_profile/workloads/main_bp_all/MI300X_A1/out/pmc_1/f5fa73aad503/28450_kernel_trace.csv
+   |-> [rocprofiler-sdk] E20260209 16:03:55.160481 134145190450688 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/bitonic_sort_test_profile/workloads/main_bp_all/MI300X_A1/out/pmc_1/f5fa73aad503/28450_counter_collection.csv
+   |-> [rocprofiler-sdk] E20260209 16:03:55.184516 134145190450688 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/bitonic_sort_test_profile/workloads/main_bp_all/MI300X_A1/out/pmc_1/f5fa73aad503/28450_agent_info.csv
+   |-> [rocprofiler-sdk] W20260209 16:03:55.188043 134145190450688 simple_timer.cpp:55] [rocprofv3] output generation ::     0.048546 sec
+   |-> [rocprofiler-sdk] W20260209 16:03:55.188133 134145190450688 simple_timer.cpp:55] [rocprofv3] tool finalization ::     0.048672 sec
+[Run 8/13][Approximate profiling time left: 15 seconds]...
+[profiling] Current input file: /root/rocm-examples/Applications/bitonic_sort_test_profile/workloads/main_bp_all/MI300X_A1/perfmon/pmc_perf_0.txt
+   |-> [rocprofiler-sdk] W20260209 16:03:57.656218 135575463147008 simple_timer.cpp:55] [rocprofv3] tool initialization ::     0.112212 sec
+   |-> [rocprofiler-sdk] W20260209 16:03:57.656491 135575463147008 simple_timer.cpp:55] [rocprofv3] './main_bp_all' ::     0.000000 sec
+   |-> [rocprofiler-sdk] Sorting an array of 32768 elements using the bitonic sort.
+   |-> [rocprofiler-sdk] W20260209 16:03:57.775818 135575463147008 tool.cpp:2422] HSA version 8.20.0 initialized (instance=0)
+   |-> [rocprofiler-sdk] GPU bitonic sort took 82.1808 milliseconds to complete.
+   |-> [rocprofiler-sdk] Validating results with CPU implementation.
+   |-> [rocprofiler-sdk] Validation passed.
+   |-> [rocprofiler-sdk] W20260209 16:03:57.932671 135575463147008 simple_timer.cpp:55] [rocprofv3] './main_bp_all' ::     0.276181 sec
+   |-> [rocprofiler-sdk] E20260209 16:03:57.941221 135575463147008 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/bitonic_sort_test_profile/workloads/main_bp_all/MI300X_A1/out/pmc_1/f5fa73aad503/28458_kernel_trace.csv
+   |-> [rocprofiler-sdk] E20260209 16:03:57.954485 135575463147008 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/bitonic_sort_test_profile/workloads/main_bp_all/MI300X_A1/out/pmc_1/f5fa73aad503/28458_counter_collection.csv
+   |-> [rocprofiler-sdk] E20260209 16:03:57.978550 135575463147008 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/bitonic_sort_test_profile/workloads/main_bp_all/MI300X_A1/out/pmc_1/f5fa73aad503/28458_agent_info.csv
+   |-> [rocprofiler-sdk] W20260209 16:03:57.981975 135575463147008 simple_timer.cpp:55] [rocprofv3] output generation ::     0.048026 sec
+   |-> [rocprofiler-sdk] W20260209 16:03:57.982059 135575463147008 simple_timer.cpp:55] [rocprofv3] tool finalization ::     0.048150 sec
+[Run 9/13][Approximate profiling time left: 12 seconds]...
+[profiling] Current input file: /root/rocm-examples/Applications/bitonic_sort_test_profile/workloads/main_bp_all/MI300X_A1/perfmon/pmc_perf_1.txt
+   |-> [rocprofiler-sdk] W20260209 16:04:00.368882 129809803957760 simple_timer.cpp:55] [rocprofv3] tool initialization ::     0.111280 sec
+   |-> [rocprofiler-sdk] W20260209 16:04:00.369174 129809803957760 simple_timer.cpp:55] [rocprofv3] './main_bp_all' ::     0.000000 sec
+   |-> [rocprofiler-sdk] Sorting an array of 32768 elements using the bitonic sort.
+   |-> [rocprofiler-sdk] W20260209 16:04:00.487337 129809803957760 tool.cpp:2422] HSA version 8.20.0 initialized (instance=0)
+   |-> [rocprofiler-sdk] GPU bitonic sort took 53.7665 milliseconds to complete.
+   |-> [rocprofiler-sdk] Validating results with CPU implementation.
+   |-> [rocprofiler-sdk] Validation passed.
+   |-> [rocprofiler-sdk] W20260209 16:04:00.615305 129809803957760 simple_timer.cpp:55] [rocprofv3] './main_bp_all' ::     0.246132 sec
+   |-> [rocprofiler-sdk] E20260209 16:04:00.623920 129809803957760 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/bitonic_sort_test_profile/workloads/main_bp_all/MI300X_A1/out/pmc_1/f5fa73aad503/28494_kernel_trace.csv
+   |-> [rocprofiler-sdk] E20260209 16:04:00.636854 129809803957760 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/bitonic_sort_test_profile/workloads/main_bp_all/MI300X_A1/out/pmc_1/f5fa73aad503/28494_counter_collection.csv
+   |-> [rocprofiler-sdk] E20260209 16:04:00.659621 129809803957760 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/bitonic_sort_test_profile/workloads/main_bp_all/MI300X_A1/out/pmc_1/f5fa73aad503/28494_agent_info.csv
+   |-> [rocprofiler-sdk] W20260209 16:04:00.662915 129809803957760 simple_timer.cpp:55] [rocprofv3] output generation ::     0.046219 sec
+   |-> [rocprofiler-sdk] W20260209 16:04:00.662994 129809803957760 simple_timer.cpp:55] [rocprofv3] tool finalization ::     0.046342 sec
+[Run 10/13][Approximate profiling time left: 9 seconds]...
+[profiling] Current input file: /root/rocm-examples/Applications/bitonic_sort_test_profile/workloads/main_bp_all/MI300X_A1/perfmon/pmc_perf_2.txt
+   |-> [rocprofiler-sdk] W20260209 16:04:03.101799 130451187074560 simple_timer.cpp:55] [rocprofv3] tool initialization ::     0.110673 sec
+   |-> [rocprofiler-sdk] W20260209 16:04:03.102084 130451187074560 simple_timer.cpp:55] [rocprofv3] './main_bp_all' ::     0.000000 sec
+   |-> [rocprofiler-sdk] Sorting an array of 32768 elements using the bitonic sort.
+   |-> [rocprofiler-sdk] W20260209 16:04:03.220813 130451187074560 tool.cpp:2422] HSA version 8.20.0 initialized (instance=0)
+   |-> [rocprofiler-sdk] GPU bitonic sort took 27.763 milliseconds to complete.
+   |-> [rocprofiler-sdk] Validating results with CPU implementation.
+   |-> [rocprofiler-sdk] Validation passed.
+   |-> [rocprofiler-sdk] W20260209 16:04:03.322771 130451187074560 simple_timer.cpp:55] [rocprofv3] './main_bp_all' ::     0.220688 sec
+   |-> [rocprofiler-sdk] E20260209 16:04:03.331612 130451187074560 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/bitonic_sort_test_profile/workloads/main_bp_all/MI300X_A1/out/pmc_1/f5fa73aad503/28502_kernel_trace.csv
+   |-> [rocprofiler-sdk] E20260209 16:04:03.345703 130451187074560 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/bitonic_sort_test_profile/workloads/main_bp_all/MI300X_A1/out/pmc_1/f5fa73aad503/28502_counter_collection.csv
+   |-> [rocprofiler-sdk] E20260209 16:04:03.369046 130451187074560 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/bitonic_sort_test_profile/workloads/main_bp_all/MI300X_A1/out/pmc_1/f5fa73aad503/28502_agent_info.csv
+   |-> [rocprofiler-sdk] W20260209 16:04:03.372583 130451187074560 simple_timer.cpp:55] [rocprofv3] output generation ::     0.048609 sec
+   |-> [rocprofiler-sdk] W20260209 16:04:03.372665 130451187074560 simple_timer.cpp:55] [rocprofv3] tool finalization ::     0.048727 sec
+[Run 11/13][Approximate profiling time left: 6 seconds]...
+[profiling] Current input file: /root/rocm-examples/Applications/bitonic_sort_test_profile/workloads/main_bp_all/MI300X_A1/perfmon/pmc_perf_3.txt
+   |-> [rocprofiler-sdk] W20260209 16:04:05.821893 140719834654208 simple_timer.cpp:55] [rocprofv3] tool initialization ::     0.111312 sec
+   |-> [rocprofiler-sdk] W20260209 16:04:05.822182 140719834654208 simple_timer.cpp:55] [rocprofv3] './main_bp_all' ::     0.000000 sec
+   |-> [rocprofiler-sdk] Sorting an array of 32768 elements using the bitonic sort.
+   |-> [rocprofiler-sdk] W20260209 16:04:05.940602 140719834654208 tool.cpp:2422] HSA version 8.20.0 initialized (instance=0)
+   |-> [rocprofiler-sdk] GPU bitonic sort took 27.1463 milliseconds to complete.
+   |-> [rocprofiler-sdk] Validating results with CPU implementation.
+   |-> [rocprofiler-sdk] Validation passed.
+   |-> [rocprofiler-sdk] W20260209 16:04:06.042409 140719834654208 simple_timer.cpp:55] [rocprofv3] './main_bp_all' ::     0.220227 sec
+   |-> [rocprofiler-sdk] E20260209 16:04:06.052118 140719834654208 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/bitonic_sort_test_profile/workloads/main_bp_all/MI300X_A1/out/pmc_1/f5fa73aad503/28510_kernel_trace.csv
+   |-> [rocprofiler-sdk] E20260209 16:04:06.066541 140719834654208 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/bitonic_sort_test_profile/workloads/main_bp_all/MI300X_A1/out/pmc_1/f5fa73aad503/28510_counter_collection.csv
+   |-> [rocprofiler-sdk] E20260209 16:04:06.089757 140719834654208 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/bitonic_sort_test_profile/workloads/main_bp_all/MI300X_A1/out/pmc_1/f5fa73aad503/28510_agent_info.csv
+   |-> [rocprofiler-sdk] W20260209 16:04:06.093270 140719834654208 simple_timer.cpp:55] [rocprofv3] output generation ::     0.048836 sec
+   |-> [rocprofiler-sdk] W20260209 16:04:06.093356 140719834654208 simple_timer.cpp:55] [rocprofv3] tool finalization ::     0.048971 sec
+[Run 12/13][Approximate profiling time left: 3 seconds]...
+[profiling] Current input file: /root/rocm-examples/Applications/bitonic_sort_test_profile/workloads/main_bp_all/MI300X_A1/perfmon/pmc_perf_4.txt
+   |-> [rocprofiler-sdk] W20260209 16:04:08.555592 134544723633664 simple_timer.cpp:55] [rocprofv3] tool initialization ::     0.113626 sec
+   |-> [rocprofiler-sdk] W20260209 16:04:08.555875 134544723633664 simple_timer.cpp:55] [rocprofv3] './main_bp_all' ::     0.000000 sec
+   |-> [rocprofiler-sdk] Sorting an array of 32768 elements using the bitonic sort.
+   |-> [rocprofiler-sdk] W20260209 16:04:08.675049 134544723633664 tool.cpp:2422] HSA version 8.20.0 initialized (instance=0)
+   |-> [rocprofiler-sdk] GPU bitonic sort took 21.7717 milliseconds to complete.
+   |-> [rocprofiler-sdk] Validating results with CPU implementation.
+   |-> [rocprofiler-sdk] Validation passed.
+   |-> [rocprofiler-sdk] W20260209 16:04:08.772066 134544723633664 simple_timer.cpp:55] [rocprofv3] './main_bp_all' ::     0.216192 sec
+   |-> [rocprofiler-sdk] E20260209 16:04:08.781516 134544723633664 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/bitonic_sort_test_profile/workloads/main_bp_all/MI300X_A1/out/pmc_1/f5fa73aad503/28518_kernel_trace.csv
+   |-> [rocprofiler-sdk] E20260209 16:04:08.796752 134544723633664 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/bitonic_sort_test_profile/workloads/main_bp_all/MI300X_A1/out/pmc_1/f5fa73aad503/28518_counter_collection.csv
+   |-> [rocprofiler-sdk] E20260209 16:04:08.820380 134544723633664 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/bitonic_sort_test_profile/workloads/main_bp_all/MI300X_A1/out/pmc_1/f5fa73aad503/28518_agent_info.csv
+   |-> [rocprofiler-sdk] W20260209 16:04:08.823940 134544723633664 simple_timer.cpp:55] [rocprofv3] output generation ::     0.050166 sec
+   |-> [rocprofiler-sdk] W20260209 16:04:08.824028 134544723633664 simple_timer.cpp:55] [rocprofv3] tool finalization ::     0.050290 sec
+[Run 13/13][Approximate profiling time left: 0 seconds]...
+[profiling] Current input file: /root/rocm-examples/Applications/bitonic_sort_test_profile/workloads/main_bp_all/MI300X_A1/perfmon/pmc_perf_5.txt
+   |-> [rocprofiler-sdk] W20260209 16:04:11.119358 123601915061760 simple_timer.cpp:55] [rocprofv3] tool initialization ::     0.101503 sec
+   |-> [rocprofiler-sdk] W20260209 16:04:11.119639 123601915061760 simple_timer.cpp:55] [rocprofv3] './main_bp_all' ::     0.000000 sec
+   |-> [rocprofiler-sdk] Sorting an array of 32768 elements using the bitonic sort.
+   |-> [rocprofiler-sdk] W20260209 16:04:11.238530 123601915061760 tool.cpp:2422] HSA version 8.20.0 initialized (instance=0)
+   |-> [rocprofiler-sdk] GPU bitonic sort took 10.9918 milliseconds to complete.
+   |-> [rocprofiler-sdk] Validating results with CPU implementation.
+   |-> [rocprofiler-sdk] Validation passed.
+   |-> [rocprofiler-sdk] W20260209 16:04:11.323999 123601915061760 simple_timer.cpp:55] [rocprofv3] './main_bp_all' ::     0.204360 sec
+   |-> [rocprofiler-sdk] E20260209 16:04:11.333069 123601915061760 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/bitonic_sort_test_profile/workloads/main_bp_all/MI300X_A1/out/pmc_1/f5fa73aad503/28526_kernel_trace.csv
+   |-> [rocprofiler-sdk] E20260209 16:04:11.346503 123601915061760 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/bitonic_sort_test_profile/workloads/main_bp_all/MI300X_A1/out/pmc_1/f5fa73aad503/28526_counter_collection.csv
+   |-> [rocprofiler-sdk] E20260209 16:04:11.353929 123601915061760 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/bitonic_sort_test_profile/workloads/main_bp_all/MI300X_A1/out/pmc_1/f5fa73aad503/28526_agent_info.csv
+   |-> [rocprofiler-sdk] W20260209 16:04:11.357396 123601915061760 simple_timer.cpp:55] [rocprofv3] output generation ::     0.031634 sec
+   |-> [rocprofiler-sdk] W20260209 16:04:11.357457 123601915061760 simple_timer.cpp:55] [rocprofv3] tool finalization ::     0.031732 sec
+PC sampling data collection skipped as block 21 is not specified.
+[roofline] Checking for roofline.csv in /root/rocm-examples/Applications/bitonic_sort_test_profile/workloads/main_bp_all/MI300X_A1
+[roofline] No roofline data found. Generating...
+[roofline] Empirical Roofline PDFs saved!
+[roofline] Checking for roofline.csv in /root/rocm-examples/Applications/bitonic_sort_test_profile/workloads/main_bp_all/MI300X_A1
+[roofline] Empirical Roofline PDFs saved!

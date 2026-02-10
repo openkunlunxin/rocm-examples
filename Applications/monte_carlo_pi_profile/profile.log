@@ -1,0 +1,225 @@
+
+--- Executing: make profile ---
+/opt/rocm/bin/hipcc -std=c++17 -Wall -Wextra -I ../../Common -I ../../External  -o main main.hip 
+main.hip:69:35: warning: 'CountingInputIterator<int>' is deprecated: Use rocprim::counting_iterator or rocthrust::counting_iterator instead [-Wdeprecated-declarations]
+   69 |     auto input_counting = hipcub::CountingInputIterator<int>(0);
+      |                                   ^
+/opt/rocm-7.2.0/lib/llvm/bin/../../../include/hipcub/iterator/../backend/rocprim/iterator/counting_input_iterator.hpp:48:7: note: 'CountingInputIterator<int>' has been explicitly marked deprecated here
+   48 | class HIPCUB_DEPRECATED_BECAUSE(
+      |       ^
+/opt/rocm-7.2.0/lib/llvm/bin/../../../include/hipcub/device/../backend/rocprim/device/../../../util_deprecated.hpp:59:46: note: expanded from macro 'HIPCUB_DEPRECATED_BECAUSE'
+   59 |     #define HIPCUB_DEPRECATED_BECAUSE(MSG) [[deprecated(MSG)]]
+      |                                              ^
+main.hip:73:26: warning: 'TransformInputIterator<bool, conversion_op, hipcub::CountingInputIterator<int>>' is deprecated: Use rocprim::transform_iterator or rocthrust::transform_iterator instead [-Wdeprecated-declarations]
+   73 |     auto input = hipcub::TransformInputIterator<bool, conversion_op, decltype(input_counting)>(
+      |                          ^
+/opt/rocm-7.2.0/lib/llvm/bin/../../../include/hipcub/iterator/../backend/rocprim/iterator/transform_input_iterator.hpp:54:7: note: 'TransformInputIterator<bool, conversion_op, hipcub::CountingInputIterator<int>>' has been explicitly marked deprecated here
+   54 | class HIPCUB_DEPRECATED_BECAUSE(
+      |       ^
+/opt/rocm-7.2.0/lib/llvm/bin/../../../include/hipcub/device/../backend/rocprim/device/../../../util_deprecated.hpp:59:46: note: expanded from macro 'HIPCUB_DEPRECATED_BECAUSE'
+   59 |     #define HIPCUB_DEPRECATED_BECAUSE(MSG) [[deprecated(MSG)]]
+      |                                              ^
+2 warnings generated when compiling for gfx942.
+main.hip:69:35: warning: 'CountingInputIterator<int>' is deprecated: Use rocprim::counting_iterator or rocthrust::counting_iterator instead [-Wdeprecated-declarations]
+   69 |     auto input_counting = hipcub::CountingInputIterator<int>(0);
+      |                                   ^
+/opt/rocm-7.2.0/lib/llvm/bin/../../../include/hipcub/iterator/../backend/rocprim/iterator/counting_input_iterator.hpp:48:7: note: 'CountingInputIterator<int>' has been explicitly marked deprecated here
+   48 | class HIPCUB_DEPRECATED_BECAUSE(
+      |       ^
+/opt/rocm-7.2.0/lib/llvm/bin/../../../include/hipcub/device/../backend/rocprim/device/../../../util_deprecated.hpp:59:46: note: expanded from macro 'HIPCUB_DEPRECATED_BECAUSE'
+   59 |     #define HIPCUB_DEPRECATED_BECAUSE(MSG) [[deprecated(MSG)]]
+      |                                              ^
+main.hip:73:26: warning: 'TransformInputIterator<bool, conversion_op, hipcub::CountingInputIterator<int>>' is deprecated: Use rocprim::transform_iterator or rocthrust::transform_iterator instead [-Wdeprecated-declarations]
+   73 |     auto input = hipcub::TransformInputIterator<bool, conversion_op, decltype(input_counting)>(
+      |                          ^
+/opt/rocm-7.2.0/lib/llvm/bin/../../../include/hipcub/iterator/../backend/rocprim/iterator/transform_input_iterator.hpp:54:7: note: 'TransformInputIterator<bool, conversion_op, hipcub::CountingInputIterator<int>>' has been explicitly marked deprecated here
+   54 | class HIPCUB_DEPRECATED_BECAUSE(
+      |       ^
+/opt/rocm-7.2.0/lib/llvm/bin/../../../include/hipcub/device/../backend/rocprim/device/../../../util_deprecated.hpp:59:46: note: expanded from macro 'HIPCUB_DEPRECATED_BECAUSE'
+   59 |     #define HIPCUB_DEPRECATED_BECAUSE(MSG) [[deprecated(MSG)]]
+      |                                              ^
+2 warnings generated when compiling for host.
+ld.lld: error: undefined symbol: hiprandCreateGenerator
+>>> referenced by main.hip
+>>>               /tmp/main-ce0abb.o:(main)
+>>> referenced by main.hip
+>>>               /tmp/main-ce0abb.o:(main)
+
+ld.lld: error: undefined symbol: hiprandSetPseudoRandomGeneratorSeed
+>>> referenced by main.hip
+>>>               /tmp/main-ce0abb.o:(main)
+
+ld.lld: error: undefined symbol: hiprandGenerateUniform
+>>> referenced by main.hip
+>>>               /tmp/main-ce0abb.o:(main)
+>>> referenced by main.hip
+>>>               /tmp/main-ce0abb.o:(main)
+
+ld.lld: error: undefined symbol: hiprandDestroyGenerator
+>>> referenced by main.hip
+>>>               /tmp/main-ce0abb.o:(main)
+>>> referenced by main.hip
+>>>               /tmp/main-ce0abb.o:(main)
+
+ld.lld: error: undefined symbol: hiprandSetQuasiRandomGeneratorDimensions
+>>> referenced by main.hip
+>>>               /tmp/main-ce0abb.o:(main)
+clang++: error: linker command failed with exit code 1 (use -v to see invocation)
+failed to execute:/opt/rocm-7.2.0/lib/llvm/bin/clang++  --offload-arch=gfx942 -O3 --driver-mode=g++ -O3 --hip-link  -std=c++17 -Wall -Wextra -I ../../Common -I ../../External -o "main" -x hip main.hip
+make: *** [Makefile:101: main] Error 1
+ERROR: Command failed with return code 2
+
+--- Executing: make BP_LV=l1 profile_bp ---
+/opt/rocm/bin/hipcc -c --cuda-host-only -std=c++17 -Wall -Wextra -I ../../Common -I ../../External  -o main-host.o main.hip 
+main.hip:69:35: warning: 'CountingInputIterator<int>' is deprecated: Use rocprim::counting_iterator or rocthrust::counting_iterator instead [-Wdeprecated-declarations]
+   69 |     auto input_counting = hipcub::CountingInputIterator<int>(0);
+      |                                   ^
+/opt/rocm-7.2.0/lib/llvm/bin/../../../include/hipcub/iterator/../backend/rocprim/iterator/counting_input_iterator.hpp:48:7: note: 'CountingInputIterator<int>' has been explicitly marked deprecated here
+   48 | class HIPCUB_DEPRECATED_BECAUSE(
+      |       ^
+/opt/rocm-7.2.0/lib/llvm/bin/../../../include/hipcub/device/../backend/rocprim/device/../../../util_deprecated.hpp:59:46: note: expanded from macro 'HIPCUB_DEPRECATED_BECAUSE'
+   59 |     #define HIPCUB_DEPRECATED_BECAUSE(MSG) [[deprecated(MSG)]]
+      |                                              ^
+main.hip:73:26: warning: 'TransformInputIterator<bool, conversion_op, hipcub::CountingInputIterator<int>>' is deprecated: Use rocprim::transform_iterator or rocthrust::transform_iterator instead [-Wdeprecated-declarations]
+   73 |     auto input = hipcub::TransformInputIterator<bool, conversion_op, decltype(input_counting)>(
+      |                          ^
+/opt/rocm-7.2.0/lib/llvm/bin/../../../include/hipcub/iterator/../backend/rocprim/iterator/transform_input_iterator.hpp:54:7: note: 'TransformInputIterator<bool, conversion_op, hipcub::CountingInputIterator<int>>' has been explicitly marked deprecated here
+   54 | class HIPCUB_DEPRECATED_BECAUSE(
+      |       ^
+/opt/rocm-7.2.0/lib/llvm/bin/../../../include/hipcub/device/../backend/rocprim/device/../../../util_deprecated.hpp:59:46: note: expanded from macro 'HIPCUB_DEPRECATED_BECAUSE'
+   59 |     #define HIPCUB_DEPRECATED_BECAUSE(MSG) [[deprecated(MSG)]]
+      |                                              ^
+2 warnings generated when compiling for host.
+/opt/rocm/bin/hipcc -S --cuda-device-only --offload-arch=gfx942 -std=c++17 -Wall -Wextra -I ../../Common -I ../../External  -o main-dev.s main.hip 
+clang++: warning: argument unused during compilation: '--hip-link' [-Wunused-command-line-argument]
+main.hip:69:35: warning: 'CountingInputIterator<int>' is deprecated: Use rocprim::counting_iterator or rocthrust::counting_iterator instead [-Wdeprecated-declarations]
+   69 |     auto input_counting = hipcub::CountingInputIterator<int>(0);
+      |                                   ^
+/opt/rocm-7.2.0/lib/llvm/bin/../../../include/hipcub/iterator/../backend/rocprim/iterator/counting_input_iterator.hpp:48:7: note: 'CountingInputIterator<int>' has been explicitly marked deprecated here
+   48 | class HIPCUB_DEPRECATED_BECAUSE(
+      |       ^
+/opt/rocm-7.2.0/lib/llvm/bin/../../../include/hipcub/device/../backend/rocprim/device/../../../util_deprecated.hpp:59:46: note: expanded from macro 'HIPCUB_DEPRECATED_BECAUSE'
+   59 |     #define HIPCUB_DEPRECATED_BECAUSE(MSG) [[deprecated(MSG)]]
+      |                                              ^
+main.hip:73:26: warning: 'TransformInputIterator<bool, conversion_op, hipcub::CountingInputIterator<int>>' is deprecated: Use rocprim::transform_iterator or rocthrust::transform_iterator instead [-Wdeprecated-declarations]
+   73 |     auto input = hipcub::TransformInputIterator<bool, conversion_op, decltype(input_counting)>(
+      |                          ^
+/opt/rocm-7.2.0/lib/llvm/bin/../../../include/hipcub/iterator/../backend/rocprim/iterator/transform_input_iterator.hpp:54:7: note: 'TransformInputIterator<bool, conversion_op, hipcub::CountingInputIterator<int>>' has been explicitly marked deprecated here
+   54 | class HIPCUB_DEPRECATED_BECAUSE(
+      |       ^
+/opt/rocm-7.2.0/lib/llvm/bin/../../../include/hipcub/device/../backend/rocprim/device/../../../util_deprecated.hpp:59:46: note: expanded from macro 'HIPCUB_DEPRECATED_BECAUSE'
+   59 |     #define HIPCUB_DEPRECATED_BECAUSE(MSG) [[deprecated(MSG)]]
+      |                                              ^
+2 warnings generated when compiling for gfx942.
+python3 bp.py main-dev.s l1 main-dev_bp_l1.s
+Generated: main-dev_bp_l1.s
+clang -target amdgcn-amd-amdhsa -mcpu=gfx942 main-dev_bp_l1.s -o main-dev_bp_l1.o
+clang-offload-bundler -type=o -bundle-align=4096 -targets=host-x86_64-unknown-linux-gnu,hipv4-amdgcn-amd-amdhsa--gfx942 -input=/dev/null -input=main-dev_bp_l1.o  -output=main-dev_bp_l1.hipfb
+./gen_mcin main-host.o main-dev_bp_l1.hipfb > main-host.mcin
+llvm-mc -triple x86_64-unknown-linux-gnu -o main-dev_em_bp_l1.o main-host.mcin --filetype=obj
+hipcc -std=c++17 -Wall -Wextra -I ../../Common -I ../../External  -o main_bp_l1 main-host.o main-dev_em_bp_l1.o 
+ld.lld: error: undefined symbol: hiprandCreateGenerator
+>>> referenced by main.hip
+>>>               main-host.o:(main)
+>>> referenced by main.hip
+>>>               main-host.o:(main)
+
+ld.lld: error: undefined symbol: hiprandSetPseudoRandomGeneratorSeed
+>>> referenced by main.hip
+>>>               main-host.o:(main)
+
+ld.lld: error: undefined symbol: hiprandGenerateUniform
+>>> referenced by main.hip
+>>>               main-host.o:(main)
+>>> referenced by main.hip
+>>>               main-host.o:(main)
+
+ld.lld: error: undefined symbol: hiprandDestroyGenerator
+>>> referenced by main.hip
+>>>               main-host.o:(main)
+>>> referenced by main.hip
+>>>               main-host.o:(main)
+
+ld.lld: error: undefined symbol: hiprandSetQuasiRandomGeneratorDimensions
+>>> referenced by main.hip
+>>>               main-host.o:(main)
+clang++: error: linker command failed with exit code 1 (use -v to see invocation)
+failed to execute:/opt/rocm-7.2.0/lib/llvm/bin/clang++ --driver-mode=g++ -O3 --hip-link  -std=c++17 -Wall -Wextra -I ../../Common -I ../../External -o "main_bp_l1" main-host.o main-dev_em_bp_l1.o
+make: *** [Makefile:97: main_bp_l1] Error 1
+ERROR: Command failed with return code 2
+
+--- Executing: make BP_LV=l2 profile_bp ---
+python3 bp.py main-dev.s l2 main-dev_bp_l2.s
+Generated: main-dev_bp_l2.s
+clang -target amdgcn-amd-amdhsa -mcpu=gfx942 main-dev_bp_l2.s -o main-dev_bp_l2.o
+clang-offload-bundler -type=o -bundle-align=4096 -targets=host-x86_64-unknown-linux-gnu,hipv4-amdgcn-amd-amdhsa--gfx942 -input=/dev/null -input=main-dev_bp_l2.o  -output=main-dev_bp_l2.hipfb
+./gen_mcin main-host.o main-dev_bp_l2.hipfb > main-host.mcin
+llvm-mc -triple x86_64-unknown-linux-gnu -o main-dev_em_bp_l2.o main-host.mcin --filetype=obj
+hipcc -std=c++17 -Wall -Wextra -I ../../Common -I ../../External  -o main_bp_l2 main-host.o main-dev_em_bp_l2.o 
+ld.lld: error: undefined symbol: hiprandCreateGenerator
+>>> referenced by main.hip
+>>>               main-host.o:(main)
+>>> referenced by main.hip
+>>>               main-host.o:(main)
+
+ld.lld: error: undefined symbol: hiprandSetPseudoRandomGeneratorSeed
+>>> referenced by main.hip
+>>>               main-host.o:(main)
+
+ld.lld: error: undefined symbol: hiprandGenerateUniform
+>>> referenced by main.hip
+>>>               main-host.o:(main)
+>>> referenced by main.hip
+>>>               main-host.o:(main)
+
+ld.lld: error: undefined symbol: hiprandDestroyGenerator
+>>> referenced by main.hip
+>>>               main-host.o:(main)
+>>> referenced by main.hip
+>>>               main-host.o:(main)
+
+ld.lld: error: undefined symbol: hiprandSetQuasiRandomGeneratorDimensions
+>>> referenced by main.hip
+>>>               main-host.o:(main)
+clang++: error: linker command failed with exit code 1 (use -v to see invocation)
+failed to execute:/opt/rocm-7.2.0/lib/llvm/bin/clang++ --driver-mode=g++ -O3 --hip-link  -std=c++17 -Wall -Wextra -I ../../Common -I ../../External -o "main_bp_l2" main-host.o main-dev_em_bp_l2.o
+make: *** [Makefile:97: main_bp_l2] Error 1
+ERROR: Command failed with return code 2
+
+--- Executing: make BP_LV=all profile_bp ---
+python3 bp.py main-dev.s all main-dev_bp_all.s
+Generated: main-dev_bp_all.s
+clang -target amdgcn-amd-amdhsa -mcpu=gfx942 main-dev_bp_all.s -o main-dev_bp_all.o
+clang-offload-bundler -type=o -bundle-align=4096 -targets=host-x86_64-unknown-linux-gnu,hipv4-amdgcn-amd-amdhsa--gfx942 -input=/dev/null -input=main-dev_bp_all.o  -output=main-dev_bp_all.hipfb
+./gen_mcin main-host.o main-dev_bp_all.hipfb > main-host.mcin
+llvm-mc -triple x86_64-unknown-linux-gnu -o main-dev_em_bp_all.o main-host.mcin --filetype=obj
+hipcc -std=c++17 -Wall -Wextra -I ../../Common -I ../../External  -o main_bp_all main-host.o main-dev_em_bp_all.o 
+ld.lld: error: undefined symbol: hiprandCreateGenerator
+>>> referenced by main.hip
+>>>               main-host.o:(main)
+>>> referenced by main.hip
+>>>               main-host.o:(main)
+
+ld.lld: error: undefined symbol: hiprandSetPseudoRandomGeneratorSeed
+>>> referenced by main.hip
+>>>               main-host.o:(main)
+
+ld.lld: error: undefined symbol: hiprandGenerateUniform
+>>> referenced by main.hip
+>>>               main-host.o:(main)
+>>> referenced by main.hip
+>>>               main-host.o:(main)
+
+ld.lld: error: undefined symbol: hiprandDestroyGenerator
+>>> referenced by main.hip
+>>>               main-host.o:(main)
+>>> referenced by main.hip
+>>>               main-host.o:(main)
+
+ld.lld: error: undefined symbol: hiprandSetQuasiRandomGeneratorDimensions
+>>> referenced by main.hip
+>>>               main-host.o:(main)
+clang++: error: linker command failed with exit code 1 (use -v to see invocation)
+failed to execute:/opt/rocm-7.2.0/lib/llvm/bin/clang++ --driver-mode=g++ -O3 --hip-link  -std=c++17 -Wall -Wextra -I ../../Common -I ../../External -o "main_bp_all" main-host.o main-dev_em_bp_all.o
+make: *** [Makefile:97: main_bp_all] Error 1
+ERROR: Command failed with return code 2

@@ -1,0 +1,3 @@
+Dispatch_ID,GPU_ID,Queue_ID,PID,TID,Grid_Size,Workgroup_Size,LDS_Per_Workgroup,Scratch_Per_Workitem,Arch_VGPR,Accum_VGPR,SGPR,Wave_Size,Kernel_Name,Start_Timestamp,End_Timestamp,Correlation_ID,TCC_HIT_sum,TCC_MISS_sum,TCC_READ_sum,TCC_WRITE_sum,TCP_TOTAL_READ_sum,TCP_TOTAL_WRITE_sum
+
+0,8,1,43787,43787,369664,256,0,0,24,0,32,64,"sobel_filter_kernel(unsigned char const*, unsigned char*, int, int) (.kd)",213852305589413,213852305594621,0,16725.000000,43902.000000,33856.000000,26771.000000,729600.000000,97152.000000

@@ -1,0 +1,3 @@
+Kernel_Name,Count,Sum(ns),Mean(ns),Median(ns),Pct
+__amd_rocclr_copyBuffer,2,4893.390625,2446.6953125,2446.6953125,54.05036441802709
+"block_prefix_sum(float*, int, int)",1,4160.0,4160.0,4160.0,45.94963558197291

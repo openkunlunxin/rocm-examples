@@ -1,0 +1,253 @@
+Rocprofiler-Compute version: 3.4.0
+Profiler choice: rocprofiler-sdk
+Path: /root/rocm-examples/Applications/prefix_sum_profile/workloads/main_bp_l1/MI300X_A1
+Target: MI300X_A1
+Command: ./main_bp_l1
+Kernel Selection: None
+Dispatch Selection: None
+Filtered sections: All
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Collecting Performance Counters
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+[Run 1/13][Approximate profiling time left: pending first measurement...]
+[profiling] Current input file: /root/rocm-examples/Applications/prefix_sum_profile/workloads/main_bp_l1/MI300X_A1/perfmon/SQC_DCACHE_INFLIGHT_LEVEL.txt
+   |-> [rocprofiler-sdk] W20260209 15:21:23.315984 136496508839424 simple_timer.cpp:55] [rocprofv3] tool initialization ::     0.109180 sec
+   |-> [rocprofiler-sdk] W20260209 15:21:23.316267 136496508839424 simple_timer.cpp:55] [rocprofv3] './main_bp_l1' ::     0.000000 sec
+   |-> [rocprofiler-sdk] Prefix sum over 256 items.
+   |-> [rocprofiler-sdk] 
+   |-> [rocprofiler-sdk] W20260209 15:21:23.434554 136496508839424 tool.cpp:2422] HSA version 8.20.0 initialized (instance=0)
+   |-> [rocprofiler-sdk] Final sum on
+   |-> [rocprofiler-sdk] device: 7.07517
+   |-> [rocprofiler-sdk] host  : 7.07517
+   |-> [rocprofiler-sdk] 
+   |-> [rocprofiler-sdk] Validation passed.
+   |-> [rocprofiler-sdk] W20260209 15:21:23.490460 136496508839424 simple_timer.cpp:55] [rocprofv3] './main_bp_l1' ::     0.174193 sec
+   |-> [rocprofiler-sdk] E20260209 15:21:23.499023 136496508839424 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/prefix_sum_profile/workloads/main_bp_l1/MI300X_A1/out/pmc_1/f5fa73aad503/19403_kernel_trace.csv
+   |-> [rocprofiler-sdk] E20260209 15:21:23.511298 136496508839424 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/prefix_sum_profile/workloads/main_bp_l1/MI300X_A1/out/pmc_1/f5fa73aad503/19403_counter_collection.csv
+   |-> [rocprofiler-sdk] E20260209 15:21:23.517674 136496508839424 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/prefix_sum_profile/workloads/main_bp_l1/MI300X_A1/out/pmc_1/f5fa73aad503/19403_agent_info.csv
+   |-> [rocprofiler-sdk] W20260209 15:21:23.520800 136496508839424 simple_timer.cpp:55] [rocprofv3] output generation ::     0.028716 sec
+   |-> [rocprofiler-sdk] W20260209 15:21:23.520892 136496508839424 simple_timer.cpp:55] [rocprofv3] tool finalization ::     0.028842 sec
+[Run 2/13][Approximate profiling time left: 27 seconds]...
+[profiling] Current input file: /root/rocm-examples/Applications/prefix_sum_profile/workloads/main_bp_l1/MI300X_A1/perfmon/SQC_ICACHE_INFLIGHT_LEVEL.txt
+   |-> [rocprofiler-sdk] W20260209 15:21:25.830907 137170555430400 simple_timer.cpp:55] [rocprofv3] tool initialization ::     0.111860 sec
+   |-> [rocprofiler-sdk] W20260209 15:21:25.831127 137170555430400 simple_timer.cpp:55] [rocprofv3] './main_bp_l1' ::     0.000000 sec
+   |-> [rocprofiler-sdk] Prefix sum over 256 items.
+   |-> [rocprofiler-sdk] 
+   |-> [rocprofiler-sdk] W20260209 15:21:25.954244 137170555430400 tool.cpp:2422] HSA version 8.20.0 initialized (instance=0)
+   |-> [rocprofiler-sdk] Final sum on
+   |-> [rocprofiler-sdk] device: 7.07517
+   |-> [rocprofiler-sdk] host  : 7.07517
+   |-> [rocprofiler-sdk] 
+   |-> [rocprofiler-sdk] Validation passed.
+   |-> [rocprofiler-sdk] W20260209 15:21:26.007457 137170555430400 simple_timer.cpp:55] [rocprofv3] './main_bp_l1' ::     0.176330 sec
+   |-> [rocprofiler-sdk] E20260209 15:21:26.016664 137170555430400 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/prefix_sum_profile/workloads/main_bp_l1/MI300X_A1/out/pmc_1/f5fa73aad503/19411_kernel_trace.csv
+   |-> [rocprofiler-sdk] E20260209 15:21:26.028989 137170555430400 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/prefix_sum_profile/workloads/main_bp_l1/MI300X_A1/out/pmc_1/f5fa73aad503/19411_counter_collection.csv
+   |-> [rocprofiler-sdk] E20260209 15:21:26.035447 137170555430400 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/prefix_sum_profile/workloads/main_bp_l1/MI300X_A1/out/pmc_1/f5fa73aad503/19411_agent_info.csv
+   |-> [rocprofiler-sdk] W20260209 15:21:26.038610 137170555430400 simple_timer.cpp:55] [rocprofv3] output generation ::     0.028897 sec
+   |-> [rocprofiler-sdk] W20260209 15:21:26.038690 137170555430400 simple_timer.cpp:55] [rocprofv3] tool finalization ::     0.029039 sec
+[Run 3/13][Approximate profiling time left: 25 seconds]...
+[profiling] Current input file: /root/rocm-examples/Applications/prefix_sum_profile/workloads/main_bp_l1/MI300X_A1/perfmon/SQ_IFETCH_LEVEL.txt
+   |-> [rocprofiler-sdk] W20260209 15:21:28.428125 139938537711104 simple_timer.cpp:55] [rocprofv3] tool initialization ::     0.120525 sec
+   |-> [rocprofiler-sdk] W20260209 15:21:28.428408 139938537711104 simple_timer.cpp:55] [rocprofv3] './main_bp_l1' ::     0.000000 sec
+   |-> [rocprofiler-sdk] Prefix sum over 256 items.
+   |-> [rocprofiler-sdk] 
+   |-> [rocprofiler-sdk] W20260209 15:21:28.547506 139938537711104 tool.cpp:2422] HSA version 8.20.0 initialized (instance=0)
+   |-> [rocprofiler-sdk] Final sum on
+   |-> [rocprofiler-sdk] device: 7.07517
+   |-> [rocprofiler-sdk] host  : 7.07517
+   |-> [rocprofiler-sdk] 
+   |-> [rocprofiler-sdk] Validation passed.
+   |-> [rocprofiler-sdk] W20260209 15:21:28.603629 139938537711104 simple_timer.cpp:55] [rocprofv3] './main_bp_l1' ::     0.175221 sec
+   |-> [rocprofiler-sdk] E20260209 15:21:28.612543 139938537711104 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/prefix_sum_profile/workloads/main_bp_l1/MI300X_A1/out/pmc_1/f5fa73aad503/19419_kernel_trace.csv
+   |-> [rocprofiler-sdk] E20260209 15:21:28.624737 139938537711104 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/prefix_sum_profile/workloads/main_bp_l1/MI300X_A1/out/pmc_1/f5fa73aad503/19419_counter_collection.csv
+   |-> [rocprofiler-sdk] E20260209 15:21:28.631365 139938537711104 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/prefix_sum_profile/workloads/main_bp_l1/MI300X_A1/out/pmc_1/f5fa73aad503/19419_agent_info.csv
+   |-> [rocprofiler-sdk] W20260209 15:21:28.634551 139938537711104 simple_timer.cpp:55] [rocprofv3] output generation ::     0.029186 sec
+   |-> [rocprofiler-sdk] W20260209 15:21:28.634654 139938537711104 simple_timer.cpp:55] [rocprofv3] tool finalization ::     0.029355 sec
+[Run 4/13][Approximate profiling time left: 22 seconds]...
+[profiling] Current input file: /root/rocm-examples/Applications/prefix_sum_profile/workloads/main_bp_l1/MI300X_A1/perfmon/SQ_INST_LEVEL_LDS.txt
+   |-> [rocprofiler-sdk] W20260209 15:21:31.100792 124093834745344 simple_timer.cpp:55] [rocprofv3] tool initialization ::     0.120340 sec
+   |-> [rocprofiler-sdk] W20260209 15:21:31.101062 124093834745344 simple_timer.cpp:55] [rocprofv3] './main_bp_l1' ::     0.000000 sec
+   |-> [rocprofiler-sdk] Prefix sum over 256 items.
+   |-> [rocprofiler-sdk] 
+   |-> [rocprofiler-sdk] W20260209 15:21:31.219791 124093834745344 tool.cpp:2422] HSA version 8.20.0 initialized (instance=0)
+   |-> [rocprofiler-sdk] Final sum on
+   |-> [rocprofiler-sdk] device: 7.07517
+   |-> [rocprofiler-sdk] host  : 7.07517
+   |-> [rocprofiler-sdk] 
+   |-> [rocprofiler-sdk] Validation passed.
+   |-> [rocprofiler-sdk] W20260209 15:21:31.276362 124093834745344 simple_timer.cpp:55] [rocprofv3] './main_bp_l1' ::     0.175300 sec
+   |-> [rocprofiler-sdk] E20260209 15:21:31.285562 124093834745344 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/prefix_sum_profile/workloads/main_bp_l1/MI300X_A1/out/pmc_1/f5fa73aad503/19427_kernel_trace.csv
+   |-> [rocprofiler-sdk] E20260209 15:21:31.297888 124093834745344 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/prefix_sum_profile/workloads/main_bp_l1/MI300X_A1/out/pmc_1/f5fa73aad503/19427_counter_collection.csv
+   |-> [rocprofiler-sdk] E20260209 15:21:31.304604 124093834745344 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/prefix_sum_profile/workloads/main_bp_l1/MI300X_A1/out/pmc_1/f5fa73aad503/19427_agent_info.csv
+   |-> [rocprofiler-sdk] W20260209 15:21:31.307732 124093834745344 simple_timer.cpp:55] [rocprofv3] output generation ::     0.029126 sec
+   |-> [rocprofiler-sdk] W20260209 15:21:31.307839 124093834745344 simple_timer.cpp:55] [rocprofv3] tool finalization ::     0.029287 sec
+[Run 5/13][Approximate profiling time left: 20 seconds]...
+[profiling] Current input file: /root/rocm-examples/Applications/prefix_sum_profile/workloads/main_bp_l1/MI300X_A1/perfmon/SQ_INST_LEVEL_SMEM.txt
+   |-> [rocprofiler-sdk] W20260209 15:21:33.642109 126465846011392 simple_timer.cpp:55] [rocprofv3] tool initialization ::     0.109738 sec
+   |-> [rocprofiler-sdk] W20260209 15:21:33.642395 126465846011392 simple_timer.cpp:55] [rocprofv3] './main_bp_l1' ::     0.000000 sec
+   |-> [rocprofiler-sdk] Prefix sum over 256 items.
+   |-> [rocprofiler-sdk] 
+   |-> [rocprofiler-sdk] W20260209 15:21:33.762088 126465846011392 tool.cpp:2422] HSA version 8.20.0 initialized (instance=0)
+   |-> [rocprofiler-sdk] Final sum on
+   |-> [rocprofiler-sdk] device: 7.07517
+   |-> [rocprofiler-sdk] host  : 7.07517
+   |-> [rocprofiler-sdk] 
+   |-> [rocprofiler-sdk] Validation passed.
+   |-> [rocprofiler-sdk] W20260209 15:21:33.817288 126465846011392 simple_timer.cpp:55] [rocprofv3] './main_bp_l1' ::     0.174893 sec
+   |-> [rocprofiler-sdk] E20260209 15:21:33.827390 126465846011392 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/prefix_sum_profile/workloads/main_bp_l1/MI300X_A1/out/pmc_1/f5fa73aad503/19435_kernel_trace.csv
+   |-> [rocprofiler-sdk] E20260209 15:21:33.839482 126465846011392 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/prefix_sum_profile/workloads/main_bp_l1/MI300X_A1/out/pmc_1/f5fa73aad503/19435_counter_collection.csv
+   |-> [rocprofiler-sdk] E20260209 15:21:33.845852 126465846011392 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/prefix_sum_profile/workloads/main_bp_l1/MI300X_A1/out/pmc_1/f5fa73aad503/19435_agent_info.csv
+   |-> [rocprofiler-sdk] W20260209 15:21:33.848986 126465846011392 simple_timer.cpp:55] [rocprofv3] output generation ::     0.028560 sec
+   |-> [rocprofiler-sdk] W20260209 15:21:33.849060 126465846011392 simple_timer.cpp:55] [rocprofv3] tool finalization ::     0.028694 sec
+[Run 6/13][Approximate profiling time left: 17 seconds]...
+[profiling] Current input file: /root/rocm-examples/Applications/prefix_sum_profile/workloads/main_bp_l1/MI300X_A1/perfmon/SQ_INST_LEVEL_VMEM.txt
+   |-> [rocprofiler-sdk] W20260209 15:21:36.143739 131631345903104 simple_timer.cpp:55] [rocprofv3] tool initialization ::     0.110572 sec
+   |-> [rocprofiler-sdk] W20260209 15:21:36.144027 131631345903104 simple_timer.cpp:55] [rocprofv3] './main_bp_l1' ::     0.000000 sec
+   |-> [rocprofiler-sdk] Prefix sum over 256 items.
+   |-> [rocprofiler-sdk] 
+   |-> [rocprofiler-sdk] W20260209 15:21:36.265670 131631345903104 tool.cpp:2422] HSA version 8.20.0 initialized (instance=0)
+   |-> [rocprofiler-sdk] Final sum on
+   |-> [rocprofiler-sdk] device: 7.07517
+   |-> [rocprofiler-sdk] host  : 7.07517
+   |-> [rocprofiler-sdk] 
+   |-> [rocprofiler-sdk] Validation passed.
+   |-> [rocprofiler-sdk] W20260209 15:21:36.321393 131631345903104 simple_timer.cpp:55] [rocprofv3] './main_bp_l1' ::     0.177367 sec
+   |-> [rocprofiler-sdk] E20260209 15:21:36.329912 131631345903104 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/prefix_sum_profile/workloads/main_bp_l1/MI300X_A1/out/pmc_1/f5fa73aad503/19443_kernel_trace.csv
+   |-> [rocprofiler-sdk] E20260209 15:21:36.342192 131631345903104 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/prefix_sum_profile/workloads/main_bp_l1/MI300X_A1/out/pmc_1/f5fa73aad503/19443_counter_collection.csv
+   |-> [rocprofiler-sdk] E20260209 15:21:36.348526 131631345903104 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/prefix_sum_profile/workloads/main_bp_l1/MI300X_A1/out/pmc_1/f5fa73aad503/19443_agent_info.csv
+   |-> [rocprofiler-sdk] W20260209 15:21:36.351696 131631345903104 simple_timer.cpp:55] [rocprofv3] output generation ::     0.028776 sec
+   |-> [rocprofiler-sdk] W20260209 15:21:36.351775 131631345903104 simple_timer.cpp:55] [rocprofv3] tool finalization ::     0.028890 sec
+[Run 7/13][Approximate profiling time left: 15 seconds]...
+[profiling] Current input file: /root/rocm-examples/Applications/prefix_sum_profile/workloads/main_bp_l1/MI300X_A1/perfmon/SQ_LEVEL_WAVES.txt
+   |-> [rocprofiler-sdk] W20260209 15:21:38.633778 136604044469760 simple_timer.cpp:55] [rocprofv3] tool initialization ::     0.110579 sec
+   |-> [rocprofiler-sdk] W20260209 15:21:38.634066 136604044469760 simple_timer.cpp:55] [rocprofv3] './main_bp_l1' ::     0.000000 sec
+   |-> [rocprofiler-sdk] Prefix sum over 256 items.
+   |-> [rocprofiler-sdk] 
+   |-> [rocprofiler-sdk] W20260209 15:21:38.757642 136604044469760 tool.cpp:2422] HSA version 8.20.0 initialized (instance=0)
+   |-> [rocprofiler-sdk] Final sum on
+   |-> [rocprofiler-sdk] device: 7.07517
+   |-> [rocprofiler-sdk] host  : 7.07517
+   |-> [rocprofiler-sdk] 
+   |-> [rocprofiler-sdk] Validation passed.
+   |-> [rocprofiler-sdk] W20260209 15:21:38.813274 136604044469760 simple_timer.cpp:55] [rocprofv3] './main_bp_l1' ::     0.179208 sec
+   |-> [rocprofiler-sdk] E20260209 15:21:38.821914 136604044469760 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/prefix_sum_profile/workloads/main_bp_l1/MI300X_A1/out/pmc_1/f5fa73aad503/19451_kernel_trace.csv
+   |-> [rocprofiler-sdk] E20260209 15:21:38.834781 136604044469760 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/prefix_sum_profile/workloads/main_bp_l1/MI300X_A1/out/pmc_1/f5fa73aad503/19451_counter_collection.csv
+   |-> [rocprofiler-sdk] E20260209 15:21:38.841356 136604044469760 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/prefix_sum_profile/workloads/main_bp_l1/MI300X_A1/out/pmc_1/f5fa73aad503/19451_agent_info.csv
+   |-> [rocprofiler-sdk] W20260209 15:21:38.844605 136604044469760 simple_timer.cpp:55] [rocprofv3] output generation ::     0.029942 sec
+   |-> [rocprofiler-sdk] W20260209 15:21:38.844688 136604044469760 simple_timer.cpp:55] [rocprofv3] tool finalization ::     0.030060 sec
+[Run 8/13][Approximate profiling time left: 12 seconds]...
+[profiling] Current input file: /root/rocm-examples/Applications/prefix_sum_profile/workloads/main_bp_l1/MI300X_A1/perfmon/pmc_perf_0.txt
+   |-> [rocprofiler-sdk] W20260209 15:21:41.250706 138662307681792 simple_timer.cpp:55] [rocprofv3] tool initialization ::     0.113592 sec
+   |-> [rocprofiler-sdk] W20260209 15:21:41.250934 138662307681792 simple_timer.cpp:55] [rocprofv3] './main_bp_l1' ::     0.000000 sec
+   |-> [rocprofiler-sdk] Prefix sum over 256 items.
+   |-> [rocprofiler-sdk] 
+   |-> [rocprofiler-sdk] W20260209 15:21:41.372365 138662307681792 tool.cpp:2422] HSA version 8.20.0 initialized (instance=0)
+   |-> [rocprofiler-sdk] Final sum on
+   |-> [rocprofiler-sdk] device: 7.07517
+   |-> [rocprofiler-sdk] host  : 7.07517
+   |-> [rocprofiler-sdk] 
+   |-> [rocprofiler-sdk] Validation passed.
+   |-> [rocprofiler-sdk] W20260209 15:21:41.424704 138662307681792 simple_timer.cpp:55] [rocprofv3] './main_bp_l1' ::     0.173770 sec
+   |-> [rocprofiler-sdk] E20260209 15:21:41.434111 138662307681792 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/prefix_sum_profile/workloads/main_bp_l1/MI300X_A1/out/pmc_1/f5fa73aad503/19459_kernel_trace.csv
+   |-> [rocprofiler-sdk] E20260209 15:21:41.446367 138662307681792 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/prefix_sum_profile/workloads/main_bp_l1/MI300X_A1/out/pmc_1/f5fa73aad503/19459_counter_collection.csv
+   |-> [rocprofiler-sdk] E20260209 15:21:41.452782 138662307681792 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/prefix_sum_profile/workloads/main_bp_l1/MI300X_A1/out/pmc_1/f5fa73aad503/19459_agent_info.csv
+   |-> [rocprofiler-sdk] W20260209 15:21:41.455942 138662307681792 simple_timer.cpp:55] [rocprofv3] output generation ::     0.028868 sec
+   |-> [rocprofiler-sdk] W20260209 15:21:41.456028 138662307681792 simple_timer.cpp:55] [rocprofv3] tool finalization ::     0.029009 sec
+[Run 9/13][Approximate profiling time left: 10 seconds]...
+[profiling] Current input file: /root/rocm-examples/Applications/prefix_sum_profile/workloads/main_bp_l1/MI300X_A1/perfmon/pmc_perf_1.txt
+   |-> [rocprofiler-sdk] W20260209 15:21:43.817496 132508358546944 simple_timer.cpp:55] [rocprofv3] tool initialization ::     0.112236 sec
+   |-> [rocprofiler-sdk] W20260209 15:21:43.817707 132508358546944 simple_timer.cpp:55] [rocprofv3] './main_bp_l1' ::     0.000000 sec
+   |-> [rocprofiler-sdk] Prefix sum over 256 items.
+   |-> [rocprofiler-sdk] 
+   |-> [rocprofiler-sdk] W20260209 15:21:43.941300 132508358546944 tool.cpp:2422] HSA version 8.20.0 initialized (instance=0)
+   |-> [rocprofiler-sdk] Final sum on
+   |-> [rocprofiler-sdk] device: 7.07517
+   |-> [rocprofiler-sdk] host  : 7.07517
+   |-> [rocprofiler-sdk] 
+   |-> [rocprofiler-sdk] Validation passed.
+   |-> [rocprofiler-sdk] W20260209 15:21:43.993353 132508358546944 simple_timer.cpp:55] [rocprofv3] './main_bp_l1' ::     0.175646 sec
+   |-> [rocprofiler-sdk] E20260209 15:21:44.002219 132508358546944 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/prefix_sum_profile/workloads/main_bp_l1/MI300X_A1/out/pmc_1/f5fa73aad503/19467_kernel_trace.csv
+   |-> [rocprofiler-sdk] E20260209 15:21:44.014335 132508358546944 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/prefix_sum_profile/workloads/main_bp_l1/MI300X_A1/out/pmc_1/f5fa73aad503/19467_counter_collection.csv
+   |-> [rocprofiler-sdk] E20260209 15:21:44.020773 132508358546944 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/prefix_sum_profile/workloads/main_bp_l1/MI300X_A1/out/pmc_1/f5fa73aad503/19467_agent_info.csv
+   |-> [rocprofiler-sdk] W20260209 15:21:44.023920 132508358546944 simple_timer.cpp:55] [rocprofv3] output generation ::     0.028684 sec
+   |-> [rocprofiler-sdk] W20260209 15:21:44.023993 132508358546944 simple_timer.cpp:55] [rocprofv3] tool finalization ::     0.028798 sec
+[Run 10/13][Approximate profiling time left: 7 seconds]...
+[profiling] Current input file: /root/rocm-examples/Applications/prefix_sum_profile/workloads/main_bp_l1/MI300X_A1/perfmon/pmc_perf_2.txt
+   |-> [rocprofiler-sdk] W20260209 15:21:46.409910 133254500341248 simple_timer.cpp:55] [rocprofv3] tool initialization ::     0.111129 sec
+   |-> [rocprofiler-sdk] W20260209 15:21:46.410171 133254500341248 simple_timer.cpp:55] [rocprofv3] './main_bp_l1' ::     0.000000 sec
+   |-> [rocprofiler-sdk] Prefix sum over 256 items.
+   |-> [rocprofiler-sdk] 
+   |-> [rocprofiler-sdk] W20260209 15:21:46.528725 133254500341248 tool.cpp:2422] HSA version 8.20.0 initialized (instance=0)
+   |-> [rocprofiler-sdk] Final sum on
+   |-> [rocprofiler-sdk] device: 7.07517
+   |-> [rocprofiler-sdk] host  : 7.07517
+   |-> [rocprofiler-sdk] 
+   |-> [rocprofiler-sdk] Validation passed.
+   |-> [rocprofiler-sdk] W20260209 15:21:46.582685 133254500341248 simple_timer.cpp:55] [rocprofv3] './main_bp_l1' ::     0.172514 sec
+   |-> [rocprofiler-sdk] E20260209 15:21:46.591022 133254500341248 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/prefix_sum_profile/workloads/main_bp_l1/MI300X_A1/out/pmc_1/f5fa73aad503/19475_kernel_trace.csv
+   |-> [rocprofiler-sdk] E20260209 15:21:46.603229 133254500341248 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/prefix_sum_profile/workloads/main_bp_l1/MI300X_A1/out/pmc_1/f5fa73aad503/19475_counter_collection.csv
+   |-> [rocprofiler-sdk] E20260209 15:21:46.609629 133254500341248 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/prefix_sum_profile/workloads/main_bp_l1/MI300X_A1/out/pmc_1/f5fa73aad503/19475_agent_info.csv
+   |-> [rocprofiler-sdk] W20260209 15:21:46.612739 133254500341248 simple_timer.cpp:55] [rocprofv3] output generation ::     0.028623 sec
+   |-> [rocprofiler-sdk] W20260209 15:21:46.612824 133254500341248 simple_timer.cpp:55] [rocprofv3] tool finalization ::     0.028744 sec
+[Run 11/13][Approximate profiling time left: 5 seconds]...
+[profiling] Current input file: /root/rocm-examples/Applications/prefix_sum_profile/workloads/main_bp_l1/MI300X_A1/perfmon/pmc_perf_3.txt
+   |-> [rocprofiler-sdk] W20260209 15:21:48.954531 134884090537472 simple_timer.cpp:55] [rocprofv3] tool initialization ::     0.111086 sec
+   |-> [rocprofiler-sdk] W20260209 15:21:48.954806 134884090537472 simple_timer.cpp:55] [rocprofv3] './main_bp_l1' ::     0.000000 sec
+   |-> [rocprofiler-sdk] Prefix sum over 256 items.
+   |-> [rocprofiler-sdk] 
+   |-> [rocprofiler-sdk] W20260209 15:21:49.073709 134884090537472 tool.cpp:2422] HSA version 8.20.0 initialized (instance=0)
+   |-> [rocprofiler-sdk] Final sum on
+   |-> [rocprofiler-sdk] device: 7.07517
+   |-> [rocprofiler-sdk] host  : 7.07517
+   |-> [rocprofiler-sdk] 
+   |-> [rocprofiler-sdk] Validation passed.
+   |-> [rocprofiler-sdk] W20260209 15:21:49.128497 134884090537472 simple_timer.cpp:55] [rocprofv3] './main_bp_l1' ::     0.173692 sec
+   |-> [rocprofiler-sdk] E20260209 15:21:49.137129 134884090537472 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/prefix_sum_profile/workloads/main_bp_l1/MI300X_A1/out/pmc_1/f5fa73aad503/19483_kernel_trace.csv
+   |-> [rocprofiler-sdk] E20260209 15:21:49.149238 134884090537472 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/prefix_sum_profile/workloads/main_bp_l1/MI300X_A1/out/pmc_1/f5fa73aad503/19483_counter_collection.csv
+   |-> [rocprofiler-sdk] E20260209 15:21:49.155603 134884090537472 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/prefix_sum_profile/workloads/main_bp_l1/MI300X_A1/out/pmc_1/f5fa73aad503/19483_agent_info.csv
+   |-> [rocprofiler-sdk] W20260209 15:21:49.158754 134884090537472 simple_timer.cpp:55] [rocprofv3] output generation ::     0.028629 sec
+   |-> [rocprofiler-sdk] W20260209 15:21:49.158830 134884090537472 simple_timer.cpp:55] [rocprofv3] tool finalization ::     0.028740 sec
+[Run 12/13][Approximate profiling time left: 2 seconds]...
+[profiling] Current input file: /root/rocm-examples/Applications/prefix_sum_profile/workloads/main_bp_l1/MI300X_A1/perfmon/pmc_perf_4.txt
+   |-> [rocprofiler-sdk] W20260209 15:21:51.536633 125705696867840 simple_timer.cpp:55] [rocprofv3] tool initialization ::     0.112284 sec
+   |-> [rocprofiler-sdk] W20260209 15:21:51.536919 125705696867840 simple_timer.cpp:55] [rocprofv3] './main_bp_l1' ::     0.000000 sec
+   |-> [rocprofiler-sdk] Prefix sum over 256 items.
+   |-> [rocprofiler-sdk] 
+   |-> [rocprofiler-sdk] W20260209 15:21:51.655410 125705696867840 tool.cpp:2422] HSA version 8.20.0 initialized (instance=0)
+   |-> [rocprofiler-sdk] Final sum on
+   |-> [rocprofiler-sdk] device: 7.07517
+   |-> [rocprofiler-sdk] host  : 7.07517
+   |-> [rocprofiler-sdk] 
+   |-> [rocprofiler-sdk] Validation passed.
+   |-> [rocprofiler-sdk] W20260209 15:21:51.709098 125705696867840 simple_timer.cpp:55] [rocprofv3] './main_bp_l1' ::     0.172179 sec
+   |-> [rocprofiler-sdk] E20260209 15:21:51.717782 125705696867840 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/prefix_sum_profile/workloads/main_bp_l1/MI300X_A1/out/pmc_1/f5fa73aad503/19491_kernel_trace.csv
+   |-> [rocprofiler-sdk] E20260209 15:21:51.729997 125705696867840 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/prefix_sum_profile/workloads/main_bp_l1/MI300X_A1/out/pmc_1/f5fa73aad503/19491_counter_collection.csv
+   |-> [rocprofiler-sdk] E20260209 15:21:51.736293 125705696867840 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/prefix_sum_profile/workloads/main_bp_l1/MI300X_A1/out/pmc_1/f5fa73aad503/19491_agent_info.csv
+   |-> [rocprofiler-sdk] W20260209 15:21:51.739512 125705696867840 simple_timer.cpp:55] [rocprofv3] output generation ::     0.028648 sec
+   |-> [rocprofiler-sdk] W20260209 15:21:51.739596 125705696867840 simple_timer.cpp:55] [rocprofv3] tool finalization ::     0.028822 sec
+[Run 13/13][Approximate profiling time left: 0 seconds]...
+[profiling] Current input file: /root/rocm-examples/Applications/prefix_sum_profile/workloads/main_bp_l1/MI300X_A1/perfmon/pmc_perf_5.txt
+   |-> [rocprofiler-sdk] W20260209 15:21:53.955922 129295241586176 simple_timer.cpp:55] [rocprofv3] tool initialization ::     0.101240 sec
+   |-> [rocprofiler-sdk] W20260209 15:21:53.956206 129295241586176 simple_timer.cpp:55] [rocprofv3] './main_bp_l1' ::     0.000000 sec
+   |-> [rocprofiler-sdk] Prefix sum over 256 items.
+   |-> [rocprofiler-sdk] 
+   |-> [rocprofiler-sdk] W20260209 15:21:54.070869 129295241586176 tool.cpp:2422] HSA version 8.20.0 initialized (instance=0)
+   |-> [rocprofiler-sdk] Final sum on
+   |-> [rocprofiler-sdk] device: 7.07517
+   |-> [rocprofiler-sdk] host  : 7.07517
+   |-> [rocprofiler-sdk] 
+   |-> [rocprofiler-sdk] Validation passed.
+   |-> [rocprofiler-sdk] W20260209 15:21:54.122095 129295241586176 simple_timer.cpp:55] [rocprofv3] './main_bp_l1' ::     0.165889 sec
+   |-> [rocprofiler-sdk] E20260209 15:21:54.130302 129295241586176 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/prefix_sum_profile/workloads/main_bp_l1/MI300X_A1/out/pmc_1/f5fa73aad503/19499_kernel_trace.csv
+   |-> [rocprofiler-sdk] E20260209 15:21:54.142564 129295241586176 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/prefix_sum_profile/workloads/main_bp_l1/MI300X_A1/out/pmc_1/f5fa73aad503/19499_counter_collection.csv
+   |-> [rocprofiler-sdk] E20260209 15:21:54.148440 129295241586176 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/prefix_sum_profile/workloads/main_bp_l1/MI300X_A1/out/pmc_1/f5fa73aad503/19499_agent_info.csv
+   |-> [rocprofiler-sdk] W20260209 15:21:54.151733 129295241586176 simple_timer.cpp:55] [rocprofv3] output generation ::     0.028366 sec
+   |-> [rocprofiler-sdk] W20260209 15:21:54.151795 129295241586176 simple_timer.cpp:55] [rocprofv3] tool finalization ::     0.028463 sec
+PC sampling data collection skipped as block 21 is not specified.
+[roofline] Checking for roofline.csv in /root/rocm-examples/Applications/prefix_sum_profile/workloads/main_bp_l1/MI300X_A1
+[roofline] No roofline data found. Generating...
+[roofline] Empirical Roofline PDFs saved!
+[roofline] Checking for roofline.csv in /root/rocm-examples/Applications/prefix_sum_profile/workloads/main_bp_l1/MI300X_A1
+[roofline] Empirical Roofline PDFs saved!

@@ -1,0 +1,4 @@
+Dispatch_ID,Kernel_Name,GPU_ID
+0,__amd_rocclr_copyBuffer,0
+1,"block_prefix_sum(float*, int, int)",0
+2,__amd_rocclr_copyBuffer,0

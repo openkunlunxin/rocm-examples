@@ -1,0 +1,6 @@
+	.type   __hip_cuid_793efc8d6f7ffc27,@object ; @__hip_cuid_793efc8d6f7ffc27
+        .section        .bss,"aw",@nobits
+        .globl  __hip_cuid_793efc8d6f7ffc27
+	.p2align 12
+__hip_cuid_793efc8d6f7ffc27:
+    .incbin "offload_bundle.hipfb"

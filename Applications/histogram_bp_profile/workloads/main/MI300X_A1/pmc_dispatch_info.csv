@@ -1,0 +1,3 @@
+Dispatch_ID,Kernel_Name,GPU_ID
+0,"histogram256_block(unsigned char*, unsigned int*, int)",0
+1,__amd_rocclr_copyBuffer,0

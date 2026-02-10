@@ -1,0 +1,3 @@
+Kernel_Name,Count,Sum(ns),Mean(ns),Median(ns),Pct
+"histogram256_block(unsigned char*, unsigned int*, int)",1,66897.796875,66897.796875,66897.796875,96.43742352956016
+__amd_rocclr_copyBuffer,1,2471.328125,2471.328125,2471.328125,3.562576470439839

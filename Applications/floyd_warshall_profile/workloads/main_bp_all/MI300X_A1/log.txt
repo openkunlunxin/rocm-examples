@@ -1,0 +1,214 @@
+Rocprofiler-Compute version: 3.4.0
+Profiler choice: rocprofiler-sdk
+Path: /root/rocm-examples/Applications/floyd_warshall_profile/workloads/main_bp_all/MI300X_A1
+Target: MI300X_A1
+Command: ./main_bp_all
+Kernel Selection: None
+Dispatch Selection: None
+Filtered sections: All
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Collecting Performance Counters
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+[Run 1/13][Approximate profiling time left: pending first measurement...]
+[profiling] Current input file: /root/rocm-examples/Applications/floyd_warshall_profile/workloads/main_bp_all/MI300X_A1/perfmon/SQC_DCACHE_INFLIGHT_LEVEL.txt
+   |-> [rocprofiler-sdk] W20260209 15:09:54.581924 127993261135360 simple_timer.cpp:55] [rocprofv3] tool initialization ::     0.110338 sec
+   |-> [rocprofiler-sdk] W20260209 15:09:54.582136 127993261135360 simple_timer.cpp:55] [rocprofv3] './main_bp_all' ::     0.000000 sec
+   |-> [rocprofiler-sdk] Executing Floyd-Warshall algorithm for 1 iterations with a complete graph of 16 nodes.
+   |-> [rocprofiler-sdk] W20260209 15:09:54.704900 127993261135360 tool.cpp:2422] HSA version 8.20.0 initialized (instance=0)
+   |-> [rocprofiler-sdk] The mean time needed for each iteration has been 7.86818ms.
+   |-> [rocprofiler-sdk] Validating results with CPU implementation.
+   |-> [rocprofiler-sdk] Validation passed.
+   |-> [rocprofiler-sdk] W20260209 15:09:54.767329 127993261135360 simple_timer.cpp:55] [rocprofv3] './main_bp_all' ::     0.185193 sec
+   |-> [rocprofiler-sdk] E20260209 15:09:54.776170 127993261135360 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/floyd_warshall_profile/workloads/main_bp_all/MI300X_A1/out/pmc_1/f5fa73aad503/15627_kernel_trace.csv
+   |-> [rocprofiler-sdk] E20260209 15:09:54.789869 127993261135360 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/floyd_warshall_profile/workloads/main_bp_all/MI300X_A1/out/pmc_1/f5fa73aad503/15627_counter_collection.csv
+   |-> [rocprofiler-sdk] E20260209 15:09:54.800012 127993261135360 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/floyd_warshall_profile/workloads/main_bp_all/MI300X_A1/out/pmc_1/f5fa73aad503/15627_agent_info.csv
+   |-> [rocprofiler-sdk] W20260209 15:09:54.803543 127993261135360 simple_timer.cpp:55] [rocprofv3] output generation ::     0.034831 sec
+   |-> [rocprofiler-sdk] W20260209 15:09:54.803634 127993261135360 simple_timer.cpp:55] [rocprofv3] tool finalization ::     0.034959 sec
+[Run 2/13][Approximate profiling time left: 28 seconds]...
+[profiling] Current input file: /root/rocm-examples/Applications/floyd_warshall_profile/workloads/main_bp_all/MI300X_A1/perfmon/SQC_ICACHE_INFLIGHT_LEVEL.txt
+   |-> [rocprofiler-sdk] W20260209 15:09:57.133497 133396050191872 simple_timer.cpp:55] [rocprofv3] tool initialization ::     0.110850 sec
+   |-> [rocprofiler-sdk] W20260209 15:09:57.133711 133396050191872 simple_timer.cpp:55] [rocprofv3] './main_bp_all' ::     0.000000 sec
+   |-> [rocprofiler-sdk] Executing Floyd-Warshall algorithm for 1 iterations with a complete graph of 16 nodes.
+   |-> [rocprofiler-sdk] W20260209 15:09:57.255759 133396050191872 tool.cpp:2422] HSA version 8.20.0 initialized (instance=0)
+   |-> [rocprofiler-sdk] The mean time needed for each iteration has been 7.94729ms.
+   |-> [rocprofiler-sdk] Validating results with CPU implementation.
+   |-> [rocprofiler-sdk] Validation passed.
+   |-> [rocprofiler-sdk] W20260209 15:09:57.318815 133396050191872 simple_timer.cpp:55] [rocprofv3] './main_bp_all' ::     0.185104 sec
+   |-> [rocprofiler-sdk] E20260209 15:09:57.327406 133396050191872 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/floyd_warshall_profile/workloads/main_bp_all/MI300X_A1/out/pmc_1/f5fa73aad503/15649_kernel_trace.csv
+   |-> [rocprofiler-sdk] E20260209 15:09:57.341215 133396050191872 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/floyd_warshall_profile/workloads/main_bp_all/MI300X_A1/out/pmc_1/f5fa73aad503/15649_counter_collection.csv
+   |-> [rocprofiler-sdk] E20260209 15:09:57.351271 133396050191872 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/floyd_warshall_profile/workloads/main_bp_all/MI300X_A1/out/pmc_1/f5fa73aad503/15649_agent_info.csv
+   |-> [rocprofiler-sdk] W20260209 15:09:57.354800 133396050191872 simple_timer.cpp:55] [rocprofv3] output generation ::     0.034948 sec
+   |-> [rocprofiler-sdk] W20260209 15:09:57.354881 133396050191872 simple_timer.cpp:55] [rocprofv3] tool finalization ::     0.035063 sec
+[Run 3/13][Approximate profiling time left: 25 seconds]...
+[profiling] Current input file: /root/rocm-examples/Applications/floyd_warshall_profile/workloads/main_bp_all/MI300X_A1/perfmon/SQ_IFETCH_LEVEL.txt
+   |-> [rocprofiler-sdk] W20260209 15:09:59.753797 140338883012096 simple_timer.cpp:55] [rocprofv3] tool initialization ::     0.121030 sec
+   |-> [rocprofiler-sdk] W20260209 15:09:59.754007 140338883012096 simple_timer.cpp:55] [rocprofv3] './main_bp_all' ::     0.000000 sec
+   |-> [rocprofiler-sdk] Executing Floyd-Warshall algorithm for 1 iterations with a complete graph of 16 nodes.
+   |-> [rocprofiler-sdk] W20260209 15:09:59.876214 140338883012096 tool.cpp:2422] HSA version 8.20.0 initialized (instance=0)
+   |-> [rocprofiler-sdk] The mean time needed for each iteration has been 8.18907ms.
+   |-> [rocprofiler-sdk] Validating results with CPU implementation.
+   |-> [rocprofiler-sdk] Validation passed.
+   |-> [rocprofiler-sdk] W20260209 15:09:59.940117 140338883012096 simple_timer.cpp:55] [rocprofv3] './main_bp_all' ::     0.186110 sec
+   |-> [rocprofiler-sdk] E20260209 15:09:59.950231 140338883012096 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/floyd_warshall_profile/workloads/main_bp_all/MI300X_A1/out/pmc_1/f5fa73aad503/15699_kernel_trace.csv
+   |-> [rocprofiler-sdk] E20260209 15:09:59.963977 140338883012096 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/floyd_warshall_profile/workloads/main_bp_all/MI300X_A1/out/pmc_1/f5fa73aad503/15699_counter_collection.csv
+   |-> [rocprofiler-sdk] E20260209 15:09:59.976216 140338883012096 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/floyd_warshall_profile/workloads/main_bp_all/MI300X_A1/out/pmc_1/f5fa73aad503/15699_agent_info.csv
+   |-> [rocprofiler-sdk] W20260209 15:09:59.979664 140338883012096 simple_timer.cpp:55] [rocprofv3] output generation ::     0.037030 sec
+   |-> [rocprofiler-sdk] W20260209 15:09:59.979774 140338883012096 simple_timer.cpp:55] [rocprofv3] tool finalization ::     0.037178 sec
+[Run 4/13][Approximate profiling time left: 23 seconds]...
+[profiling] Current input file: /root/rocm-examples/Applications/floyd_warshall_profile/workloads/main_bp_all/MI300X_A1/perfmon/SQ_INST_LEVEL_LDS.txt
+   |-> [rocprofiler-sdk] W20260209 15:10:02.453447 139928600651264 simple_timer.cpp:55] [rocprofv3] tool initialization ::     0.119999 sec
+   |-> [rocprofiler-sdk] W20260209 15:10:02.453664 139928600651264 simple_timer.cpp:55] [rocprofv3] './main_bp_all' ::     0.000000 sec
+   |-> [rocprofiler-sdk] Executing Floyd-Warshall algorithm for 1 iterations with a complete graph of 16 nodes.
+   |-> [rocprofiler-sdk] W20260209 15:10:02.576283 139928600651264 tool.cpp:2422] HSA version 8.20.0 initialized (instance=0)
+   |-> [rocprofiler-sdk] The mean time needed for each iteration has been 8.1431ms.
+   |-> [rocprofiler-sdk] Validating results with CPU implementation.
+   |-> [rocprofiler-sdk] Validation passed.
+   |-> [rocprofiler-sdk] W20260209 15:10:02.640379 139928600651264 simple_timer.cpp:55] [rocprofv3] './main_bp_all' ::     0.186715 sec
+   |-> [rocprofiler-sdk] E20260209 15:10:02.650444 139928600651264 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/floyd_warshall_profile/workloads/main_bp_all/MI300X_A1/out/pmc_1/f5fa73aad503/15725_kernel_trace.csv
+   |-> [rocprofiler-sdk] E20260209 15:10:02.665175 139928600651264 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/floyd_warshall_profile/workloads/main_bp_all/MI300X_A1/out/pmc_1/f5fa73aad503/15725_counter_collection.csv
+   |-> [rocprofiler-sdk] E20260209 15:10:02.677497 139928600651264 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/floyd_warshall_profile/workloads/main_bp_all/MI300X_A1/out/pmc_1/f5fa73aad503/15725_agent_info.csv
+   |-> [rocprofiler-sdk] W20260209 15:10:02.681063 139928600651264 simple_timer.cpp:55] [rocprofv3] output generation ::     0.038317 sec
+   |-> [rocprofiler-sdk] W20260209 15:10:02.681176 139928600651264 simple_timer.cpp:55] [rocprofv3] tool finalization ::     0.038488 sec
+[Run 5/13][Approximate profiling time left: 20 seconds]...
+[profiling] Current input file: /root/rocm-examples/Applications/floyd_warshall_profile/workloads/main_bp_all/MI300X_A1/perfmon/SQ_INST_LEVEL_SMEM.txt
+   |-> [rocprofiler-sdk] W20260209 15:10:05.106471 140651040421376 simple_timer.cpp:55] [rocprofv3] tool initialization ::     0.111744 sec
+   |-> [rocprofiler-sdk] W20260209 15:10:05.106738 140651040421376 simple_timer.cpp:55] [rocprofv3] './main_bp_all' ::     0.000000 sec
+   |-> [rocprofiler-sdk] Executing Floyd-Warshall algorithm for 1 iterations with a complete graph of 16 nodes.
+   |-> [rocprofiler-sdk] W20260209 15:10:05.233954 140651040421376 tool.cpp:2422] HSA version 8.20.0 initialized (instance=0)
+   |-> [rocprofiler-sdk] The mean time needed for each iteration has been 11.3699ms.
+   |-> [rocprofiler-sdk] Validating results with CPU implementation.
+   |-> [rocprofiler-sdk] Validation passed.
+   |-> [rocprofiler-sdk] W20260209 15:10:05.302924 140651040421376 simple_timer.cpp:55] [rocprofv3] './main_bp_all' ::     0.196187 sec
+   |-> [rocprofiler-sdk] E20260209 15:10:05.311211 140651040421376 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/floyd_warshall_profile/workloads/main_bp_all/MI300X_A1/out/pmc_1/f5fa73aad503/15747_kernel_trace.csv
+   |-> [rocprofiler-sdk] E20260209 15:10:05.324151 140651040421376 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/floyd_warshall_profile/workloads/main_bp_all/MI300X_A1/out/pmc_1/f5fa73aad503/15747_counter_collection.csv
+   |-> [rocprofiler-sdk] E20260209 15:10:05.333477 140651040421376 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/floyd_warshall_profile/workloads/main_bp_all/MI300X_A1/out/pmc_1/f5fa73aad503/15747_agent_info.csv
+   |-> [rocprofiler-sdk] W20260209 15:10:05.336882 140651040421376 simple_timer.cpp:55] [rocprofv3] output generation ::     0.032925 sec
+   |-> [rocprofiler-sdk] W20260209 15:10:05.336956 140651040421376 simple_timer.cpp:55] [rocprofv3] tool finalization ::     0.033034 sec
+[Run 6/13][Approximate profiling time left: 18 seconds]...
+[profiling] Current input file: /root/rocm-examples/Applications/floyd_warshall_profile/workloads/main_bp_all/MI300X_A1/perfmon/SQ_INST_LEVEL_VMEM.txt
+   |-> [rocprofiler-sdk] W20260209 15:10:07.787702 127734949975552 simple_timer.cpp:55] [rocprofv3] tool initialization ::     0.111669 sec
+   |-> [rocprofiler-sdk] W20260209 15:10:07.787990 127734949975552 simple_timer.cpp:55] [rocprofv3] './main_bp_all' ::     0.000000 sec
+   |-> [rocprofiler-sdk] Executing Floyd-Warshall algorithm for 1 iterations with a complete graph of 16 nodes.
+   |-> [rocprofiler-sdk] W20260209 15:10:07.907047 127734949975552 tool.cpp:2422] HSA version 8.20.0 initialized (instance=0)
+   |-> [rocprofiler-sdk] The mean time needed for each iteration has been 11.1203ms.
+   |-> [rocprofiler-sdk] Validating results with CPU implementation.
+   |-> [rocprofiler-sdk] Validation passed.
+   |-> [rocprofiler-sdk] W20260209 15:10:07.975072 127734949975552 simple_timer.cpp:55] [rocprofv3] './main_bp_all' ::     0.187082 sec
+   |-> [rocprofiler-sdk] E20260209 15:10:07.984053 127734949975552 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/floyd_warshall_profile/workloads/main_bp_all/MI300X_A1/out/pmc_1/f5fa73aad503/15769_kernel_trace.csv
+   |-> [rocprofiler-sdk] E20260209 15:10:07.997702 127734949975552 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/floyd_warshall_profile/workloads/main_bp_all/MI300X_A1/out/pmc_1/f5fa73aad503/15769_counter_collection.csv
+   |-> [rocprofiler-sdk] E20260209 15:10:08.007185 127734949975552 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/floyd_warshall_profile/workloads/main_bp_all/MI300X_A1/out/pmc_1/f5fa73aad503/15769_agent_info.csv
+   |-> [rocprofiler-sdk] W20260209 15:10:08.010691 127734949975552 simple_timer.cpp:55] [rocprofv3] output generation ::     0.034227 sec
+   |-> [rocprofiler-sdk] W20260209 15:10:08.010769 127734949975552 simple_timer.cpp:55] [rocprofv3] tool finalization ::     0.034347 sec
+[Run 7/13][Approximate profiling time left: 15 seconds]...
+[profiling] Current input file: /root/rocm-examples/Applications/floyd_warshall_profile/workloads/main_bp_all/MI300X_A1/perfmon/SQ_LEVEL_WAVES.txt
+   |-> [rocprofiler-sdk] W20260209 15:10:10.331032 131560507971072 simple_timer.cpp:55] [rocprofv3] tool initialization ::     0.110353 sec
+   |-> [rocprofiler-sdk] W20260209 15:10:10.331250 131560507971072 simple_timer.cpp:55] [rocprofv3] './main_bp_all' ::     0.000000 sec
+   |-> [rocprofiler-sdk] Executing Floyd-Warshall algorithm for 1 iterations with a complete graph of 16 nodes.
+   |-> [rocprofiler-sdk] W20260209 15:10:10.453860 131560507971072 tool.cpp:2422] HSA version 8.20.0 initialized (instance=0)
+   |-> [rocprofiler-sdk] The mean time needed for each iteration has been 6.5119ms.
+   |-> [rocprofiler-sdk] Validating results with CPU implementation.
+   |-> [rocprofiler-sdk] Validation passed.
+   |-> [rocprofiler-sdk] W20260209 15:10:10.514353 131560507971072 simple_timer.cpp:55] [rocprofv3] './main_bp_all' ::     0.183103 sec
+   |-> [rocprofiler-sdk] E20260209 15:10:10.522902 131560507971072 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/floyd_warshall_profile/workloads/main_bp_all/MI300X_A1/out/pmc_1/f5fa73aad503/15777_kernel_trace.csv
+   |-> [rocprofiler-sdk] E20260209 15:10:10.536942 131560507971072 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/floyd_warshall_profile/workloads/main_bp_all/MI300X_A1/out/pmc_1/f5fa73aad503/15777_counter_collection.csv
+   |-> [rocprofiler-sdk] E20260209 15:10:10.546758 131560507971072 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/floyd_warshall_profile/workloads/main_bp_all/MI300X_A1/out/pmc_1/f5fa73aad503/15777_agent_info.csv
+   |-> [rocprofiler-sdk] W20260209 15:10:10.550168 131560507971072 simple_timer.cpp:55] [rocprofv3] output generation ::     0.034793 sec
+   |-> [rocprofiler-sdk] W20260209 15:10:10.550256 131560507971072 simple_timer.cpp:55] [rocprofv3] tool finalization ::     0.034917 sec
+[Run 8/13][Approximate profiling time left: 13 seconds]...
+[profiling] Current input file: /root/rocm-examples/Applications/floyd_warshall_profile/workloads/main_bp_all/MI300X_A1/perfmon/pmc_perf_0.txt
+   |-> [rocprofiler-sdk] W20260209 15:10:12.861267 123159046354432 simple_timer.cpp:55] [rocprofv3] tool initialization ::     0.109921 sec
+   |-> [rocprofiler-sdk] W20260209 15:10:12.861477 123159046354432 simple_timer.cpp:55] [rocprofv3] './main_bp_all' ::     0.000000 sec
+   |-> [rocprofiler-sdk] Executing Floyd-Warshall algorithm for 1 iterations with a complete graph of 16 nodes.
+   |-> [rocprofiler-sdk] W20260209 15:10:12.984173 123159046354432 tool.cpp:2422] HSA version 8.20.0 initialized (instance=0)
+   |-> [rocprofiler-sdk] The mean time needed for each iteration has been 6.60461ms.
+   |-> [rocprofiler-sdk] Validating results with CPU implementation.
+   |-> [rocprofiler-sdk] Validation passed.
+   |-> [rocprofiler-sdk] W20260209 15:10:13.044954 123159046354432 simple_timer.cpp:55] [rocprofv3] './main_bp_all' ::     0.183478 sec
+   |-> [rocprofiler-sdk] E20260209 15:10:13.053852 123159046354432 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/floyd_warshall_profile/workloads/main_bp_all/MI300X_A1/out/pmc_1/f5fa73aad503/15799_kernel_trace.csv
+   |-> [rocprofiler-sdk] E20260209 15:10:13.067560 123159046354432 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/floyd_warshall_profile/workloads/main_bp_all/MI300X_A1/out/pmc_1/f5fa73aad503/15799_counter_collection.csv
+   |-> [rocprofiler-sdk] E20260209 15:10:13.079347 123159046354432 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/floyd_warshall_profile/workloads/main_bp_all/MI300X_A1/out/pmc_1/f5fa73aad503/15799_agent_info.csv
+   |-> [rocprofiler-sdk] W20260209 15:10:13.082826 123159046354432 simple_timer.cpp:55] [rocprofv3] output generation ::     0.036586 sec
+   |-> [rocprofiler-sdk] W20260209 15:10:13.082912 123159046354432 simple_timer.cpp:55] [rocprofv3] tool finalization ::     0.036709 sec
+[Run 9/13][Approximate profiling time left: 10 seconds]...
+[profiling] Current input file: /root/rocm-examples/Applications/floyd_warshall_profile/workloads/main_bp_all/MI300X_A1/perfmon/pmc_perf_1.txt
+   |-> [rocprofiler-sdk] W20260209 15:10:15.406252 139283087865344 simple_timer.cpp:55] [rocprofv3] tool initialization ::     0.110373 sec
+   |-> [rocprofiler-sdk] W20260209 15:10:15.406465 139283087865344 simple_timer.cpp:55] [rocprofv3] './main_bp_all' ::     0.000000 sec
+   |-> [rocprofiler-sdk] Executing Floyd-Warshall algorithm for 1 iterations with a complete graph of 16 nodes.
+   |-> [rocprofiler-sdk] W20260209 15:10:15.528949 139283087865344 tool.cpp:2422] HSA version 8.20.0 initialized (instance=0)
+   |-> [rocprofiler-sdk] The mean time needed for each iteration has been 4.94217ms.
+   |-> [rocprofiler-sdk] Validating results with CPU implementation.
+   |-> [rocprofiler-sdk] Validation passed.
+   |-> [rocprofiler-sdk] W20260209 15:10:15.587432 139283087865344 simple_timer.cpp:55] [rocprofv3] './main_bp_all' ::     0.180967 sec
+   |-> [rocprofiler-sdk] E20260209 15:10:15.595968 139283087865344 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/floyd_warshall_profile/workloads/main_bp_all/MI300X_A1/out/pmc_1/f5fa73aad503/15821_kernel_trace.csv
+   |-> [rocprofiler-sdk] E20260209 15:10:15.609569 139283087865344 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/floyd_warshall_profile/workloads/main_bp_all/MI300X_A1/out/pmc_1/f5fa73aad503/15821_counter_collection.csv
+   |-> [rocprofiler-sdk] E20260209 15:10:15.619224 139283087865344 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/floyd_warshall_profile/workloads/main_bp_all/MI300X_A1/out/pmc_1/f5fa73aad503/15821_agent_info.csv
+   |-> [rocprofiler-sdk] W20260209 15:10:15.622606 139283087865344 simple_timer.cpp:55] [rocprofv3] output generation ::     0.034179 sec
+   |-> [rocprofiler-sdk] W20260209 15:10:15.622684 139283087865344 simple_timer.cpp:55] [rocprofv3] tool finalization ::     0.034291 sec
+[Run 10/13][Approximate profiling time left: 7 seconds]...
+[profiling] Current input file: /root/rocm-examples/Applications/floyd_warshall_profile/workloads/main_bp_all/MI300X_A1/perfmon/pmc_perf_2.txt
+   |-> [rocprofiler-sdk] W20260209 15:10:17.965567 127789336008192 simple_timer.cpp:55] [rocprofv3] tool initialization ::     0.110747 sec
+   |-> [rocprofiler-sdk] W20260209 15:10:17.965785 127789336008192 simple_timer.cpp:55] [rocprofv3] './main_bp_all' ::     0.000000 sec
+   |-> [rocprofiler-sdk] Executing Floyd-Warshall algorithm for 1 iterations with a complete graph of 16 nodes.
+   |-> [rocprofiler-sdk] W20260209 15:10:18.087857 127789336008192 tool.cpp:2422] HSA version 8.20.0 initialized (instance=0)
+   |-> [rocprofiler-sdk] The mean time needed for each iteration has been 3.11725ms.
+   |-> [rocprofiler-sdk] Validating results with CPU implementation.
+   |-> [rocprofiler-sdk] Validation passed.
+   |-> [rocprofiler-sdk] W20260209 15:10:18.144316 127789336008192 simple_timer.cpp:55] [rocprofv3] './main_bp_all' ::     0.178531 sec
+   |-> [rocprofiler-sdk] E20260209 15:10:18.153205 127789336008192 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/floyd_warshall_profile/workloads/main_bp_all/MI300X_A1/out/pmc_1/f5fa73aad503/15843_kernel_trace.csv
+   |-> [rocprofiler-sdk] E20260209 15:10:18.166875 127789336008192 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/floyd_warshall_profile/workloads/main_bp_all/MI300X_A1/out/pmc_1/f5fa73aad503/15843_counter_collection.csv
+   |-> [rocprofiler-sdk] E20260209 15:10:18.176510 127789336008192 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/floyd_warshall_profile/workloads/main_bp_all/MI300X_A1/out/pmc_1/f5fa73aad503/15843_agent_info.csv
+   |-> [rocprofiler-sdk] W20260209 15:10:18.180003 127789336008192 simple_timer.cpp:55] [rocprofv3] output generation ::     0.034336 sec
+   |-> [rocprofiler-sdk] W20260209 15:10:18.180092 127789336008192 simple_timer.cpp:55] [rocprofv3] tool finalization ::     0.034463 sec
+[Run 11/13][Approximate profiling time left: 5 seconds]...
+[profiling] Current input file: /root/rocm-examples/Applications/floyd_warshall_profile/workloads/main_bp_all/MI300X_A1/perfmon/pmc_perf_3.txt
+   |-> [rocprofiler-sdk] W20260209 15:10:20.498095 123404967806464 simple_timer.cpp:55] [rocprofv3] tool initialization ::     0.110851 sec
+   |-> [rocprofiler-sdk] W20260209 15:10:20.498312 123404967806464 simple_timer.cpp:55] [rocprofv3] './main_bp_all' ::     0.000000 sec
+   |-> [rocprofiler-sdk] Executing Floyd-Warshall algorithm for 1 iterations with a complete graph of 16 nodes.
+   |-> [rocprofiler-sdk] W20260209 15:10:20.623259 123404967806464 tool.cpp:2422] HSA version 8.20.0 initialized (instance=0)
+   |-> [rocprofiler-sdk] The mean time needed for each iteration has been 3.03764ms.
+   |-> [rocprofiler-sdk] Validating results with CPU implementation.
+   |-> [rocprofiler-sdk] Validation passed.
+   |-> [rocprofiler-sdk] W20260209 15:10:20.679130 123404967806464 simple_timer.cpp:55] [rocprofv3] './main_bp_all' ::     0.180818 sec
+   |-> [rocprofiler-sdk] E20260209 15:10:20.687091 123404967806464 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/floyd_warshall_profile/workloads/main_bp_all/MI300X_A1/out/pmc_1/f5fa73aad503/15865_kernel_trace.csv
+   |-> [rocprofiler-sdk] E20260209 15:10:20.699672 123404967806464 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/floyd_warshall_profile/workloads/main_bp_all/MI300X_A1/out/pmc_1/f5fa73aad503/15865_counter_collection.csv
+   |-> [rocprofiler-sdk] E20260209 15:10:20.708425 123404967806464 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/floyd_warshall_profile/workloads/main_bp_all/MI300X_A1/out/pmc_1/f5fa73aad503/15865_agent_info.csv
+   |-> [rocprofiler-sdk] W20260209 15:10:20.711613 123404967806464 simple_timer.cpp:55] [rocprofv3] output generation ::     0.031512 sec
+   |-> [rocprofiler-sdk] W20260209 15:10:20.711687 123404967806464 simple_timer.cpp:55] [rocprofv3] tool finalization ::     0.031620 sec
+[Run 12/13][Approximate profiling time left: 2 seconds]...
+[profiling] Current input file: /root/rocm-examples/Applications/floyd_warshall_profile/workloads/main_bp_all/MI300X_A1/perfmon/pmc_perf_4.txt
+   |-> [rocprofiler-sdk] W20260209 15:10:23.093705 137506882217472 simple_timer.cpp:55] [rocprofv3] tool initialization ::     0.115048 sec
+   |-> [rocprofiler-sdk] W20260209 15:10:23.093918 137506882217472 simple_timer.cpp:55] [rocprofv3] './main_bp_all' ::     0.000000 sec
+   |-> [rocprofiler-sdk] Executing Floyd-Warshall algorithm for 1 iterations with a complete graph of 16 nodes.
+   |-> [rocprofiler-sdk] W20260209 15:10:23.218911 137506882217472 tool.cpp:2422] HSA version 8.20.0 initialized (instance=0)
+   |-> [rocprofiler-sdk] The mean time needed for each iteration has been 2.62707ms.
+   |-> [rocprofiler-sdk] Validating results with CPU implementation.
+   |-> [rocprofiler-sdk] Validation passed.
+   |-> [rocprofiler-sdk] W20260209 15:10:23.273768 137506882217472 simple_timer.cpp:55] [rocprofv3] './main_bp_all' ::     0.179850 sec
+   |-> [rocprofiler-sdk] E20260209 15:10:23.282395 137506882217472 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/floyd_warshall_profile/workloads/main_bp_all/MI300X_A1/out/pmc_1/f5fa73aad503/15887_kernel_trace.csv
+   |-> [rocprofiler-sdk] E20260209 15:10:23.296059 137506882217472 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/floyd_warshall_profile/workloads/main_bp_all/MI300X_A1/out/pmc_1/f5fa73aad503/15887_counter_collection.csv
+   |-> [rocprofiler-sdk] E20260209 15:10:23.305684 137506882217472 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/floyd_warshall_profile/workloads/main_bp_all/MI300X_A1/out/pmc_1/f5fa73aad503/15887_agent_info.csv
+   |-> [rocprofiler-sdk] W20260209 15:10:23.309192 137506882217472 simple_timer.cpp:55] [rocprofv3] output generation ::     0.034337 sec
+   |-> [rocprofiler-sdk] W20260209 15:10:23.309279 137506882217472 simple_timer.cpp:55] [rocprofv3] tool finalization ::     0.034457 sec
+[Run 13/13][Approximate profiling time left: 0 seconds]...
+[profiling] Current input file: /root/rocm-examples/Applications/floyd_warshall_profile/workloads/main_bp_all/MI300X_A1/perfmon/pmc_perf_5.txt
+   |-> [rocprofiler-sdk] W20260209 15:10:25.543364 137404199958016 simple_timer.cpp:55] [rocprofv3] tool initialization ::     0.101687 sec
+   |-> [rocprofiler-sdk] W20260209 15:10:25.543578 137404199958016 simple_timer.cpp:55] [rocprofv3] './main_bp_all' ::     0.000000 sec
+   |-> [rocprofiler-sdk] Executing Floyd-Warshall algorithm for 1 iterations with a complete graph of 16 nodes.
+   |-> [rocprofiler-sdk] W20260209 15:10:25.667206 137404199958016 tool.cpp:2422] HSA version 8.20.0 initialized (instance=0)
+   |-> [rocprofiler-sdk] The mean time needed for each iteration has been 2.13564ms.
+   |-> [rocprofiler-sdk] Validating results with CPU implementation.
+   |-> [rocprofiler-sdk] Validation passed.
+   |-> [rocprofiler-sdk] W20260209 15:10:25.720988 137404199958016 simple_timer.cpp:55] [rocprofv3] './main_bp_all' ::     0.177411 sec
+   |-> [rocprofiler-sdk] E20260209 15:10:25.730325 137404199958016 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/floyd_warshall_profile/workloads/main_bp_all/MI300X_A1/out/pmc_1/f5fa73aad503/15895_kernel_trace.csv
+   |-> [rocprofiler-sdk] E20260209 15:10:25.744144 137404199958016 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/floyd_warshall_profile/workloads/main_bp_all/MI300X_A1/out/pmc_1/f5fa73aad503/15895_counter_collection.csv
+   |-> [rocprofiler-sdk] E20260209 15:10:25.751183 137404199958016 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/floyd_warshall_profile/workloads/main_bp_all/MI300X_A1/out/pmc_1/f5fa73aad503/15895_agent_info.csv
+   |-> [rocprofiler-sdk] W20260209 15:10:25.754779 137404199958016 simple_timer.cpp:55] [rocprofv3] output generation ::     0.031950 sec
+   |-> [rocprofiler-sdk] W20260209 15:10:25.754841 137404199958016 simple_timer.cpp:55] [rocprofv3] tool finalization ::     0.032056 sec
+PC sampling data collection skipped as block 21 is not specified.
+[roofline] Checking for roofline.csv in /root/rocm-examples/Applications/floyd_warshall_profile/workloads/main_bp_all/MI300X_A1
+[roofline] No roofline data found. Generating...
+[roofline] Empirical Roofline PDFs saved!
+[roofline] Checking for roofline.csv in /root/rocm-examples/Applications/floyd_warshall_profile/workloads/main_bp_all/MI300X_A1
+[roofline] Empirical Roofline PDFs saved!

@@ -1,0 +1,7 @@
+Kernel_Name,Count,Sum(ns),Mean(ns),Median(ns),Pct
+"updateH_kernel(FDTD_Setup, float*, float const*, float const*, float*, float*, float, float, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int)",90,246674673.71875,2740829.7079861113,2698387.703125,54.23021501642016
+"updateEz_kernel(FDTD_Setup, Medium_Params, float*, float const*, float const*)",30,82212250.0,2740408.3333333335,2740418.078125,18.07395922439524
+"updateEy_kernel(FDTD_Setup, Medium_Params, float*, float const*, float const*)",30,63352394.953125,2111746.4984375,2111793.65625,13.927712757533872
+"updateEx_kernel(FDTD_Setup, Medium_Params, float*, float const*, float const*)",30,62546614.5,2084887.15,2085001.5546875,13.750565884001084
+"apply_source_kernel(FDTD_Setup, float*, float)",30,52766.328125,1758.8776041666667,1724.0859375,0.011600417978492374
+__amd_rocclr_fillBufferAligned,6,27049.5,4508.25,4480.5390625,0.005946699671159457

@@ -1,0 +1,3 @@
+Kernel_Name,Count,Sum(ns),Mean(ns),Median(ns),Pct
+"void convolution<5ul>(float const*, float*, HIP_vector_type<unsigned int, 2u>)",10,214013661.609375,21401366.1609375,21341735.375,99.99813828873485
+__amd_rocclr_copyBuffer,1,3984.390625,3984.390625,3984.390625,0.0018617112651542762

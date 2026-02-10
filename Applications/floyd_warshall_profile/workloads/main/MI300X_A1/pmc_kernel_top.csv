@@ -1,0 +1,3 @@
+Kernel_Name,Count,Sum(ns),Mean(ns),Median(ns),Pct
+"floyd_warshall_kernel(unsigned int*, unsigned int*, unsigned int, unsigned int)",16,24541.84375,1533.865234375,1525.375,71.82537414241168
+__amd_rocclr_copyBuffer,4,9626.921875,2406.73046875,2403.6640625,28.17462585758832

@@ -1,0 +1,214 @@
+Rocprofiler-Compute version: 3.4.0
+Profiler choice: rocprofiler-sdk
+Path: /root/rocm-examples/Applications/convolution_profile/workloads/main/MI300X_A1
+Target: MI300X_A1
+Command: ./main
+Kernel Selection: None
+Dispatch Selection: None
+Filtered sections: All
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Collecting Performance Counters
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+[Run 1/13][Approximate profiling time left: pending first measurement...]
+[profiling] Current input file: /root/rocm-examples/Applications/convolution_profile/workloads/main/MI300X_A1/perfmon/SQC_DCACHE_INFLIGHT_LEVEL.txt
+   |-> [rocprofiler-sdk] W20260209 14:47:26.654274 139203588904448 simple_timer.cpp:55] [rocprofv3] tool initialization ::     0.125874 sec
+   |-> [rocprofiler-sdk] W20260209 14:47:26.654497 139203588904448 simple_timer.cpp:55] [rocprofv3] './main' ::     0.000000 sec
+   |-> [rocprofiler-sdk] Executing a simple convolution for 10 iterations with a 4096 x 4096 sized grid.
+   |-> [rocprofiler-sdk] W20260209 14:47:26.923791 139203588904448 tool.cpp:2422] HSA version 8.20.0 initialized (instance=0)
+   |-> [rocprofiler-sdk] The mean time needed for each iteration has been 0.617346ms and mean bandwidth was 230.494 GB/s
+   |-> [rocprofiler-sdk] Validating results with CPU implementation.
+   |-> [rocprofiler-sdk] The root-mean-square error of the difference between the reference and the gpu result is 8.28787e-05
+   |-> [rocprofiler-sdk] W20260209 14:47:27.075265 139203588904448 simple_timer.cpp:55] [rocprofv3] './main' ::     0.420768 sec
+   |-> [rocprofiler-sdk] E20260209 14:47:27.084156 139203588904448 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/convolution_profile/workloads/main/MI300X_A1/out/pmc_1/f5fa73aad503/10261_kernel_trace.csv
+   |-> [rocprofiler-sdk] E20260209 14:47:27.096927 139203588904448 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/convolution_profile/workloads/main/MI300X_A1/out/pmc_1/f5fa73aad503/10261_counter_collection.csv
+   |-> [rocprofiler-sdk] E20260209 14:47:27.104854 139203588904448 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/convolution_profile/workloads/main/MI300X_A1/out/pmc_1/f5fa73aad503/10261_agent_info.csv
+   |-> [rocprofiler-sdk] W20260209 14:47:27.108196 139203588904448 simple_timer.cpp:55] [rocprofv3] output generation ::     0.031276 sec
+   |-> [rocprofiler-sdk] W20260209 14:47:27.108277 139203588904448 simple_timer.cpp:55] [rocprofv3] tool finalization ::     0.031419 sec
+[Run 2/13][Approximate profiling time left: 30 seconds]...
+[profiling] Current input file: /root/rocm-examples/Applications/convolution_profile/workloads/main/MI300X_A1/perfmon/SQC_ICACHE_INFLIGHT_LEVEL.txt
+   |-> [rocprofiler-sdk] W20260209 14:47:29.457429 138873381672448 simple_timer.cpp:55] [rocprofv3] tool initialization ::     0.117452 sec
+   |-> [rocprofiler-sdk] W20260209 14:47:29.457635 138873381672448 simple_timer.cpp:55] [rocprofv3] './main' ::     0.000000 sec
+   |-> [rocprofiler-sdk] Executing a simple convolution for 10 iterations with a 4096 x 4096 sized grid.
+   |-> [rocprofiler-sdk] W20260209 14:47:29.728500 138873381672448 tool.cpp:2422] HSA version 8.20.0 initialized (instance=0)
+   |-> [rocprofiler-sdk] The mean time needed for each iteration has been 0.68166ms and mean bandwidth was 209.13 GB/s
+   |-> [rocprofiler-sdk] Validating results with CPU implementation.
+   |-> [rocprofiler-sdk] The root-mean-square error of the difference between the reference and the gpu result is 8.28787e-05
+   |-> [rocprofiler-sdk] W20260209 14:47:29.882105 138873381672448 simple_timer.cpp:55] [rocprofv3] './main' ::     0.424470 sec
+   |-> [rocprofiler-sdk] E20260209 14:47:29.890227 138873381672448 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/convolution_profile/workloads/main/MI300X_A1/out/pmc_1/f5fa73aad503/10269_kernel_trace.csv
+   |-> [rocprofiler-sdk] E20260209 14:47:29.902652 138873381672448 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/convolution_profile/workloads/main/MI300X_A1/out/pmc_1/f5fa73aad503/10269_counter_collection.csv
+   |-> [rocprofiler-sdk] E20260209 14:47:29.910581 138873381672448 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/convolution_profile/workloads/main/MI300X_A1/out/pmc_1/f5fa73aad503/10269_agent_info.csv
+   |-> [rocprofiler-sdk] W20260209 14:47:29.913847 138873381672448 simple_timer.cpp:55] [rocprofv3] output generation ::     0.030641 sec
+   |-> [rocprofiler-sdk] W20260209 14:47:29.913927 138873381672448 simple_timer.cpp:55] [rocprofv3] tool finalization ::     0.030757 sec
+[Run 3/13][Approximate profiling time left: 28 seconds]...
+[profiling] Current input file: /root/rocm-examples/Applications/convolution_profile/workloads/main/MI300X_A1/perfmon/SQ_IFETCH_LEVEL.txt
+   |-> [rocprofiler-sdk] W20260209 14:47:32.339594 132849487910400 simple_timer.cpp:55] [rocprofv3] tool initialization ::     0.122670 sec
+   |-> [rocprofiler-sdk] W20260209 14:47:32.339810 132849487910400 simple_timer.cpp:55] [rocprofv3] './main' ::     0.000000 sec
+   |-> [rocprofiler-sdk] Executing a simple convolution for 10 iterations with a 4096 x 4096 sized grid.
+   |-> [rocprofiler-sdk] W20260209 14:47:32.608602 132849487910400 tool.cpp:2422] HSA version 8.20.0 initialized (instance=0)
+   |-> [rocprofiler-sdk] The mean time needed for each iteration has been 0.583086ms and mean bandwidth was 242.864 GB/s
+   |-> [rocprofiler-sdk] Validating results with CPU implementation.
+   |-> [rocprofiler-sdk] The root-mean-square error of the difference between the reference and the gpu result is 8.28787e-05
+   |-> [rocprofiler-sdk] W20260209 14:47:32.763578 132849487910400 simple_timer.cpp:55] [rocprofv3] './main' ::     0.423768 sec
+   |-> [rocprofiler-sdk] E20260209 14:47:32.771849 132849487910400 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/convolution_profile/workloads/main/MI300X_A1/out/pmc_1/f5fa73aad503/10277_kernel_trace.csv
+   |-> [rocprofiler-sdk] E20260209 14:47:32.785016 132849487910400 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/convolution_profile/workloads/main/MI300X_A1/out/pmc_1/f5fa73aad503/10277_counter_collection.csv
+   |-> [rocprofiler-sdk] E20260209 14:47:32.794618 132849487910400 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/convolution_profile/workloads/main/MI300X_A1/out/pmc_1/f5fa73aad503/10277_agent_info.csv
+   |-> [rocprofiler-sdk] W20260209 14:47:32.798026 132849487910400 simple_timer.cpp:55] [rocprofv3] output generation ::     0.033396 sec
+   |-> [rocprofiler-sdk] W20260209 14:47:32.798123 132849487910400 simple_timer.cpp:55] [rocprofv3] tool finalization ::     0.033542 sec
+[Run 4/13][Approximate profiling time left: 25 seconds]...
+[profiling] Current input file: /root/rocm-examples/Applications/convolution_profile/workloads/main/MI300X_A1/perfmon/SQ_INST_LEVEL_LDS.txt
+   |-> [rocprofiler-sdk] W20260209 14:47:35.417170 130804561610240 simple_timer.cpp:55] [rocprofv3] tool initialization ::     0.119733 sec
+   |-> [rocprofiler-sdk] W20260209 14:47:35.417461 130804561610240 simple_timer.cpp:55] [rocprofv3] './main' ::     0.000000 sec
+   |-> [rocprofiler-sdk] Executing a simple convolution for 10 iterations with a 4096 x 4096 sized grid.
+   |-> [rocprofiler-sdk] W20260209 14:47:35.693775 130804561610240 tool.cpp:2422] HSA version 8.20.0 initialized (instance=0)
+   |-> [rocprofiler-sdk] The mean time needed for each iteration has been 0.893999ms and mean bandwidth was 153.217 GB/s
+   |-> [rocprofiler-sdk] Validating results with CPU implementation.
+   |-> [rocprofiler-sdk] The root-mean-square error of the difference between the reference and the gpu result is 8.28787e-05
+   |-> [rocprofiler-sdk] W20260209 14:47:35.857616 130804561610240 simple_timer.cpp:55] [rocprofv3] './main' ::     0.440155 sec
+   |-> [rocprofiler-sdk] E20260209 14:47:35.866668 130804561610240 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/convolution_profile/workloads/main/MI300X_A1/out/pmc_1/f5fa73aad503/10285_kernel_trace.csv
+   |-> [rocprofiler-sdk] E20260209 14:47:35.879936 130804561610240 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/convolution_profile/workloads/main/MI300X_A1/out/pmc_1/f5fa73aad503/10285_counter_collection.csv
+   |-> [rocprofiler-sdk] E20260209 14:47:35.890085 130804561610240 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/convolution_profile/workloads/main/MI300X_A1/out/pmc_1/f5fa73aad503/10285_agent_info.csv
+   |-> [rocprofiler-sdk] W20260209 14:47:35.893618 130804561610240 simple_timer.cpp:55] [rocprofv3] output generation ::     0.034333 sec
+   |-> [rocprofiler-sdk] W20260209 14:47:35.893714 130804561610240 simple_timer.cpp:55] [rocprofv3] tool finalization ::     0.034468 sec
+[Run 5/13][Approximate profiling time left: 23 seconds]...
+[profiling] Current input file: /root/rocm-examples/Applications/convolution_profile/workloads/main/MI300X_A1/perfmon/SQ_INST_LEVEL_SMEM.txt
+   |-> [rocprofiler-sdk] W20260209 14:47:38.379469 133642604422656 simple_timer.cpp:55] [rocprofv3] tool initialization ::     0.110186 sec
+   |-> [rocprofiler-sdk] W20260209 14:47:38.379753 133642604422656 simple_timer.cpp:55] [rocprofv3] './main' ::     0.000000 sec
+   |-> [rocprofiler-sdk] Executing a simple convolution for 10 iterations with a 4096 x 4096 sized grid.
+   |-> [rocprofiler-sdk] W20260209 14:47:38.656298 133642604422656 tool.cpp:2422] HSA version 8.20.0 initialized (instance=0)
+   |-> [rocprofiler-sdk] The mean time needed for each iteration has been 0.804541ms and mean bandwidth was 168.472 GB/s
+   |-> [rocprofiler-sdk] Validating results with CPU implementation.
+   |-> [rocprofiler-sdk] The root-mean-square error of the difference between the reference and the gpu result is 8.28787e-05
+   |-> [rocprofiler-sdk] W20260209 14:47:38.815001 133642604422656 simple_timer.cpp:55] [rocprofv3] './main' ::     0.435249 sec
+   |-> [rocprofiler-sdk] E20260209 14:47:38.824141 133642604422656 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/convolution_profile/workloads/main/MI300X_A1/out/pmc_1/f5fa73aad503/10293_kernel_trace.csv
+   |-> [rocprofiler-sdk] E20260209 14:47:38.837963 133642604422656 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/convolution_profile/workloads/main/MI300X_A1/out/pmc_1/f5fa73aad503/10293_counter_collection.csv
+   |-> [rocprofiler-sdk] E20260209 14:47:38.846790 133642604422656 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/convolution_profile/workloads/main/MI300X_A1/out/pmc_1/f5fa73aad503/10293_agent_info.csv
+   |-> [rocprofiler-sdk] W20260209 14:47:38.850369 133642604422656 simple_timer.cpp:55] [rocprofv3] output generation ::     0.033615 sec
+   |-> [rocprofiler-sdk] W20260209 14:47:38.850457 133642604422656 simple_timer.cpp:55] [rocprofv3] tool finalization ::     0.033765 sec
+[Run 6/13][Approximate profiling time left: 20 seconds]...
+[profiling] Current input file: /root/rocm-examples/Applications/convolution_profile/workloads/main/MI300X_A1/perfmon/SQ_INST_LEVEL_VMEM.txt
+   |-> [rocprofiler-sdk] W20260209 14:47:41.327725 137154559481344 simple_timer.cpp:55] [rocprofv3] tool initialization ::     0.113394 sec
+   |-> [rocprofiler-sdk] W20260209 14:47:41.328017 137154559481344 simple_timer.cpp:55] [rocprofv3] './main' ::     0.000000 sec
+   |-> [rocprofiler-sdk] Executing a simple convolution for 10 iterations with a 4096 x 4096 sized grid.
+   |-> [rocprofiler-sdk] W20260209 14:47:41.605094 137154559481344 tool.cpp:2422] HSA version 8.20.0 initialized (instance=0)
+   |-> [rocprofiler-sdk] The mean time needed for each iteration has been 0.789971ms and mean bandwidth was 172.815 GB/s
+   |-> [rocprofiler-sdk] Validating results with CPU implementation.
+   |-> [rocprofiler-sdk] The root-mean-square error of the difference between the reference and the gpu result is 8.28787e-05
+   |-> [rocprofiler-sdk] W20260209 14:47:41.763101 137154559481344 simple_timer.cpp:55] [rocprofv3] './main' ::     0.435085 sec
+   |-> [rocprofiler-sdk] E20260209 14:47:41.771811 137154559481344 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/convolution_profile/workloads/main/MI300X_A1/out/pmc_1/f5fa73aad503/10301_kernel_trace.csv
+   |-> [rocprofiler-sdk] E20260209 14:47:41.785690 137154559481344 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/convolution_profile/workloads/main/MI300X_A1/out/pmc_1/f5fa73aad503/10301_counter_collection.csv
+   |-> [rocprofiler-sdk] E20260209 14:47:41.794246 137154559481344 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/convolution_profile/workloads/main/MI300X_A1/out/pmc_1/f5fa73aad503/10301_agent_info.csv
+   |-> [rocprofiler-sdk] W20260209 14:47:41.797765 137154559481344 simple_timer.cpp:55] [rocprofv3] output generation ::     0.033389 sec
+   |-> [rocprofiler-sdk] W20260209 14:47:41.797844 137154559481344 simple_timer.cpp:55] [rocprofv3] tool finalization ::     0.033505 sec
+[Run 7/13][Approximate profiling time left: 17 seconds]...
+[profiling] Current input file: /root/rocm-examples/Applications/convolution_profile/workloads/main/MI300X_A1/perfmon/SQ_LEVEL_WAVES.txt
+   |-> [rocprofiler-sdk] W20260209 14:47:44.257557 124153108669952 simple_timer.cpp:55] [rocprofv3] tool initialization ::     0.110285 sec
+   |-> [rocprofiler-sdk] W20260209 14:47:44.257840 124153108669952 simple_timer.cpp:55] [rocprofv3] './main' ::     0.000000 sec
+   |-> [rocprofiler-sdk] Executing a simple convolution for 10 iterations with a 4096 x 4096 sized grid.
+   |-> [rocprofiler-sdk] W20260209 14:47:44.534178 124153108669952 tool.cpp:2422] HSA version 8.20.0 initialized (instance=0)
+   |-> [rocprofiler-sdk] The mean time needed for each iteration has been 0.794555ms and mean bandwidth was 171.915 GB/s
+   |-> [rocprofiler-sdk] Validating results with CPU implementation.
+   |-> [rocprofiler-sdk] The root-mean-square error of the difference between the reference and the gpu result is 8.28787e-05
+   |-> [rocprofiler-sdk] W20260209 14:47:44.694852 124153108669952 simple_timer.cpp:55] [rocprofv3] './main' ::     0.437012 sec
+   |-> [rocprofiler-sdk] E20260209 14:47:44.704428 124153108669952 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/convolution_profile/workloads/main/MI300X_A1/out/pmc_1/f5fa73aad503/10309_kernel_trace.csv
+   |-> [rocprofiler-sdk] E20260209 14:47:44.717664 124153108669952 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/convolution_profile/workloads/main/MI300X_A1/out/pmc_1/f5fa73aad503/10309_counter_collection.csv
+   |-> [rocprofiler-sdk] E20260209 14:47:44.726249 124153108669952 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/convolution_profile/workloads/main/MI300X_A1/out/pmc_1/f5fa73aad503/10309_agent_info.csv
+   |-> [rocprofiler-sdk] W20260209 14:47:44.729800 124153108669952 simple_timer.cpp:55] [rocprofv3] output generation ::     0.032698 sec
+   |-> [rocprofiler-sdk] W20260209 14:47:44.729878 124153108669952 simple_timer.cpp:55] [rocprofv3] tool finalization ::     0.032817 sec
+[Run 8/13][Approximate profiling time left: 14 seconds]...
+[profiling] Current input file: /root/rocm-examples/Applications/convolution_profile/workloads/main/MI300X_A1/perfmon/pmc_perf_0.txt
+   |-> [rocprofiler-sdk] W20260209 14:47:47.181591 124958139561472 simple_timer.cpp:55] [rocprofv3] tool initialization ::     0.111796 sec
+   |-> [rocprofiler-sdk] W20260209 14:47:47.181860 124958139561472 simple_timer.cpp:55] [rocprofv3] './main' ::     0.000000 sec
+   |-> [rocprofiler-sdk] Executing a simple convolution for 10 iterations with a 4096 x 4096 sized grid.
+   |-> [rocprofiler-sdk] W20260209 14:47:47.458184 124958139561472 tool.cpp:2422] HSA version 8.20.0 initialized (instance=0)
+   |-> [rocprofiler-sdk] The mean time needed for each iteration has been 0.786976ms and mean bandwidth was 173.829 GB/s
+   |-> [rocprofiler-sdk] Validating results with CPU implementation.
+   |-> [rocprofiler-sdk] The root-mean-square error of the difference between the reference and the gpu result is 8.28787e-05
+   |-> [rocprofiler-sdk] W20260209 14:47:47.616377 124958139561472 simple_timer.cpp:55] [rocprofv3] './main' ::     0.434518 sec
+   |-> [rocprofiler-sdk] E20260209 14:47:47.625380 124958139561472 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/convolution_profile/workloads/main/MI300X_A1/out/pmc_1/f5fa73aad503/10317_kernel_trace.csv
+   |-> [rocprofiler-sdk] E20260209 14:47:47.639158 124958139561472 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/convolution_profile/workloads/main/MI300X_A1/out/pmc_1/f5fa73aad503/10317_counter_collection.csv
+   |-> [rocprofiler-sdk] E20260209 14:47:47.647641 124958139561472 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/convolution_profile/workloads/main/MI300X_A1/out/pmc_1/f5fa73aad503/10317_agent_info.csv
+   |-> [rocprofiler-sdk] W20260209 14:47:47.651186 124958139561472 simple_timer.cpp:55] [rocprofv3] output generation ::     0.033236 sec
+   |-> [rocprofiler-sdk] W20260209 14:47:47.651265 124958139561472 simple_timer.cpp:55] [rocprofv3] tool finalization ::     0.033359 sec
+[Run 9/13][Approximate profiling time left: 11 seconds]...
+[profiling] Current input file: /root/rocm-examples/Applications/convolution_profile/workloads/main/MI300X_A1/perfmon/pmc_perf_1.txt
+   |-> [rocprofiler-sdk] W20260209 14:47:50.057445 133983003010560 simple_timer.cpp:55] [rocprofv3] tool initialization ::     0.110032 sec
+   |-> [rocprofiler-sdk] W20260209 14:47:50.057665 133983003010560 simple_timer.cpp:55] [rocprofv3] './main' ::     0.000000 sec
+   |-> [rocprofiler-sdk] Executing a simple convolution for 10 iterations with a 4096 x 4096 sized grid.
+   |-> [rocprofiler-sdk] W20260209 14:47:50.329516 133983003010560 tool.cpp:2422] HSA version 8.20.0 initialized (instance=0)
+   |-> [rocprofiler-sdk] The mean time needed for each iteration has been 0.402112ms and mean bandwidth was 357.595 GB/s
+   |-> [rocprofiler-sdk] Validating results with CPU implementation.
+   |-> [rocprofiler-sdk] The root-mean-square error of the difference between the reference and the gpu result is 8.28787e-05
+   |-> [rocprofiler-sdk] W20260209 14:47:50.477907 133983003010560 simple_timer.cpp:55] [rocprofv3] './main' ::     0.420242 sec
+   |-> [rocprofiler-sdk] E20260209 14:47:50.486314 133983003010560 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/convolution_profile/workloads/main/MI300X_A1/out/pmc_1/f5fa73aad503/10325_kernel_trace.csv
+   |-> [rocprofiler-sdk] E20260209 14:47:50.499551 133983003010560 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/convolution_profile/workloads/main/MI300X_A1/out/pmc_1/f5fa73aad503/10325_counter_collection.csv
+   |-> [rocprofiler-sdk] E20260209 14:47:50.507578 133983003010560 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/convolution_profile/workloads/main/MI300X_A1/out/pmc_1/f5fa73aad503/10325_agent_info.csv
+   |-> [rocprofiler-sdk] W20260209 14:47:50.510983 133983003010560 simple_timer.cpp:55] [rocprofv3] output generation ::     0.031875 sec
+   |-> [rocprofiler-sdk] W20260209 14:47:50.511064 133983003010560 simple_timer.cpp:55] [rocprofv3] tool finalization ::     0.031990 sec
+[Run 10/13][Approximate profiling time left: 8 seconds]...
+[profiling] Current input file: /root/rocm-examples/Applications/convolution_profile/workloads/main/MI300X_A1/perfmon/pmc_perf_2.txt
+   |-> [rocprofiler-sdk] W20260209 14:47:52.866681 127220058498560 simple_timer.cpp:55] [rocprofv3] tool initialization ::     0.109725 sec
+   |-> [rocprofiler-sdk] W20260209 14:47:52.866891 127220058498560 simple_timer.cpp:55] [rocprofv3] './main' ::     0.000000 sec
+   |-> [rocprofiler-sdk] Executing a simple convolution for 10 iterations with a 4096 x 4096 sized grid.
+   |-> [rocprofiler-sdk] W20260209 14:47:53.141482 127220058498560 tool.cpp:2422] HSA version 8.20.0 initialized (instance=0)
+   |-> [rocprofiler-sdk] The mean time needed for each iteration has been 0.264652ms and mean bandwidth was 540.314 GB/s
+   |-> [rocprofiler-sdk] Validating results with CPU implementation.
+   |-> [rocprofiler-sdk] The root-mean-square error of the difference between the reference and the gpu result is 8.28787e-05
+   |-> [rocprofiler-sdk] W20260209 14:47:53.287585 127220058498560 simple_timer.cpp:55] [rocprofv3] './main' ::     0.420694 sec
+   |-> [rocprofiler-sdk] E20260209 14:47:53.295830 127220058498560 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/convolution_profile/workloads/main/MI300X_A1/out/pmc_1/f5fa73aad503/10333_kernel_trace.csv
+   |-> [rocprofiler-sdk] E20260209 14:47:53.308848 127220058498560 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/convolution_profile/workloads/main/MI300X_A1/out/pmc_1/f5fa73aad503/10333_counter_collection.csv
+   |-> [rocprofiler-sdk] E20260209 14:47:53.316716 127220058498560 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/convolution_profile/workloads/main/MI300X_A1/out/pmc_1/f5fa73aad503/10333_agent_info.csv
+   |-> [rocprofiler-sdk] W20260209 14:47:53.320103 127220058498560 simple_timer.cpp:55] [rocprofv3] output generation ::     0.031497 sec
+   |-> [rocprofiler-sdk] W20260209 14:47:53.320180 127220058498560 simple_timer.cpp:55] [rocprofv3] tool finalization ::     0.031617 sec
+[Run 11/13][Approximate profiling time left: 5 seconds]...
+[profiling] Current input file: /root/rocm-examples/Applications/convolution_profile/workloads/main/MI300X_A1/perfmon/pmc_perf_3.txt
+   |-> [rocprofiler-sdk] W20260209 14:47:55.706241 136150130177536 simple_timer.cpp:55] [rocprofv3] tool initialization ::     0.112750 sec
+   |-> [rocprofiler-sdk] W20260209 14:47:55.706444 136150130177536 simple_timer.cpp:55] [rocprofv3] './main' ::     0.000000 sec
+   |-> [rocprofiler-sdk] Executing a simple convolution for 10 iterations with a 4096 x 4096 sized grid.
+   |-> [rocprofiler-sdk] W20260209 14:47:55.976783 136150130177536 tool.cpp:2422] HSA version 8.20.0 initialized (instance=0)
+   |-> [rocprofiler-sdk] The mean time needed for each iteration has been 0.276659ms and mean bandwidth was 514.965 GB/s
+   |-> [rocprofiler-sdk] Validating results with CPU implementation.
+   |-> [rocprofiler-sdk] The root-mean-square error of the difference between the reference and the gpu result is 8.28787e-05
+   |-> [rocprofiler-sdk] W20260209 14:47:56.129976 136150130177536 simple_timer.cpp:55] [rocprofv3] './main' ::     0.423533 sec
+   |-> [rocprofiler-sdk] E20260209 14:47:56.139038 136150130177536 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/convolution_profile/workloads/main/MI300X_A1/out/pmc_1/f5fa73aad503/10341_kernel_trace.csv
+   |-> [rocprofiler-sdk] E20260209 14:47:56.152646 136150130177536 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/convolution_profile/workloads/main/MI300X_A1/out/pmc_1/f5fa73aad503/10341_counter_collection.csv
+   |-> [rocprofiler-sdk] E20260209 14:47:56.161155 136150130177536 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/convolution_profile/workloads/main/MI300X_A1/out/pmc_1/f5fa73aad503/10341_agent_info.csv
+   |-> [rocprofiler-sdk] W20260209 14:47:56.164720 136150130177536 simple_timer.cpp:55] [rocprofv3] output generation ::     0.033319 sec
+   |-> [rocprofiler-sdk] W20260209 14:47:56.164819 136150130177536 simple_timer.cpp:55] [rocprofv3] tool finalization ::     0.033465 sec
+[Run 12/13][Approximate profiling time left: 2 seconds]...
+[profiling] Current input file: /root/rocm-examples/Applications/convolution_profile/workloads/main/MI300X_A1/perfmon/pmc_perf_4.txt
+   |-> [rocprofiler-sdk] W20260209 14:47:58.534784 133864275269120 simple_timer.cpp:55] [rocprofv3] tool initialization ::     0.110666 sec
+   |-> [rocprofiler-sdk] W20260209 14:47:58.534985 133864275269120 simple_timer.cpp:55] [rocprofv3] './main' ::     0.000000 sec
+   |-> [rocprofiler-sdk] Executing a simple convolution for 10 iterations with a 4096 x 4096 sized grid.
+   |-> [rocprofiler-sdk] W20260209 14:47:58.805616 133864275269120 tool.cpp:2422] HSA version 8.20.0 initialized (instance=0)
+   |-> [rocprofiler-sdk] The mean time needed for each iteration has been 0.244237ms and mean bandwidth was 575.412 GB/s
+   |-> [rocprofiler-sdk] Validating results with CPU implementation.
+   |-> [rocprofiler-sdk] The root-mean-square error of the difference between the reference and the gpu result is 8.28787e-05
+   |-> [rocprofiler-sdk] W20260209 14:47:58.952626 133864275269120 simple_timer.cpp:55] [rocprofv3] './main' ::     0.417641 sec
+   |-> [rocprofiler-sdk] E20260209 14:47:58.961040 133864275269120 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/convolution_profile/workloads/main/MI300X_A1/out/pmc_1/f5fa73aad503/10361_kernel_trace.csv
+   |-> [rocprofiler-sdk] E20260209 14:47:58.974207 133864275269120 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/convolution_profile/workloads/main/MI300X_A1/out/pmc_1/f5fa73aad503/10361_counter_collection.csv
+   |-> [rocprofiler-sdk] E20260209 14:47:58.982006 133864275269120 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/convolution_profile/workloads/main/MI300X_A1/out/pmc_1/f5fa73aad503/10361_agent_info.csv
+   |-> [rocprofiler-sdk] W20260209 14:47:58.985328 133864275269120 simple_timer.cpp:55] [rocprofv3] output generation ::     0.031479 sec
+   |-> [rocprofiler-sdk] W20260209 14:47:58.985408 133864275269120 simple_timer.cpp:55] [rocprofv3] tool finalization ::     0.031596 sec
+[Run 13/13][Approximate profiling time left: 0 seconds]...
+[profiling] Current input file: /root/rocm-examples/Applications/convolution_profile/workloads/main/MI300X_A1/perfmon/pmc_perf_5.txt
+   |-> [rocprofiler-sdk] W20260209 14:48:01.215175 133182357976576 simple_timer.cpp:55] [rocprofv3] tool initialization ::     0.106951 sec
+   |-> [rocprofiler-sdk] W20260209 14:48:01.215377 133182357976576 simple_timer.cpp:55] [rocprofv3] './main' ::     0.000000 sec
+   |-> [rocprofiler-sdk] Executing a simple convolution for 10 iterations with a 4096 x 4096 sized grid.
+   |-> [rocprofiler-sdk] W20260209 14:48:01.486342 133182357976576 tool.cpp:2422] HSA version 8.20.0 initialized (instance=0)
+   |-> [rocprofiler-sdk] The mean time needed for each iteration has been 0.224209ms and mean bandwidth was 617.557 GB/s
+   |-> [rocprofiler-sdk] Validating results with CPU implementation.
+   |-> [rocprofiler-sdk] The root-mean-square error of the difference between the reference and the gpu result is 8.28787e-05
+   |-> [rocprofiler-sdk] W20260209 14:48:01.637519 133182357976576 simple_timer.cpp:55] [rocprofv3] './main' ::     0.422142 sec
+   |-> [rocprofiler-sdk] E20260209 14:48:01.646610 133182357976576 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/convolution_profile/workloads/main/MI300X_A1/out/pmc_1/f5fa73aad503/10387_kernel_trace.csv
+   |-> [rocprofiler-sdk] E20260209 14:48:01.660238 133182357976576 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/convolution_profile/workloads/main/MI300X_A1/out/pmc_1/f5fa73aad503/10387_counter_collection.csv
+   |-> [rocprofiler-sdk] E20260209 14:48:01.667298 133182357976576 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/convolution_profile/workloads/main/MI300X_A1/out/pmc_1/f5fa73aad503/10387_agent_info.csv
+   |-> [rocprofiler-sdk] W20260209 14:48:01.670817 133182357976576 simple_timer.cpp:55] [rocprofv3] output generation ::     0.031877 sec
+   |-> [rocprofiler-sdk] W20260209 14:48:01.670889 133182357976576 simple_timer.cpp:55] [rocprofv3] tool finalization ::     0.031999 sec
+PC sampling data collection skipped as block 21 is not specified.
+[roofline] Checking for roofline.csv in /root/rocm-examples/Applications/convolution_profile/workloads/main/MI300X_A1
+[roofline] No roofline data found. Generating...
+[roofline] Empirical Roofline PDFs saved!
+[roofline] Checking for roofline.csv in /root/rocm-examples/Applications/convolution_profile/workloads/main/MI300X_A1
+[roofline] Empirical Roofline PDFs saved!

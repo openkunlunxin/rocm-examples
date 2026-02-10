@@ -1,0 +1,274 @@
+Rocprofiler-Compute version: 3.4.0
+Profiler choice: rocprofiler-sdk
+Path: /root/rocm-examples/Applications/test_profile/workloads/main_bp_l2/MI300X_A1
+Target: MI300X_A1
+Command: ./main_bp_l2
+Kernel Selection: None
+Dispatch Selection: None
+Filtered sections: All
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Collecting Performance Counters
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+[Run 1/13][Approximate profiling time left: pending first measurement...]
+[profiling] Current input file: /root/rocm-examples/Applications/test_profile/workloads/main_bp_l2/MI300X_A1/perfmon/SQC_DCACHE_INFLIGHT_LEVEL.txt
+   |-> [rocprofiler-sdk] W20260209 15:30:43.142932 138822982997504 simple_timer.cpp:55] [rocprofv3] tool initialization ::     0.111560 sec
+   |-> [rocprofiler-sdk] W20260209 15:30:43.143225 138822982997504 simple_timer.cpp:55] [rocprofv3] './main_bp_l2' ::     0.000000 sec
+   |-> [rocprofiler-sdk] W20260209 15:30:43.264647 138822982997504 tool.cpp:2422] HSA version 8.20.0 initialized (instance=0)
+   |-> [rocprofiler-sdk] 
+   |-> [rocprofiler-sdk] 
+   |-> [rocprofiler-sdk] ===================
+   |-> [rocprofiler-sdk] result from ./main_bp_l2
+   |-> [rocprofiler-sdk] Device name AMD Instinct MI300X
+   |-> [rocprofiler-sdk] W20260209 15:30:43.323199 138822982997504 simple_timer.cpp:55] [rocprofv3] './main_bp_l2' ::     0.179974 sec
+   |-> [rocprofiler-sdk] E20260209 15:30:43.331637 138822982997504 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/test_profile/workloads/main_bp_l2/MI300X_A1/out/pmc_1/f5fa73aad503/21493_kernel_trace.csv
+   |-> [rocprofiler-sdk] E20260209 15:30:43.345434 138822982997504 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/test_profile/workloads/main_bp_l2/MI300X_A1/out/pmc_1/f5fa73aad503/21493_counter_collection.csv
+   |-> [rocprofiler-sdk] E20260209 15:30:43.353286 138822982997504 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/test_profile/workloads/main_bp_l2/MI300X_A1/out/pmc_1/f5fa73aad503/21493_agent_info.csv
+   |-> [rocprofiler-sdk] W20260209 15:30:43.357163 138822982997504 simple_timer.cpp:55] [rocprofv3] output generation ::     0.032994 sec
+   |-> [rocprofiler-sdk] W20260209 15:30:43.357264 138822982997504 simple_timer.cpp:55] [rocprofv3] tool finalization ::     0.033133 sec
+   |-> [rocprofiler-sdk] hipMemcpyHostToDevice time taken  =  2.627ms
+   |-> [rocprofiler-sdk] kernel Execution time             =  1.805ms
+   |-> [rocprofiler-sdk] hipMemcpyDeviceToHost time taken  =  0.901ms
+[Run 2/13][Approximate profiling time left: 28 seconds]...
+[profiling] Current input file: /root/rocm-examples/Applications/test_profile/workloads/main_bp_l2/MI300X_A1/perfmon/SQC_ICACHE_INFLIGHT_LEVEL.txt
+   |-> [rocprofiler-sdk] W20260209 15:30:45.781586 140628114892288 simple_timer.cpp:55] [rocprofv3] tool initialization ::     0.112218 sec
+   |-> [rocprofiler-sdk] W20260209 15:30:45.781793 140628114892288 simple_timer.cpp:55] [rocprofv3] './main_bp_l2' ::     0.000000 sec
+   |-> [rocprofiler-sdk] W20260209 15:30:45.904206 140628114892288 tool.cpp:2422] HSA version 8.20.0 initialized (instance=0)
+   |-> [rocprofiler-sdk] 
+   |-> [rocprofiler-sdk] 
+   |-> [rocprofiler-sdk] ===================
+   |-> [rocprofiler-sdk] result from ./main_bp_l2
+   |-> [rocprofiler-sdk] Device name AMD Instinct MI300X
+   |-> [rocprofiler-sdk] W20260209 15:30:45.958099 140628114892288 simple_timer.cpp:55] [rocprofv3] './main_bp_l2' ::     0.176306 sec
+   |-> [rocprofiler-sdk] E20260209 15:30:45.966917 140628114892288 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/test_profile/workloads/main_bp_l2/MI300X_A1/out/pmc_1/f5fa73aad503/21501_kernel_trace.csv
+   |-> [rocprofiler-sdk] E20260209 15:30:45.979560 140628114892288 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/test_profile/workloads/main_bp_l2/MI300X_A1/out/pmc_1/f5fa73aad503/21501_counter_collection.csv
+   |-> [rocprofiler-sdk] E20260209 15:30:45.986314 140628114892288 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/test_profile/workloads/main_bp_l2/MI300X_A1/out/pmc_1/f5fa73aad503/21501_agent_info.csv
+   |-> [rocprofiler-sdk] W20260209 15:30:45.989560 140628114892288 simple_timer.cpp:55] [rocprofv3] output generation ::     0.029685 sec
+   |-> [rocprofiler-sdk] W20260209 15:30:45.989651 140628114892288 simple_timer.cpp:55] [rocprofv3] tool finalization ::     0.029811 sec
+   |-> [rocprofiler-sdk] hipMemcpyHostToDevice time taken  =  2.057ms
+   |-> [rocprofiler-sdk] kernel Execution time             =  1.225ms
+   |-> [rocprofiler-sdk] hipMemcpyDeviceToHost time taken  =  0.756ms
+   |-> [rocprofiler-sdk] sum_h[ 0] = 1000
+[Run 3/13][Approximate profiling time left: 26 seconds]...
+[profiling] Current input file: /root/rocm-examples/Applications/test_profile/workloads/main_bp_l2/MI300X_A1/perfmon/SQ_IFETCH_LEVEL.txt
+   |-> [rocprofiler-sdk] W20260209 15:30:48.476007 136702847489536 simple_timer.cpp:55] [rocprofv3] tool initialization ::     0.119956 sec
+   |-> [rocprofiler-sdk] W20260209 15:30:48.476219 136702847489536 simple_timer.cpp:55] [rocprofv3] './main_bp_l2' ::     0.000000 sec
+   |-> [rocprofiler-sdk] W20260209 15:30:48.599480 136702847489536 tool.cpp:2422] HSA version 8.20.0 initialized (instance=0)
+   |-> [rocprofiler-sdk] 
+   |-> [rocprofiler-sdk] 
+   |-> [rocprofiler-sdk] ===================
+   |-> [rocprofiler-sdk] result from ./main_bp_l2
+   |-> [rocprofiler-sdk] Device name AMD Instinct MI300X
+   |-> [rocprofiler-sdk] W20260209 15:30:48.656025 136702847489536 simple_timer.cpp:55] [rocprofv3] './main_bp_l2' ::     0.179806 sec
+   |-> [rocprofiler-sdk] E20260209 15:30:48.665378 136702847489536 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/test_profile/workloads/main_bp_l2/MI300X_A1/out/pmc_1/f5fa73aad503/21509_kernel_trace.csv
+   |-> [rocprofiler-sdk] E20260209 15:30:48.678125 136702847489536 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/test_profile/workloads/main_bp_l2/MI300X_A1/out/pmc_1/f5fa73aad503/21509_counter_collection.csv
+   |-> [rocprofiler-sdk] E20260209 15:30:48.685105 136702847489536 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/test_profile/workloads/main_bp_l2/MI300X_A1/out/pmc_1/f5fa73aad503/21509_agent_info.csv
+   |-> [rocprofiler-sdk] W20260209 15:30:48.688341 136702847489536 simple_timer.cpp:55] [rocprofv3] output generation ::     0.030207 sec
+   |-> [rocprofiler-sdk] W20260209 15:30:48.688448 136702847489536 simple_timer.cpp:55] [rocprofv3] tool finalization ::     0.030350 sec
+   |-> [rocprofiler-sdk] hipMemcpyHostToDevice time taken  =  3.372ms
+   |-> [rocprofiler-sdk] kernel Execution time             =  1.326ms
+   |-> [rocprofiler-sdk] hipMemcpyDeviceToHost time taken  =  0.417ms
+   |-> [rocprofiler-sdk] sum_h[ 0] = 1000
+[Run 4/13][Approximate profiling time left: 23 seconds]...
+[profiling] Current input file: /root/rocm-examples/Applications/test_profile/workloads/main_bp_l2/MI300X_A1/perfmon/SQ_INST_LEVEL_LDS.txt
+   |-> [rocprofiler-sdk] W20260209 15:30:51.396089 140165348226560 simple_timer.cpp:55] [rocprofv3] tool initialization ::     0.143316 sec
+   |-> [rocprofiler-sdk] W20260209 15:30:51.396376 140165348226560 simple_timer.cpp:55] [rocprofv3] './main_bp_l2' ::     0.000000 sec
+   |-> [rocprofiler-sdk] W20260209 15:30:51.527536 140165348226560 tool.cpp:2422] HSA version 8.20.0 initialized (instance=0)
+   |-> [rocprofiler-sdk] 
+   |-> [rocprofiler-sdk] 
+   |-> [rocprofiler-sdk] ===================
+   |-> [rocprofiler-sdk] result from ./main_bp_l2
+   |-> [rocprofiler-sdk] Device name AMD Instinct MI300X
+   |-> [rocprofiler-sdk] W20260209 15:30:51.589818 140165348226560 simple_timer.cpp:55] [rocprofv3] './main_bp_l2' ::     0.193443 sec
+   |-> [rocprofiler-sdk] E20260209 15:30:51.600110 140165348226560 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/test_profile/workloads/main_bp_l2/MI300X_A1/out/pmc_1/f5fa73aad503/21517_kernel_trace.csv
+   |-> [rocprofiler-sdk] E20260209 15:30:51.615198 140165348226560 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/test_profile/workloads/main_bp_l2/MI300X_A1/out/pmc_1/f5fa73aad503/21517_counter_collection.csv
+   |-> [rocprofiler-sdk] E20260209 15:30:51.622768 140165348226560 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/test_profile/workloads/main_bp_l2/MI300X_A1/out/pmc_1/f5fa73aad503/21517_agent_info.csv
+   |-> [rocprofiler-sdk] W20260209 15:30:51.626189 140165348226560 simple_timer.cpp:55] [rocprofv3] output generation ::     0.035013 sec
+   |-> [rocprofiler-sdk] W20260209 15:30:51.626342 140165348226560 simple_timer.cpp:55] [rocprofv3] tool finalization ::     0.035217 sec
+   |-> [rocprofiler-sdk] hipMemcpyHostToDevice time taken  =  4.895ms
+   |-> [rocprofiler-sdk] kernel Execution time             =  1.433ms
+   |-> [rocprofiler-sdk] hipMemcpyDeviceToHost time taken  =  0.731ms
+   |-> [rocprofiler-sdk] sum_h[ 0] = 1000
+[Run 5/13][Approximate profiling time left: 21 seconds]...
+[profiling] Current input file: /root/rocm-examples/Applications/test_profile/workloads/main_bp_l2/MI300X_A1/perfmon/SQ_INST_LEVEL_SMEM.txt
+   |-> [rocprofiler-sdk] W20260209 15:30:54.015541 134734757742080 simple_timer.cpp:55] [rocprofv3] tool initialization ::     0.118017 sec
+   |-> [rocprofiler-sdk] W20260209 15:30:54.016048 134734757742080 simple_timer.cpp:55] [rocprofv3] './main_bp_l2' ::     0.000000 sec
+   |-> [rocprofiler-sdk] W20260209 15:30:54.142994 134734757742080 tool.cpp:2422] HSA version 8.20.0 initialized (instance=0)
+   |-> [rocprofiler-sdk] 
+   |-> [rocprofiler-sdk] 
+   |-> [rocprofiler-sdk] ===================
+   |-> [rocprofiler-sdk] result from ./main_bp_l2
+   |-> [rocprofiler-sdk] Device name AMD Instinct MI300X
+   |-> [rocprofiler-sdk] W20260209 15:30:54.206775 134734757742080 simple_timer.cpp:55] [rocprofv3] './main_bp_l2' ::     0.190727 sec
+   |-> [rocprofiler-sdk] E20260209 15:30:54.215230 134734757742080 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/test_profile/workloads/main_bp_l2/MI300X_A1/out/pmc_1/f5fa73aad503/21525_kernel_trace.csv
+   |-> [rocprofiler-sdk] E20260209 15:30:54.228389 134734757742080 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/test_profile/workloads/main_bp_l2/MI300X_A1/out/pmc_1/f5fa73aad503/21525_counter_collection.csv
+   |-> [rocprofiler-sdk] E20260209 15:30:54.235230 134734757742080 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/test_profile/workloads/main_bp_l2/MI300X_A1/out/pmc_1/f5fa73aad503/21525_agent_info.csv
+   |-> [rocprofiler-sdk] W20260209 15:30:54.238634 134734757742080 simple_timer.cpp:55] [rocprofv3] output generation ::     0.030640 sec
+   |-> [rocprofiler-sdk] W20260209 15:30:54.238725 134734757742080 simple_timer.cpp:55] [rocprofv3] tool finalization ::     0.030768 sec
+   |-> [rocprofiler-sdk] hipMemcpyHostToDevice time taken  =  2.309ms
+   |-> [rocprofiler-sdk] kernel Execution time             =  1.538ms
+   |-> [rocprofiler-sdk] hipMemcpyDeviceToHost time taken  =  0.688ms
+   |-> [rocprofiler-sdk] sum_h[ 0] = 1000
+[Run 6/13][Approximate profiling time left: 18 seconds]...
+[profiling] Current input file: /root/rocm-examples/Applications/test_profile/workloads/main_bp_l2/MI300X_A1/perfmon/SQ_INST_LEVEL_VMEM.txt
+   |-> [rocprofiler-sdk] W20260209 15:30:56.666591 131173934179840 simple_timer.cpp:55] [rocprofv3] tool initialization ::     0.109932 sec
+   |-> [rocprofiler-sdk] W20260209 15:30:56.666803 131173934179840 simple_timer.cpp:55] [rocprofv3] './main_bp_l2' ::     0.000000 sec
+   |-> [rocprofiler-sdk] W20260209 15:30:56.806496 131173934179840 tool.cpp:2422] HSA version 8.20.0 initialized (instance=0)
+   |-> [rocprofiler-sdk] 
+   |-> [rocprofiler-sdk] 
+   |-> [rocprofiler-sdk] ===================
+   |-> [rocprofiler-sdk] result from ./main_bp_l2
+   |-> [rocprofiler-sdk] Device name AMD Instinct MI300X
+   |-> [rocprofiler-sdk] W20260209 15:30:56.859719 131173934179840 simple_timer.cpp:55] [rocprofv3] './main_bp_l2' ::     0.192917 sec
+   |-> [rocprofiler-sdk] E20260209 15:30:56.868602 131173934179840 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/test_profile/workloads/main_bp_l2/MI300X_A1/out/pmc_1/f5fa73aad503/21533_kernel_trace.csv
+   |-> [rocprofiler-sdk] E20260209 15:30:56.881493 131173934179840 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/test_profile/workloads/main_bp_l2/MI300X_A1/out/pmc_1/f5fa73aad503/21533_counter_collection.csv
+   |-> [rocprofiler-sdk] E20260209 15:30:56.887998 131173934179840 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/test_profile/workloads/main_bp_l2/MI300X_A1/out/pmc_1/f5fa73aad503/21533_agent_info.csv
+   |-> [rocprofiler-sdk] W20260209 15:30:56.891225 131173934179840 simple_timer.cpp:55] [rocprofv3] output generation ::     0.029904 sec
+   |-> [rocprofiler-sdk] W20260209 15:30:56.891308 131173934179840 simple_timer.cpp:55] [rocprofv3] tool finalization ::     0.030033 sec
+   |-> [rocprofiler-sdk] hipMemcpyHostToDevice time taken  =  2.033ms
+   |-> [rocprofiler-sdk] kernel Execution time             =  1.063ms
+   |-> [rocprofiler-sdk] hipMemcpyDeviceToHost time taken  =  0.340ms
+   |-> [rocprofiler-sdk] sum_h[ 0] = 1000
+[Run 7/13][Approximate profiling time left: 16 seconds]...
+[profiling] Current input file: /root/rocm-examples/Applications/test_profile/workloads/main_bp_l2/MI300X_A1/perfmon/SQ_LEVEL_WAVES.txt
+   |-> [rocprofiler-sdk] W20260209 15:30:59.310745 134226788210176 simple_timer.cpp:55] [rocprofv3] tool initialization ::     0.111113 sec
+   |-> [rocprofiler-sdk] W20260209 15:30:59.310973 134226788210176 simple_timer.cpp:55] [rocprofv3] './main_bp_l2' ::     0.000000 sec
+   |-> [rocprofiler-sdk] W20260209 15:30:59.433389 134226788210176 tool.cpp:2422] HSA version 8.20.0 initialized (instance=0)
+   |-> [rocprofiler-sdk] 
+   |-> [rocprofiler-sdk] 
+   |-> [rocprofiler-sdk] ===================
+   |-> [rocprofiler-sdk] result from ./main_bp_l2
+   |-> [rocprofiler-sdk] Device name AMD Instinct MI300X
+   |-> [rocprofiler-sdk] W20260209 15:30:59.486624 134226788210176 simple_timer.cpp:55] [rocprofv3] './main_bp_l2' ::     0.175650 sec
+   |-> [rocprofiler-sdk] E20260209 15:30:59.497800 134226788210176 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/test_profile/workloads/main_bp_l2/MI300X_A1/out/pmc_1/f5fa73aad503/21569_kernel_trace.csv
+   |-> [rocprofiler-sdk] E20260209 15:30:59.510197 134226788210176 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/test_profile/workloads/main_bp_l2/MI300X_A1/out/pmc_1/f5fa73aad503/21569_counter_collection.csv
+   |-> [rocprofiler-sdk] E20260209 15:30:59.516424 134226788210176 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/test_profile/workloads/main_bp_l2/MI300X_A1/out/pmc_1/f5fa73aad503/21569_agent_info.csv
+   |-> [rocprofiler-sdk] W20260209 15:30:59.519572 134226788210176 simple_timer.cpp:55] [rocprofv3] output generation ::     0.028762 sec
+   |-> [rocprofiler-sdk] W20260209 15:30:59.519645 134226788210176 simple_timer.cpp:55] [rocprofv3] tool finalization ::     0.028897 sec
+   |-> [rocprofiler-sdk] hipMemcpyHostToDevice time taken  =  1.858ms
+   |-> [rocprofiler-sdk] kernel Execution time             =  1.048ms
+   |-> [rocprofiler-sdk] hipMemcpyDeviceToHost time taken  =  0.605ms
+   |-> [rocprofiler-sdk] sum_h[ 0] = 1000
+[Run 8/13][Approximate profiling time left: 13 seconds]...
+[profiling] Current input file: /root/rocm-examples/Applications/test_profile/workloads/main_bp_l2/MI300X_A1/perfmon/pmc_perf_0.txt
+   |-> [rocprofiler-sdk] W20260209 15:31:01.986586 128177232852480 simple_timer.cpp:55] [rocprofv3] tool initialization ::     0.112167 sec
+   |-> [rocprofiler-sdk] W20260209 15:31:01.986887 128177232852480 simple_timer.cpp:55] [rocprofv3] './main_bp_l2' ::     0.000000 sec
+   |-> [rocprofiler-sdk] W20260209 15:31:02.108414 128177232852480 tool.cpp:2422] HSA version 8.20.0 initialized (instance=0)
+   |-> [rocprofiler-sdk] 
+   |-> [rocprofiler-sdk] 
+   |-> [rocprofiler-sdk] ===================
+   |-> [rocprofiler-sdk] result from ./main_bp_l2
+   |-> [rocprofiler-sdk] Device name AMD Instinct MI300X
+   |-> [rocprofiler-sdk] W20260209 15:31:02.166095 128177232852480 simple_timer.cpp:55] [rocprofv3] './main_bp_l2' ::     0.179208 sec
+   |-> [rocprofiler-sdk] E20260209 15:31:02.175058 128177232852480 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/test_profile/workloads/main_bp_l2/MI300X_A1/out/pmc_1/f5fa73aad503/21577_kernel_trace.csv
+   |-> [rocprofiler-sdk] E20260209 15:31:02.188804 128177232852480 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/test_profile/workloads/main_bp_l2/MI300X_A1/out/pmc_1/f5fa73aad503/21577_counter_collection.csv
+   |-> [rocprofiler-sdk] E20260209 15:31:02.196784 128177232852480 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/test_profile/workloads/main_bp_l2/MI300X_A1/out/pmc_1/f5fa73aad503/21577_agent_info.csv
+   |-> [rocprofiler-sdk] W20260209 15:31:02.201007 128177232852480 simple_timer.cpp:55] [rocprofv3] output generation ::     0.033805 sec
+   |-> [rocprofiler-sdk] W20260209 15:31:02.201085 128177232852480 simple_timer.cpp:55] [rocprofv3] tool finalization ::     0.033916 sec
+   |-> [rocprofiler-sdk] hipMemcpyHostToDevice time taken  =  2.300ms
+   |-> [rocprofiler-sdk] kernel Execution time             =  1.526ms
+   |-> [rocprofiler-sdk] hipMemcpyDeviceToHost time taken  =  0.657ms
+[Run 9/13][Approximate profiling time left: 10 seconds]...
+[profiling] Current input file: /root/rocm-examples/Applications/test_profile/workloads/main_bp_l2/MI300X_A1/perfmon/pmc_perf_1.txt
+   |-> [rocprofiler-sdk] W20260209 15:31:04.571486 126745565062656 simple_timer.cpp:55] [rocprofv3] tool initialization ::     0.110711 sec
+   |-> [rocprofiler-sdk] W20260209 15:31:04.571777 126745565062656 simple_timer.cpp:55] [rocprofv3] './main_bp_l2' ::     0.000000 sec
+   |-> [rocprofiler-sdk] W20260209 15:31:04.690300 126745565062656 tool.cpp:2422] HSA version 8.20.0 initialized (instance=0)
+   |-> [rocprofiler-sdk] 
+   |-> [rocprofiler-sdk] 
+   |-> [rocprofiler-sdk] ===================
+   |-> [rocprofiler-sdk] result from ./main_bp_l2
+   |-> [rocprofiler-sdk] Device name AMD Instinct MI300X
+   |-> [rocprofiler-sdk] W20260209 15:31:04.753945 126745565062656 simple_timer.cpp:55] [rocprofv3] './main_bp_l2' ::     0.182168 sec
+   |-> [rocprofiler-sdk] E20260209 15:31:04.762358 126745565062656 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/test_profile/workloads/main_bp_l2/MI300X_A1/out/pmc_1/f5fa73aad503/21585_kernel_trace.csv
+   |-> [rocprofiler-sdk] E20260209 15:31:04.776763 126745565062656 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/test_profile/workloads/main_bp_l2/MI300X_A1/out/pmc_1/f5fa73aad503/21585_counter_collection.csv
+   |-> [rocprofiler-sdk] E20260209 15:31:04.785483 126745565062656 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/test_profile/workloads/main_bp_l2/MI300X_A1/out/pmc_1/f5fa73aad503/21585_agent_info.csv
+   |-> [rocprofiler-sdk] W20260209 15:31:04.789130 126745565062656 simple_timer.cpp:55] [rocprofv3] output generation ::     0.034019 sec
+   |-> [rocprofiler-sdk] W20260209 15:31:04.789212 126745565062656 simple_timer.cpp:55] [rocprofv3] tool finalization ::     0.034135 sec
+   |-> [rocprofiler-sdk] hipMemcpyHostToDevice time taken  =  1.917ms
+   |-> [rocprofiler-sdk] kernel Execution time             =  1.146ms
+   |-> [rocprofiler-sdk] hipMemcpyDeviceToHost time taken  =  0.414ms
+   |-> [rocprofiler-sdk] sum_h[ 0] = 1000
+[Run 10/13][Approximate profiling time left: 8 seconds]...
+[profiling] Current input file: /root/rocm-examples/Applications/test_profile/workloads/main_bp_l2/MI300X_A1/perfmon/pmc_perf_2.txt
+   |-> [rocprofiler-sdk] W20260209 15:31:07.223098 138877902206464 simple_timer.cpp:55] [rocprofv3] tool initialization ::     0.129171 sec
+   |-> [rocprofiler-sdk] W20260209 15:31:07.223329 138877902206464 simple_timer.cpp:55] [rocprofv3] './main_bp_l2' ::     0.000000 sec
+   |-> [rocprofiler-sdk] W20260209 15:31:07.351473 138877902206464 tool.cpp:2422] HSA version 8.20.0 initialized (instance=0)
+   |-> [rocprofiler-sdk] 
+   |-> [rocprofiler-sdk] 
+   |-> [rocprofiler-sdk] ===================
+   |-> [rocprofiler-sdk] result from ./main_bp_l2
+   |-> [rocprofiler-sdk] Device name AMD Instinct MI300X
+   |-> [rocprofiler-sdk] W20260209 15:31:07.404836 138877902206464 simple_timer.cpp:55] [rocprofv3] './main_bp_l2' ::     0.181508 sec
+   |-> [rocprofiler-sdk] E20260209 15:31:07.414262 138877902206464 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/test_profile/workloads/main_bp_l2/MI300X_A1/out/pmc_1/f5fa73aad503/21593_kernel_trace.csv
+   |-> [rocprofiler-sdk] E20260209 15:31:07.427308 138877902206464 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/test_profile/workloads/main_bp_l2/MI300X_A1/out/pmc_1/f5fa73aad503/21593_counter_collection.csv
+   |-> [rocprofiler-sdk] E20260209 15:31:07.434179 138877902206464 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/test_profile/workloads/main_bp_l2/MI300X_A1/out/pmc_1/f5fa73aad503/21593_agent_info.csv
+   |-> [rocprofiler-sdk] W20260209 15:31:07.437436 138877902206464 simple_timer.cpp:55] [rocprofv3] output generation ::     0.030208 sec
+   |-> [rocprofiler-sdk] W20260209 15:31:07.437542 138877902206464 simple_timer.cpp:55] [rocprofv3] tool finalization ::     0.030367 sec
+   |-> [rocprofiler-sdk] hipMemcpyHostToDevice time taken  =  1.677ms
+   |-> [rocprofiler-sdk] kernel Execution time             =  0.673ms
+   |-> [rocprofiler-sdk] hipMemcpyDeviceToHost time taken  =  0.296ms
+[Run 11/13][Approximate profiling time left: 5 seconds]...
+[profiling] Current input file: /root/rocm-examples/Applications/test_profile/workloads/main_bp_l2/MI300X_A1/perfmon/pmc_perf_3.txt
+   |-> [rocprofiler-sdk] W20260209 15:31:09.894490 131576693519872 simple_timer.cpp:55] [rocprofv3] tool initialization ::     0.111676 sec
+   |-> [rocprofiler-sdk] W20260209 15:31:09.894785 131576693519872 simple_timer.cpp:55] [rocprofv3] './main_bp_l2' ::     0.000000 sec
+   |-> [rocprofiler-sdk] W20260209 15:31:10.022106 131576693519872 tool.cpp:2422] HSA version 8.20.0 initialized (instance=0)
+   |-> [rocprofiler-sdk] 
+   |-> [rocprofiler-sdk] 
+   |-> [rocprofiler-sdk] ===================
+   |-> [rocprofiler-sdk] result from ./main_bp_l2
+   |-> [rocprofiler-sdk] Device name AMD Instinct MI300X
+   |-> [rocprofiler-sdk] W20260209 15:31:10.077436 131576693519872 simple_timer.cpp:55] [rocprofv3] './main_bp_l2' ::     0.182651 sec
+   |-> [rocprofiler-sdk] E20260209 15:31:10.085663 131576693519872 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/test_profile/workloads/main_bp_l2/MI300X_A1/out/pmc_1/f5fa73aad503/21601_kernel_trace.csv
+   |-> [rocprofiler-sdk] E20260209 15:31:10.098900 131576693519872 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/test_profile/workloads/main_bp_l2/MI300X_A1/out/pmc_1/f5fa73aad503/21601_counter_collection.csv
+   |-> [rocprofiler-sdk] E20260209 15:31:10.107041 131576693519872 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/test_profile/workloads/main_bp_l2/MI300X_A1/out/pmc_1/f5fa73aad503/21601_agent_info.csv
+   |-> [rocprofiler-sdk] W20260209 15:31:10.110467 131576693519872 simple_timer.cpp:55] [rocprofv3] output generation ::     0.032007 sec
+   |-> [rocprofiler-sdk] W20260209 15:31:10.110551 131576693519872 simple_timer.cpp:55] [rocprofv3] tool finalization ::     0.032127 sec
+   |-> [rocprofiler-sdk] hipMemcpyHostToDevice time taken  =  1.655ms
+   |-> [rocprofiler-sdk] kernel Execution time             =  0.717ms
+   |-> [rocprofiler-sdk] hipMemcpyDeviceToHost time taken  =  0.452ms
+   |-> [rocprofiler-sdk] sum_h[ 0] = 1000
+[Run 12/13][Approximate profiling time left: 2 seconds]...
+[profiling] Current input file: /root/rocm-examples/Applications/test_profile/workloads/main_bp_l2/MI300X_A1/perfmon/pmc_perf_4.txt
+   |-> [rocprofiler-sdk] W20260209 15:31:12.538582 138820610770432 simple_timer.cpp:55] [rocprofv3] tool initialization ::     0.112435 sec
+   |-> [rocprofiler-sdk] W20260209 15:31:12.538851 138820610770432 simple_timer.cpp:55] [rocprofv3] './main_bp_l2' ::     0.000000 sec
+   |-> [rocprofiler-sdk] W20260209 15:31:12.664411 138820610770432 tool.cpp:2422] HSA version 8.20.0 initialized (instance=0)
+   |-> [rocprofiler-sdk] 
+   |-> [rocprofiler-sdk] 
+   |-> [rocprofiler-sdk] ===================
+   |-> [rocprofiler-sdk] result from ./main_bp_l2
+   |-> [rocprofiler-sdk] Device name AMD Instinct MI300X
+   |-> [rocprofiler-sdk] W20260209 15:31:12.720130 138820610770432 simple_timer.cpp:55] [rocprofv3] './main_bp_l2' ::     0.181279 sec
+   |-> [rocprofiler-sdk] E20260209 15:31:12.728588 138820610770432 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/test_profile/workloads/main_bp_l2/MI300X_A1/out/pmc_1/f5fa73aad503/21609_kernel_trace.csv
+   |-> [rocprofiler-sdk] E20260209 15:31:12.741868 138820610770432 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/test_profile/workloads/main_bp_l2/MI300X_A1/out/pmc_1/f5fa73aad503/21609_counter_collection.csv
+   |-> [rocprofiler-sdk] E20260209 15:31:12.749888 138820610770432 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/test_profile/workloads/main_bp_l2/MI300X_A1/out/pmc_1/f5fa73aad503/21609_agent_info.csv
+   |-> [rocprofiler-sdk] W20260209 15:31:12.753340 138820610770432 simple_timer.cpp:55] [rocprofv3] output generation ::     0.032003 sec
+   |-> [rocprofiler-sdk] W20260209 15:31:12.753429 138820610770432 simple_timer.cpp:55] [rocprofv3] tool finalization ::     0.032128 sec
+   |-> [rocprofiler-sdk] hipMemcpyHostToDevice time taken  =  1.466ms
+   |-> [rocprofiler-sdk] kernel Execution time             =  0.680ms
+   |-> [rocprofiler-sdk] hipMemcpyDeviceToHost time taken  =  0.272ms
+[Run 13/13][Approximate profiling time left: 0 seconds]...
+[profiling] Current input file: /root/rocm-examples/Applications/test_profile/workloads/main_bp_l2/MI300X_A1/perfmon/pmc_perf_5.txt
+   |-> [rocprofiler-sdk] W20260209 15:31:15.044727 132925166306816 simple_timer.cpp:55] [rocprofv3] tool initialization ::     0.112792 sec
+   |-> [rocprofiler-sdk] W20260209 15:31:15.045027 132925166306816 simple_timer.cpp:55] [rocprofv3] './main_bp_l2' ::     0.000000 sec
+   |-> [rocprofiler-sdk] W20260209 15:31:15.171714 132925166306816 tool.cpp:2422] HSA version 8.20.0 initialized (instance=0)
+   |-> [rocprofiler-sdk] 
+   |-> [rocprofiler-sdk] 
+   |-> [rocprofiler-sdk] ===================
+   |-> [rocprofiler-sdk] result from ./main_bp_l2
+   |-> [rocprofiler-sdk] Device name AMD Instinct MI300X
+   |-> [rocprofiler-sdk] W20260209 15:31:15.225740 132925166306816 simple_timer.cpp:55] [rocprofv3] './main_bp_l2' ::     0.180714 sec
+   |-> [rocprofiler-sdk] E20260209 15:31:15.235609 132925166306816 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/test_profile/workloads/main_bp_l2/MI300X_A1/out/pmc_1/f5fa73aad503/21617_kernel_trace.csv
+   |-> [rocprofiler-sdk] E20260209 15:31:15.248617 132925166306816 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/test_profile/workloads/main_bp_l2/MI300X_A1/out/pmc_1/f5fa73aad503/21617_counter_collection.csv
+   |-> [rocprofiler-sdk] E20260209 15:31:15.254993 132925166306816 output_stream.cpp:111] Opened result file: /root/rocm-examples/Applications/test_profile/workloads/main_bp_l2/MI300X_A1/out/pmc_1/f5fa73aad503/21617_agent_info.csv
+   |-> [rocprofiler-sdk] W20260209 15:31:15.258553 132925166306816 simple_timer.cpp:55] [rocprofv3] output generation ::     0.030096 sec
+   |-> [rocprofiler-sdk] W20260209 15:31:15.258614 132925166306816 simple_timer.cpp:55] [rocprofv3] tool finalization ::     0.030189 sec
+   |-> [rocprofiler-sdk] hipMemcpyHostToDevice time taken  =  0.306ms
+   |-> [rocprofiler-sdk] kernel Execution time             =  0.578ms
+   |-> [rocprofiler-sdk] hipMemcpyDeviceToHost time taken  =  0.161ms
+PC sampling data collection skipped as block 21 is not specified.
+[roofline] Checking for roofline.csv in /root/rocm-examples/Applications/test_profile/workloads/main_bp_l2/MI300X_A1
+[roofline] No roofline data found. Generating...
+[roofline] Empirical Roofline PDFs saved!
+[roofline] Checking for roofline.csv in /root/rocm-examples/Applications/test_profile/workloads/main_bp_l2/MI300X_A1
+[roofline] Empirical Roofline PDFs saved!

@@ -1,0 +1,40 @@
+
+--- Executing: make profile ---
+/opt/rocm/bin/hipcc -std=c++17 -Wall -Wextra -I ../../Common -I ../../External  -o main main.hip 
+main.hip:27:10: fatal error: 'GLFW/glfw3.h' file not found
+   27 | #include <GLFW/glfw3.h>
+      |          ^~~~~~~~~~~~~~
+1 error generated when compiling for gfx942.
+failed to execute:/opt/rocm-7.2.0/lib/llvm/bin/clang++  --offload-arch=gfx942 -O3 --driver-mode=g++ -O3 --hip-link  -std=c++17 -Wall -Wextra -I ../../Common -I ../../External -o "main" -x hip main.hip
+make: *** [Makefile:101: main] Error 1
+ERROR: Command failed with return code 2
+
+--- Executing: make BP_LV=l1 profile_bp ---
+/opt/rocm/bin/hipcc -c --cuda-host-only -std=c++17 -Wall -Wextra -I ../../Common -I ../../External  -o main-host.o main.hip 
+main.hip:27:10: fatal error: 'GLFW/glfw3.h' file not found
+   27 | #include <GLFW/glfw3.h>
+      |          ^~~~~~~~~~~~~~
+1 error generated when compiling for host.
+failed to execute:/opt/rocm-7.2.0/lib/llvm/bin/clang++  --offload-arch=gfx942 -O3  -c --cuda-host-only -std=c++17 -Wall -Wextra -I ../../Common -I ../../External -o "main-host.o" -x hip main.hip
+make: *** [Makefile:82: main-host.o] Error 1
+ERROR: Command failed with return code 2
+
+--- Executing: make BP_LV=l2 profile_bp ---
+/opt/rocm/bin/hipcc -c --cuda-host-only -std=c++17 -Wall -Wextra -I ../../Common -I ../../External  -o main-host.o main.hip 
+main.hip:27:10: fatal error: 'GLFW/glfw3.h' file not found
+   27 | #include <GLFW/glfw3.h>
+      |          ^~~~~~~~~~~~~~
+1 error generated when compiling for host.
+failed to execute:/opt/rocm-7.2.0/lib/llvm/bin/clang++  --offload-arch=gfx942 -O3  -c --cuda-host-only -std=c++17 -Wall -Wextra -I ../../Common -I ../../External -o "main-host.o" -x hip main.hip
+make: *** [Makefile:82: main-host.o] Error 1
+ERROR: Command failed with return code 2
+
+--- Executing: make BP_LV=all profile_bp ---
+/opt/rocm/bin/hipcc -c --cuda-host-only -std=c++17 -Wall -Wextra -I ../../Common -I ../../External  -o main-host.o main.hip 
+main.hip:27:10: fatal error: 'GLFW/glfw3.h' file not found
+   27 | #include <GLFW/glfw3.h>
+      |          ^~~~~~~~~~~~~~
+1 error generated when compiling for host.
+failed to execute:/opt/rocm-7.2.0/lib/llvm/bin/clang++  --offload-arch=gfx942 -O3  -c --cuda-host-only -std=c++17 -Wall -Wextra -I ../../Common -I ../../External -o "main-host.o" -x hip main.hip
+make: *** [Makefile:82: main-host.o] Error 1
+ERROR: Command failed with return code 2

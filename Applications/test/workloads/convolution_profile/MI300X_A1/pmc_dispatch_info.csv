@@ -1,0 +1,12 @@
+Dispatch_ID,Kernel_Name,GPU_ID
+0,__amd_rocclr_copyBuffer,0
+1,"void convolution<5ul>(float const*, float*, HIP_vector_type<unsigned int, 2u>)",0
+2,"void convolution<5ul>(float const*, float*, HIP_vector_type<unsigned int, 2u>)",0
+3,"void convolution<5ul>(float const*, float*, HIP_vector_type<unsigned int, 2u>)",0
+4,"void convolution<5ul>(float const*, float*, HIP_vector_type<unsigned int, 2u>)",0
+5,"void convolution<5ul>(float const*, float*, HIP_vector_type<unsigned int, 2u>)",0
+6,"void convolution<5ul>(float const*, float*, HIP_vector_type<unsigned int, 2u>)",0
+7,"void convolution<5ul>(float const*, float*, HIP_vector_type<unsigned int, 2u>)",0
+8,"void convolution<5ul>(float const*, float*, HIP_vector_type<unsigned int, 2u>)",0
+9,"void convolution<5ul>(float const*, float*, HIP_vector_type<unsigned int, 2u>)",0
+10,"void convolution<5ul>(float const*, float*, HIP_vector_type<unsigned int, 2u>)",0
